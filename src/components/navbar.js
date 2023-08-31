@@ -3,40 +3,22 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const isActive = ({ isCurrent }) => {
-  return isCurrent ? { className: "nav-link active" } : {className: "nav-link"}
+  return isCurrent
+    ? { className: "nav-link active" }
+    : { className: "nav-link" }
 }
 
-const ExactNavLink = props => (
-  <Link getProps={isActive} {...props} />
-)
+const ExactNavLink = props => <Link getProps={isActive} {...props} />
 
 const Navbar = ({ siteTitle }) => {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-primary">
-      <div className="container-fluid">
-        <Link to="/" className="navbar-brand" href="#">{siteTitle}</Link>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar"
-                aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
+    <nav className="cus_top_nav navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container-fluid p-0">
+        <h4>Workhall Design system V1.0</h4>
 
-        <div className="collapse navbar-collapse" id="main-navbar">
-          <ul className="navbar-nav me-auto mb-2 mb-md-0">
-            <li className="nav-item">
-              <ExactNavLink
-                to="/"
-              >
-                Home
-              </ExactNavLink>
-            </li>
-            <li className="nav-item">
-              <ExactNavLink
-                to="/about"
-              >
-                About
-              </ExactNavLink>
-            </li>
-          </ul>
+        <div className="collapse navbar-collapse" id="navbarText">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <span className="navbar-text">Powered by: Design Team</span>
         </div>
       </div>
     </nav>

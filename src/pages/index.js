@@ -1,38 +1,65 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout"
 import { Seo } from "../components/seo"
+import Scrollspy from "react-scrollspy"
+import Content from "../sections/get_started/content"
 
 const IndexPage = () => (
   <Layout>
-    <section className="py-5 text-center container">
-      <div className="row py-lg-5">
-        <div className="col-lg-6 col-md-8 mx-auto">
-          <h1 className="fw-light">Hello world ! </h1>
-          <p className="lead text-muted"> Welcome to this Boostrap 5 Gatsby Starter</p>
-          <StaticImage
-            src="../images/gatsby-astronaut.png"
-            width={300}
-            quality={95}
-            formats={["AUTO", "WEBP"]}
-            alt="A Gatsby astronaut"
-            className="img-fluid"
-          />
+    <section className="page_header">
+      <h1>Get started</h1>
+      <p>
+        Start designing and developing beautiful product experiences with
+        Workhall Design System UI foundations, components, and standards.
+      </p>
+    </section>
+    <div className="content">
+      <div className="row">
+        <div className="col-md-8">
+          <Content />
+        </div>
+        <div className="col-md-4">
+          <h5 className="scrollspy_title">CONTENTS</h5>
 
+          <Scrollspy
+            className="scrollspy"
+            items={[
+              "section-1",
+              "section-2",
+              "section-3",
+              "section-4",
+              "section-5",
+              "section-6",
+            ]}
+            currentClassName="is-current"
+          >
+            <li>
+              <a href="#section-1">Design system at workhall</a>
+            </li>
+            <li>
+              <a href="#section-2">Why do we need a design system</a>
+            </li>
+            <li>
+              <a href="#section-3">What we thrive to achieve</a>
+            </li>
+            <li>
+              <a href="#section-4">What is an atomic design system</a>
+            </li>
+            <li>
+              <a href="#section-5">Utilizing an atomic design system</a>
+            </li>
+            <li>
+              <a href="#section-6">Advantages for designers and developers</a>
+            </li>
+          </Scrollspy>
         </div>
       </div>
-      <div className="row">
-        <Link to="/about/" className="btn btn-primary my-2">About</Link>
-        <Link to="/page-2/" className="btn btn-secondary my-2">Go to page 2</Link>
-      </div>
-    </section>
+    </div>
   </Layout>
 )
 
 export default IndexPage
 
-export const Head = () => (
-    <Seo />
-)
+export const Head = () => <Seo />

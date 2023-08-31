@@ -1,6 +1,44 @@
-//Here you can customize bootstrap
-$primary: #663399;
 @import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+//Here you can customize bootstrap
 
+// colors
+$primary: #217cf5;
+$dark_primary: #1a4ac8;
+$light_primary: #a6cbfb;
+$white: #ffff;
+$text: #1a1a1a;
+$text_light: #666;
+$text_white: #ffff;
+$border: #ddd;
 
+// heading
+h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+h6 {
+  font-size: 12px;
+  font-weight: 500;
+}
 
+// text
+p {
+  font-size: 14px;
+}
