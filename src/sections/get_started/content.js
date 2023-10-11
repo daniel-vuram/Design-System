@@ -210,46 +210,6 @@ const Content = () => (
         designers and developers to collaborate effectively, streamline their
         workflow, and produce high-quality, user-centric digital experiences.
       </p>
-
-      <h2>Guidelines</h2>
-      <ul>
-        <li>
-          When inline, link size should match the type size of the text in that
-          line or paragraph.
-        </li>
-        <li>
-          Standalone links should use a text size that is complimentary to the
-          content near it.
-        </li>
-      </ul>
-
-      <div className="row">
-        <div className="col-md-6">
-          <StaticImage
-            src="../images/link-do-1.png"
-            quality={100}
-            formats={["AUTO", "WEBP"]}
-            alt="sidebar"
-          />
-
-          <p>
-            <strong>DO:</strong> Keep the size of the link the same as the text
-            size in the same line or paragraph.
-          </p>
-        </div>
-        <div className="col-md-6">
-          <StaticImage
-            src="../images/link-dont-1.png"
-            quality={100}
-            formats={["AUTO", "WEBP"]}
-            alt="sidebar"
-          />
-          <p>
-            <strong>DON'T:</strong> Use a larger or smaller size for inline
-            links.
-          </p>
-        </div>
-      </div>
     </section>
   </div>
 )

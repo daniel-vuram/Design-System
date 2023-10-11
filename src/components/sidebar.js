@@ -2,6 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import Accordion from "react-bootstrap/Accordion"
 
 const isActive = ({ isCurrent }) => {
   return isCurrent
@@ -105,11 +106,36 @@ const Sidebar = ({ siteTitle }) => {
             <li className="nav-item">
               <ExactNavLink to="/foundation">Foundation</ExactNavLink>
             </li>
-            <li className="nav-item">
-              <ExactNavLink to="/component_library">
-                Component library
-              </ExactNavLink>
-            </li>
+
+            <Accordion defaultActiveKey="0">
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>Component library</Accordion.Header>
+                <Accordion.Body>
+                  <ul className="submenu mb-2 mb-md-0">
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/buttons">
+                        Button
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/chip">Chip</ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/avatar">
+                        Avatar
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/tabs">Tabs</ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/table">Table</ExactNavLink>
+                    </li>
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+
             <li className="nav-item">
               <ExactNavLink to="/stationery">Stationery</ExactNavLink>
             </li>

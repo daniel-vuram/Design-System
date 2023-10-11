@@ -12,8 +12,8 @@ const ExactNavLink = props => <Link getProps={isActive} {...props} />
 
 const Navbar = ({ siteTitle }) => {
   return (
-    <nav className="cus_top_nav navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid p-0">
+    <nav className="cus_top_nav navbar navbar-expand-lg sticky-top bg-body-tertiary">
+      <div className="container-fluid">
         <h4>Workhall Design system V1.0</h4>
 
         <div className="collapse navbar-collapse" id="navbarText">
