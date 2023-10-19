@@ -103,15 +103,58 @@ const Sidebar = ({ siteTitle }) => {
             <li className="nav-item">
               <ExactNavLink to="/">Get started</ExactNavLink>
             </li>
-            <li className="nav-item">
-              <ExactNavLink to="/foundation">Foundation</ExactNavLink>
-            </li>
 
-            <Accordion defaultActiveKey="0">
-              <Accordion.Item eventKey="0">
+            <Accordion>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>Foundation</Accordion.Header>
+                <Accordion.Body>
+                  <ul className="submenu mb-2 mb-md-0">
+                    <li className="nav-item">
+                      <ExactNavLink to="/foundation/accessibility">
+                        Accessibility
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/foundation/logo">Logo</ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/foundation/color">Color</ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/foundation/accordion">
+                        Iconography
+                      </ExactNavLink>
+                    </li>
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+
+            <Accordion>
+              <Accordion.Item eventKey="2">
                 <Accordion.Header>Component library</Accordion.Header>
                 <Accordion.Body>
                   <ul className="submenu mb-2 mb-md-0">
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/accordion">
+                        Accordion
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/avatar">
+                        Avatar
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/breadcrumbs">
+                        Breadcrumbs
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/checkbox">
+                        Checkbox
+                      </ExactNavLink>
+                    </li>
                     <li className="nav-item">
                       <ExactNavLink to="/components/buttons">
                         Button
@@ -121,15 +164,35 @@ const Sidebar = ({ siteTitle }) => {
                       <ExactNavLink to="/components/chip">Chip</ExactNavLink>
                     </li>
                     <li className="nav-item">
-                      <ExactNavLink to="/components/avatar">
-                        Avatar
-                      </ExactNavLink>
-                    </li>
-                    <li className="nav-item">
                       <ExactNavLink to="/components/tabs">Tabs</ExactNavLink>
                     </li>
                     <li className="nav-item">
                       <ExactNavLink to="/components/table">Table</ExactNavLink>
+                    </li>
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+
+            <Accordion>
+              <Accordion.Item eventKey="3">
+                <Accordion.Header>Stationery</Accordion.Header>
+                <Accordion.Body>
+                  <ul className="submenu mb-2 mb-md-0">
+                    <li className="nav-item">
+                      <ExactNavLink to="/stationary/introduction">
+                        Introduction
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/stationary/id-card">
+                        ID Card
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/stationary/presentation">
+                        Presentation
+                      </ExactNavLink>
                     </li>
                   </ul>
                 </Accordion.Body>

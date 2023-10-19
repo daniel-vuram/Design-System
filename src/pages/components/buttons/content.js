@@ -17,11 +17,21 @@ const Content = () => (
       <h2>Live Demo</h2>
       <div className="live-demo">
         <div>
-          <Button variant="primary">Primary</Button>{" "}
-          <Button variant="secondary">Secondary</Button>{" "}
-          <Button variant="danger">Danger</Button>{" "}
-          <Button variant="light">Light</Button>{" "}
-          <Button variant="link">Link</Button>
+          <Button variant="primary" className="ms-3">
+            Primary
+          </Button>{" "}
+          <Button variant="secondary" className="ms-3">
+            Secondary
+          </Button>{" "}
+          <Button variant="danger" className="ms-3">
+            Danger
+          </Button>{" "}
+          <Button variant="light" className="ms-3">
+            Light
+          </Button>{" "}
+          <Button variant="link" className="ms-3">
+            Link
+          </Button>
         </div>
       </div>
     </section>
