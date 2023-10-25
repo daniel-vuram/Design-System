@@ -60,58 +60,61 @@ const Content = () => (
 
     <section id="guidelines" className="mb-5">
       <h2>Guidelines for designing ID card</h2>
-      <h5>Do’s:</h5>
-      <ol>
-        <li>
-          Maintain Consistency: Ensure the company's branding, logo, and color
-          scheme are incorporated.
-        </li>
-        <li>
-          Use High-Quality Images: Utilize clear and high-resolution employee
-          photos. Images with white / solid background is preferrable for ID
-          cards and the image must also ensure that all the facial features are
-          clearly visible for identification purposes.
-        </li>
-        <li>
-          Include Essential Information: Include the employee's name, photo,
-          unique ID in the front and Info like blood group, emergency contact
-          number and address of workhall.
-        </li>
-        <li>
-          Secure Design: Every workhall ID card has been encrypted for entry
-          access and attendance verification. This ID card also serves as a
-          entry ticket to leisure area, pantry and food court.
-        </li>
-        <li></li>
-      </ol>
-      <h5>Don'ts:</h5>
-      <ol>
-        <li>
-          Avoid Clutter: Keep the design clean and uncluttered for a
-          professional appearance and follow all the spacing guidelines as
-          shown.
-        </li>
-        <li>
-          Don't Oversimplify: While minimalism is good, ensure all crucial
-          information is present.
-        </li>
-        <li>
-          Steer Clear of Unapproved Elements: Don't include unauthorized
-          graphics or elements that might fall against workhall’s style guide.
-        </li>
-        <li>
-          Don't Sacrifice Quality: Refrain from using low-resolution images or
-          cheap printing methods.
-        </li>
-        <li>
-          Avoid unprofessional images: The images used in the ID card must be
-          straight facing, showing all the features of the person clearly.{" "}
-        </li>
-        <li>
-          Don't Neglect Security: Don't overlook security measures that protect
-          against counterfeiting or forgery.
-        </li>
-      </ol>
+      <div className="guide-do mt-3">
+        <h5>Do’s:</h5>
+        <ol>
+          <li>
+            Maintain Consistency: Ensure the company's branding, logo, and color
+            scheme are incorporated.
+          </li>
+          <li>
+            Use High-Quality Images: Utilize clear and high-resolution employee
+            photos. Images with white / solid background is preferrable for ID
+            cards and the image must also ensure that all the facial features
+            are clearly visible for identification purposes.
+          </li>
+          <li>
+            Include Essential Information: Include the employee's name, photo,
+            unique ID in the front and Info like blood group, emergency contact
+            number and address of workhall.
+          </li>
+          <li>
+            Secure Design: Every workhall ID card has been encrypted for entry
+            access and attendance verification. This ID card also serves as a
+            entry ticket to leisure area, pantry and food court.
+          </li>
+        </ol>
+      </div>
+      <div className="guide-dont">
+        <h5>Don'ts:</h5>
+        <ol>
+          <li>
+            Avoid Clutter: Keep the design clean and uncluttered for a
+            professional appearance and follow all the spacing guidelines as
+            shown.
+          </li>
+          <li>
+            Don't Oversimplify: While minimalism is good, ensure all crucial
+            information is present.
+          </li>
+          <li>
+            Steer Clear of Unapproved Elements: Don't include unauthorized
+            graphics or elements that might fall against workhall’s style guide.
+          </li>
+          <li>
+            Don't Sacrifice Quality: Refrain from using low-resolution images or
+            cheap printing methods.
+          </li>
+          <li>
+            Avoid unprofessional images: The images used in the ID card must be
+            straight facing, showing all the features of the person clearly.{" "}
+          </li>
+          <li>
+            Don't Neglect Security: Don't overlook security measures that
+            protect against counterfeiting or forgery.
+          </li>
+        </ol>
+      </div>
     </section>
   </div>
 )

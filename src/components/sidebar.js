@@ -1,7 +1,6 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import Accordion from "react-bootstrap/Accordion"
 
 const isActive = ({ isCurrent }) => {
@@ -85,17 +84,6 @@ const Sidebar = ({ siteTitle }) => {
             </g>
           </svg>
         </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#main-navbar"
-          aria-controls="main-navbar"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
 
         <div className="collapse navbar-collapse" id="main-navbar">
           <h6>DESIGN SYSTEM</h6>
@@ -194,27 +182,44 @@ const Sidebar = ({ siteTitle }) => {
                         Presentation
                       </ExactNavLink>
                     </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/stationary/brochure">
+                        Brochure
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/stationary/merchandise">
+                        Branded Merchandise
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/stationary/letterhead">
+                        Letter Head
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/stationary/business-card">
+                        Business Card
+                      </ExactNavLink>
+                    </li>
                   </ul>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
 
             <li className="nav-item">
-              <ExactNavLink to="/stationery">Stationery</ExactNavLink>
-            </li>
-            <li className="nav-item">
               <ExactNavLink to="/social_media">Social media</ExactNavLink>
             </li>
           </ul>
         </div>
       </nav>
-      <StaticImage
+      {/* <StaticImage
         src="../images/sidebar_element.svg"
         quality={100}
         formats={["AUTO", "WEBP"]}
         alt="sidebar"
         className="sidebar_element"
-      />
+      /> */}
     </div>
   )
 }

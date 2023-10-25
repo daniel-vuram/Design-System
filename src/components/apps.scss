@@ -11,13 +11,13 @@ a {
 }
 .wrapper {
   margin-left: 220px;
-  @media only screen and (min-width: 300px) and (max-width: 992px) {
+  @media only screen and (min-width: 300px) and (max-width: 766px) {
     margin-left: 0px;
   }
 }
 // cus_top_nav
 .cus_top_nav {
-  background-color: $white !important;
+  background-color: $white;
   height: 64px;
   padding: 0px 24px 0px 56px;
   border-bottom: 1px solid $border;
@@ -31,7 +31,29 @@ a {
     color: $text_light;
     font-size: 12px;
   }
+  // top-navbar-brand
+  .top-navbar-brand {
+    display: none;
+  }
+  @media only screen and (min-width: 0px) and (max-width: 766px) {
+    .container-fluid {
+      padding: inherit 24px;
+    }
+    .top-navbar-brand {
+      display: block;
+    }
+    h4 {
+      display: none;
+    }
+    .navbar-text {
+      color: $white;
+      opacity: 0.8;
+    }
+    background-color: $dark_primary;
+    align-items: center;
+  }
 }
+
 // sidebar
 .sidebar {
   width: 220px;
@@ -40,11 +62,7 @@ a {
   position: fixed;
   left: 0;
   top: 0;
-  @media only screen and (min-width: 300px) and (max-width: 992px) {
-    position: fixed;
-    z-index: 10000;
-    display: none;
-  }
+
   //   display: flex;
   //   justify-content: space-between;
   //   flex-wrap: wrap;
@@ -181,6 +199,15 @@ a {
     background-color: transparent;
     box-shadow: none;
   }
+  @media only screen and (min-width: 0px) and (max-width: 766px) {
+    position: fixed;
+    z-index: 10000;
+    display: none;
+    top: 64px;
+    .navbar-brand {
+      display: none !important;
+    }
+  }
 }
 
 // footer
@@ -220,15 +247,22 @@ footer {
     color: $text_light;
     margin: 0;
   }
+  @media only screen and (min-width: 0px) and (max-width: 766px) {
+    padding: 32px;
+  }
 }
 
 // content //
 .content {
   padding: 48px 24px 48px 56px;
+
   .gatsby-image-wrapper-constrained {
     display: block;
     vertical-align: top;
     margin-bottom: 1rem;
+  }
+  @media only screen and (min-width: 0px) and (max-width: 766px) {
+    padding: 32px;
   }
 }
 // list
@@ -341,6 +375,37 @@ ul {
 
     .download-options {
       opacity: 1;
+    }
+  }
+}
+
+// guide-do
+
+.guide-do {
+  background: #ecfdf3;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  h5 {
+    color: #027a48;
+  }
+  ol {
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+.guide-dont {
+  background: #fef3f2;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  h5 {
+    color: #b42318;
+  }
+  ol {
+    li {
+      margin-bottom: 0.5rem;
     }
   }
 }
