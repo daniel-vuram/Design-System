@@ -138,18 +138,24 @@ const Sidebar = ({ siteTitle }) => {
                         Breadcrumbs
                       </ExactNavLink>
                     </li>
-                    <li className="nav-item">
-                      <ExactNavLink to="/components/checkbox">
-                        Checkbox
-                      </ExactNavLink>
-                    </li>
+
                     <li className="nav-item">
                       <ExactNavLink to="/components/buttons">
                         Button
                       </ExactNavLink>
                     </li>
                     <li className="nav-item">
+                      <ExactNavLink to="/components/checkbox">
+                        Checkbox
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
                       <ExactNavLink to="/components/chip">Chip</ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/date-time">
+                        Date and Time Picker
+                      </ExactNavLink>
                     </li>
                     <li className="nav-item">
                       <ExactNavLink to="/components/tabs">Tabs</ExactNavLink>
