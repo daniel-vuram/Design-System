@@ -158,10 +158,79 @@ const Sidebar = ({ siteTitle }) => {
                       </ExactNavLink>
                     </li>
                     <li className="nav-item">
-                      <ExactNavLink to="/components/tabs">Tabs</ExactNavLink>
+                      <ExactNavLink to="/components/dropdown">
+                        Dropdown
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/file-uploader">
+                        File Uploader
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/header">
+                        Header
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/input-field">
+                        Input Field
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/model">Model</ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/pagination">
+                        Pagination
+                      </ExactNavLink>
+                    </li>
+
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/progress-bar">
+                        Progress Bar
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/radio">Radio</ExactNavLink>
+                    </li>
+
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/rich-text-editor">
+                        Rich Text Editor
+                      </ExactNavLink>
+                    </li>
+
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/search">
+                        Search
+                      </ExactNavLink>
+                    </li>
+
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/slider">
+                        Slider
+                      </ExactNavLink>
+                    </li>
+
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/switch">
+                        Switch
+                      </ExactNavLink>
                     </li>
                     <li className="nav-item">
                       <ExactNavLink to="/components/table">Table</ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/tabs">Tabs</ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/toast">Toast</ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/tooltip">
+                        Tooltip
+                      </ExactNavLink>
                     </li>
                   </ul>
                 </Accordion.Body>

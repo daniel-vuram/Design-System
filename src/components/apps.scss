@@ -85,6 +85,9 @@ a {
       flex-wrap: wrap;
       padding: 0px 0px 0px 24px;
       margin-top: 32px;
+      overflow: scroll;
+      max-height: 86vh;
+      min-height: fit-content;
       h6 {
         color: $light_primary;
         margin-bottom: 16px;
