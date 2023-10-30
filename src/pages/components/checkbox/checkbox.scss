@@ -1,0 +1,71 @@
+.form-check {
+  display: block;
+  min-height: 1.434375rem;
+  padding-left: 1.7em;
+  margin-bottom: 0.125rem;
+}
+.form-check-input {
+  width: 1.2em;
+  height: 1.2em;
+  margin-top: 0.165em;
+  vertical-align: top;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid #d9dee3;
+  appearance: none;
+  print-color-adjust: exact;
+}
+.form-check-input {
+  cursor: pointer;
+}
+.form-check .form-check-input {
+  float: left;
+  margin-left: -1.7em;
+}
+.form-check-input[type="checkbox"] {
+  border-radius: 0.25em;
+}
+.form-check-label {
+  cursor: pointer;
+}
+
+// disabled
+.form-check-input:disabled {
+  background-color: #eceef1;
+}
+.form-check-input:disabled {
+  pointer-events: none;
+  filter: none;
+  opacity: 0.5;
+}
+
+// checked
+
+.form-check-input:checked[type="checkbox"] {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+.form-check-input:checked,
+.form-check-input[type="checkbox"]:indeterminate {
+  background-color: #217cf5;
+  border-color: #217cf5;
+  box-shadow: none;
+}
+
+.form-check-input[type="checkbox"]:indeterminate {
+  background-color: #217cf5;
+  border-color: #217cf5;
+  box-shadow: none;
+}
+.form-check-input[type="checkbox"]:indeterminate {
+  background-color: rgba(105, 108, 255, 0.08);
+  border-color: rgba(105, 108, 255, 0.08);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 10h8'/%3e%3c/svg%3e");
+}
+
+.form-check-input:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none;
+}
