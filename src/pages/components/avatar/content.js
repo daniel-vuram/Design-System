@@ -7,15 +7,14 @@ import Examples from "./assets/examples.svg"
 import Variations from "./assets/variations.svg"
 import Spacing from "./assets/spacing.svg"
 import Size from "./assets/size.svg"
+import Demo from "./demo"
 
 const Content = () => (
   <div>
     <section id="live_demo" className="mb-5">
       <h2>Live Demo</h2>
       <div className="live-demo">
-        <div>
-          <p>coming soon</p>
-        </div>
+        <Demo />
       </div>
     </section>
 

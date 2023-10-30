@@ -4,6 +4,7 @@ import { Seo } from "../../../components/seo"
 import Scrollspy from "react-scrollspy"
 import Content from "./content"
 import Header from "./header"
+import "./chip.scss"
 
 const Page = () => (
   <Layout>

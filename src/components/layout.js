@@ -4,7 +4,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Navbar from "./navbar"
 import Sidebar from "./sidebar"
 import "./apps.scss"
-import "../pages/components/buttons/button.scss"
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {

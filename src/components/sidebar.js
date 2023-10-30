@@ -2,6 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import Accordion from "react-bootstrap/Accordion"
+import { useLocation } from "@reach/router"
 
 const ACCORDION_ROUTE = {
   FOUNDATION: "foundation",
@@ -18,7 +19,8 @@ const isActive = ({ isCurrent }) => {
 const ExactNavLink = props => <Link getProps={isActive} {...props} />
 
 const Sidebar = ({ siteTitle }) => {
-  const currentAccordion = window.location?.pathname
+  const location = useLocation()
+  const currentAccordion = location?.pathname
   let defaultAccordionKey = null
 
   if (currentAccordion.includes(ACCORDION_ROUTE.FOUNDATION))
