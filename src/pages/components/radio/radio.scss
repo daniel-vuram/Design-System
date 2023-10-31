@@ -22,10 +22,6 @@
 .form-check-input {
   cursor: pointer;
 }
-.form-check-input:checked {
-  background-color: rgba(105, 108, 255, 0.08);
-  border-color: rgba(105, 108, 255, 0.08);
-}
 
 .form-check-input[type="radio"] {
   background-color: #fff;
@@ -42,9 +38,4 @@
   pointer-events: none;
   filter: none;
   opacity: 0.5;
-}
-
-.form-check-input:disabled {
-  background-color: #f2f4f7;
-  border-color: #eaecf0;
 }

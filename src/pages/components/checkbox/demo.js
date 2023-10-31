@@ -19,10 +19,10 @@ const Content = () => (
         className="form-check-input"
         type="checkbox"
         value=""
-        id="defaultCheck3"
+        id="defaultCheck2"
         checked
       />
-      <label className="form-check-label" for="defaultCheck3">
+      <label className="form-check-label" for="defaultCheck2">
         Checked
       </label>
     </div>
