@@ -1,8 +1,18 @@
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
+import Button from "react-bootstrap/Button"
+import Image from "react-bootstrap/Image"
 import Anatomy from "./assets/anatomy.svg"
 import State from "./assets/state.svg"
+import Spacing from "./assets/spacing.svg"
 import Dont_1 from "./assets/don't_1.svg"
 import Do_1 from "./assets/do_1.svg"
+import Layout from "./assets/layout.svg"
+import Dont_2 from "./assets/don't_2.svg"
+import Dont_3 from "./assets/don't_3.svg"
+import Do_2 from "./assets/do_2.svg"
+import Do_3 from "./assets/do_3.svg"
+import Size from "./assets/size.svg"
 import Demo from "./demo"
 
 const Content = () => (
@@ -17,7 +27,11 @@ const Content = () => (
     <section id="anatomy" className="mb-5">
       <h2>Anatomy</h2>
       <p>Radio button can stand alone, be grouped, or nested</p>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img className="mt-2 mb-4 placeholder_img" src={Anatomy} />
+      <ol>
+        <li>Checkbox</li>
+        <li>Text</li>
+      </ol>
     </section>
     <section id="layout" className="mb-5">
       <h2>Layout and spacing</h2>
@@ -25,7 +39,16 @@ const Content = () => (
         The radio component layout and spacing ensure consistent and balanced
         arrangement within the design system.
       </p>
-      <img className="mt-2 mb-4 placeholder_img" src={State} />
+      <div className="row">
+        <div className="col-md-6">
+          <ul>
+            <li>Padding : 12px</li>
+          </ul>
+        </div>
+        <div className="col-md-6">
+          <img className="mt-2 mb-4 placeholder_img" src={Layout} />
+        </div>
+      </div>
     </section>
 
     <section id="variations" className="mb-5">
@@ -44,7 +67,11 @@ const Content = () => (
       <p className="mt-2">
         Radio can be integrated in two sizes, small and medium.
       </p>
-      <img className="mt-2 placeholder_img" src={State} />
+      <img className="mt-2 placeholder_img" src={Size} />
+      <ol className="size p-3">
+        <li>small size : sm</li>
+        <li>Medium size : md</li>
+      </ol>
     </section>
     <section id="guidelines" className="mb-5">
       <h2>Guidelines</h2>
@@ -74,16 +101,33 @@ const Content = () => (
       </div>
 
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-12">
           <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
+          <p>Label and checkbox should be top aligned</p>
+        </div>
+        <div className="col-md-12">
+          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
+          <p>Do not center align or bottom align label and checkbox</p>
+        </div>
+        <div className="col-md-6">
+          <img src={Do_2} className="mt-2 mb-2 placeholder_img" />
+          <p>Checkboxes should phrased in a clearer, positive way</p>
+        </div>
+        <div className="col-md-6">
+          <img src={Dont_2} className="mt-2 mb-2 placeholder_img" />
           <p>
-            Button styles should reflect the priority of actions required in the
-            interface.
+            Using negative phrasing in checkboxes can be confusing; in the
+            example, the ambiguous phrasing doesn’t indicate whether the action
+            performed by the user is positive or not
           </p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
-          <p>Same view must not have more than one primary button.</p>
+          <img src={Do_3} className="mt-2 mb-2 placeholder_img" />
+          <p>Labels should be brief</p>
+        </div>
+        <div className="col-md-6">
+          <img src={Dont_3} className="mt-2 mb-2 placeholder_img" />
+          <p>Do not use lengthy labels</p>
         </div>
       </div>
     </section>
