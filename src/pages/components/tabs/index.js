@@ -18,7 +18,7 @@ const Page = () => (
 
           <Scrollspy
             className="scrollspy"
-            items={["live_demo", "anatomy", "states", "size", "guidelines"]}
+            items={["live_demo", "anatomy","layout" ,"states", "types", "guidelines"]}
             currentClassName="is-current"
           >
             <li>
@@ -32,9 +32,8 @@ const Page = () => (
               <a href="#states">States</a>
             </li>
             <li>
-              <a href="#size">Size</a>
+              <a href="#types">Type</a>
             </li>
-
             <li>
               <a href="#guidelines">Guidelines</a>
             </li>

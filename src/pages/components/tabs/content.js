@@ -4,6 +4,8 @@ import Button from "react-bootstrap/Button"
 import Image from "react-bootstrap/Image"
 import Anatomy from "./assets/anatomy.svg"
 import State from "./assets/state.svg"
+import Type from "./assets/type.svg"
+import Layout from "./assets/layout.svg"
 import Spacing from "./assets/spacing.svg"
 import Dont_1 from "./assets/don't_1.svg"
 import Do_1 from "./assets/do_1.svg"
@@ -28,14 +30,27 @@ const Content = () => (
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
-            <li>Tab Item</li>
+            
             <li>Active Tab Item</li>
+            <li>Other Tab Item</li>
+            <li>Base Stick</li>
             <li>Tab Group</li>
-            <li>Separator</li>
-            <li>Selected Tab Content</li>
+           
           </ol>
         </div>
       </div>
+    </section>
+    
+    <section id="layout" className="mb-5">
+      <h2>Layout</h2>
+      <img className="mt-2 mb-4 placeholder_img" src={Layout} />
+          <ul className="ps-3">
+            <li>Padding top: 4</li>
+            <li>Padding bottom: 4</li>
+            <li>Individual item spacing: 20px</li>
+            
+          </ul>      
+     
     </section>
 
     <section id="states" className="mb-5">
@@ -46,13 +61,29 @@ const Content = () => (
         for that tab. Only one tab item within a tab group can be active.
       </p>
       <img className="mt-2 mb-4 placeholder_img" src={State} />
+      <ol className="ps-4">
+            <li>Active Tab Item</li>
+            <li>Hover</li>
+            <li>Pressed</li>
+            <li>Disabled</li>
+          </ol>
     </section>
 
-    <section id="size" className="mb-5">
-      <h2>Size</h2>
-      <p className="mt-2">Tabs can be displayed in medium and small sizes.</p>
-      <img className="mt-2 placeholder_img" src={State} />
+    <section id="types" className="mb-5">
+      <h2>Type</h2>
+      <p className="mt-2">Tabs can be displayed in four variations.</p>
+      <img className="mt-2 placeholder_img" src={Type} />
+
+      <ol className="ps-4 mt-4">
+      <li>Active</li>
+            <li>Inline</li>
+            <li>Stacked</li>
+            <li>Icon True</li>
+           
+           
+          </ol>
     </section>
+
     <section id="guidelines" className="mb-5">
       <h2>Guidelines</h2>
       <div className="mt-3">
@@ -73,13 +104,22 @@ const Content = () => (
         <div className="col-md-6">
           <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
           <p>
-            Button styles should reflect the priority of actions required in the
-            interface.
+          Tabs make the most sense when there are at least two sections.
           </p>
         </div>
         <div className="col-md-6">
           <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
-          <p>Same view must not have more than one primary button.</p>
+          <p>Do not use only tabs for only one section. Use Navigation bars with Large or Small Title variants.</p>
+        </div>
+        <div className="col-md-6">
+          <img src={Do_2} className="mt-2 mb-2 placeholder_img" />
+          <p>
+          Only one section of the tab can be active at a time.
+          </p>
+        </div>
+        <div className="col-md-6">
+          <img src={Dont_2} className="mt-2 mb-2 placeholder_img" />
+          <p>Two sections can not be active at once.</p>
         </div>
       </div>
     </section>

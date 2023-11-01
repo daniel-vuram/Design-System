@@ -4,6 +4,8 @@ import Button from "react-bootstrap/Button"
 import Image from "react-bootstrap/Image"
 import Anatomy from "./assets/anatomy.svg"
 import State from "./assets/state.svg"
+import Variation from "./assets/variation.svg"
+import Layout from "./assets/layout.svg"
 import Spacing from "./assets/spacing.svg"
 import Dont_1 from "./assets/don't_1.svg"
 import Do_1 from "./assets/do_1.svg"
@@ -35,9 +37,28 @@ const Content = () => (
           <ol className="ps-4">
             <li>Switch toggle</li>
             <li>Label</li>
+            <li>Supporting text</li>
           </ol>
         </div>
       </div>
+    </section>
+
+    <section id="layout" className="mb-5">
+      <h2>Layout</h2>
+      <img className="mt-2 mb-4 placeholder_img" src={Layout} />
+      <div className="col-md-6">
+          <ul className="ps-3">
+
+            <li>Inbetween Padding: 12px</li>
+            <li>Content Padding bottom: 2px</li>
+            
+          </ul>
+        </div>
+        <div className="col-md-6">
+     
+      
+      </div>
+      
     </section>
 
     <section id="variants" className="mb-5">
@@ -52,13 +73,13 @@ const Content = () => (
         label or action text. Small toggles are more compact in size and are
         used inline with other components
       </p>
-      <img className="mt-2 mb-4 placeholder_img" src={State} />
+      <img className="mt-2 mb-4 placeholder_img" src={Variation} />
     </section>
 
     <section id="states" className="mb-5">
       <h2>States</h2>
       <p className="mt-3">
-        Switches have four possible states – selected, unselected or disabled.
+      The possible states of switches
       </p>
       <img className="mt-2 mb-4 placeholder_img" src={State} />
     </section>
@@ -92,13 +113,22 @@ const Content = () => (
         <div className="col-md-6">
           <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
           <p>
-            Button styles should reflect the priority of actions required in the
-            interface.
+          Label and toggle should be top aligned.
           </p>
         </div>
         <div className="col-md-6">
           <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
-          <p>Same view must not have more than one primary button.</p>
+          <p>Do not center align or bottom align label and toggle..</p>
+        </div>
+        <div className="col-md-6">
+          <img src={Do_2} className="mt-2 mb-2 placeholder_img" />
+          <p>
+            Toggle should be used on their own to define their value.
+          </p>
+        </div>
+        <div className="col-md-6">
+          <img src={Dont_2} className="mt-2 mb-2 placeholder_img" />
+          <p>Using negative phrasing in checkboxes can be confusing; in the example, the ambiguous phrasing doesn’t indicate whether the action performed by the user is positive or not.</p>
         </div>
       </div>
     </section>
