@@ -1,0 +1,53 @@
+.table {
+  --bs-table-color-type: initial;
+  --bs-table-bg-type: initial;
+  --bs-table-color-state: initial;
+  --bs-table-bg-state: initial;
+  --bs-table-color: var(--bs-body-color);
+  --bs-table-bg: var(--bs-body-bg);
+  --bs-table-border-color: #eaecf0;
+  --bs-table-accent-bg: transparent;
+  --bs-table-striped-color: var(--bs-body-color);
+  --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+  --bs-table-active-color: var(--bs-body-color);
+  --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+  --bs-table-hover-color: var(--bs-body-color);
+  --bs-table-hover-bg: #ebf4ff;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: 13px;
+  vertical-align: baseline;
+  border-color: var(--bs-table-border-color);
+}
+
+table {
+  thead {
+    // background-color: #f9fafb;
+    th {
+      background-color: #f9fafb !important;
+      font-size: 13px;
+      font-weight: 500;
+      color: #344054 !important;
+    }
+  }
+}
+
+.listing-table {
+  thead {
+    // background-color: #f9fafb;
+    th {
+      background-color: transparent !important;
+      font-size: 13px;
+      font-weight: 500;
+      color: #344054 !important;
+    }
+  }
+  td {
+    a {
+      color: #344054;
+      &:hover {
+        color: #217cf5;
+      }
+    }
+  }
+}

@@ -1,41 +1,33 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import Button from "react-bootstrap/Button"
-import Image from "react-bootstrap/Image"
 import Anatomy from "./assets/anatomy.svg"
-import State from "./assets/state.svg"
-import Spacing from "./assets/spacing.svg"
-import Dont_1 from "./assets/don't_1.svg"
-import Do_1 from "./assets/do_1.svg"
-import Dont_2 from "./assets/don't_2.svg"
-import Do_2 from "./assets/do_2.svg"
-import Size from "./assets/size.svg"
-
+import Variations from "./assets/variation.svg"
+import Layout from "./assets/layout.svg"
+import Demo from "./demo"
+import "./dropdown.scss"
 const Content = () => (
   <div>
     <section id="live_demo" className="mb-5">
       <h2>Live Demo</h2>
       <div className="live-demo">
-        <div>
-          <p>coming soon</p>
-        </div>
+        <Demo />
       </div>
     </section>
 
     <section id="anatomy" className="mb-5">
       <h2>Anatomy</h2>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+
       <p>
         Select is a composite component utilizing the input and menu components.
         After clicking into the input to open the menu, the user can filter the
         available options by directly typing in the input.
       </p>
+      <img className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
-            <li>Input text</li>
             <li>Input field</li>
-            <li>Focused Menu Item</li>
+            <li>Input text</li>
+            <li>Dropdown Arrow icon</li>
             <li>Menu Item</li>
             <li>Menu</li>
           </ol>
@@ -50,20 +42,11 @@ const Content = () => (
         checkboxes. Once selected, the items are shown as dismissible tags in
         the input field above
       </p>
+      <img className="mt-2 placeholder_img" src={Variations} />
     </section>
     <section id="states" className="mb-5">
-      <h2>States</h2>
-      <p className="mt-2">
-        Select has the following states — enabled, hovered, focused, selected,
-        disabled and read-only.
-      </p>
-      <img className="mt-2 placeholder_img" src={State} />
-    </section>
-
-    <section id="size" className="mb-5">
-      <h2>Size</h2>
-      <p className="mt-2">Select dropdowns are of only one size</p>
-      <img className="mt-2 placeholder_img" src={State} />
+      <h2>Layout</h2>
+      <img className="mt-2 placeholder_img" src={Layout} />
     </section>
 
     <section id="guidelines" className="mb-5">
@@ -89,20 +72,6 @@ const Content = () => (
             Checkbox or Multi-select control buttons.
           </li>
         </ul>
-      </div>
-
-      <div className="row">
-        <div className="col-md-6">
-          <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
-          <p>
-            Button styles should reflect the priority of actions required in the
-            interface.
-          </p>
-        </div>
-        <div className="col-md-6">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
-          <p>Same view must not have more than one primary button.</p>
-        </div>
       </div>
     </section>
   </div>

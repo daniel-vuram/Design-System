@@ -2,12 +2,16 @@
 
 body {
   font-family: "Inter", sans-serif;
+  // background-color: #fafbfc !important;
 }
 a {
   text-decoration: none !important;
   font-size: 13px;
   font-weight: 500;
   color: $primary;
+}
+p {
+  font-size: 13px;
 }
 .wrapper {
   margin-left: 220px;

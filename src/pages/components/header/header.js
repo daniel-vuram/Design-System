@@ -5,7 +5,7 @@ const Page = () => (
   <section className="page_header">
     <div className="title">
       <h1>Header</h1>
-      <div className="btn-sec">
+      <div className="btn-sec d-none">
         <a
           href="google.com"
           variant="link"

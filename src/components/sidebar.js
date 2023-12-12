@@ -126,7 +126,7 @@ const Sidebar = ({ siteTitle }) => {
                       <ExactNavLink to="/foundation/color">Color</ExactNavLink>
                     </li>
                     <li className="nav-item">
-                      <ExactNavLink to="/foundation/accordion">
+                      <ExactNavLink to="/foundation/icon">
                         Iconography
                       </ExactNavLink>
                     </li>
@@ -152,7 +152,6 @@ const Sidebar = ({ siteTitle }) => {
                         Breadcrumbs
                       </ExactNavLink>
                     </li>
-
                     <li className="nav-item">
                       <ExactNavLink to="/components/buttons">
                         Button
@@ -244,6 +243,11 @@ const Sidebar = ({ siteTitle }) => {
                     <li className="nav-item">
                       <ExactNavLink to="/components/tooltip">
                         Tooltip
+                      </ExactNavLink>
+                    </li>
+                    <li className="nav-item">
+                      <ExactNavLink to="/components/user-picker">
+                        User Picker
                       </ExactNavLink>
                     </li>
                   </ul>

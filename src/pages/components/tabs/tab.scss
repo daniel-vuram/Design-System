@@ -1,0 +1,36 @@
+.live-demo {
+  .nav-tabs {
+    .nav-item {
+      margin-bottom: 0;
+      .nav-link {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 8px;
+
+        border: none;
+        margin-right: 16px;
+        color: #1a1a1a;
+        border-radius: 0;
+        &:hover {
+          background-color: #217df527;
+          color: #217cf5;
+          border-radius: 4px;
+        }
+        &.active {
+          color: #217cf5;
+          font-weight: 500;
+          border-bottom: 3px #217cf5 solid;
+          // padding-bottom: 8px;
+          &:hover {
+            background-color: #fff;
+            color: #217cf5;
+            border-radius: 0px;
+          }
+        }
+        &.disabled {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}

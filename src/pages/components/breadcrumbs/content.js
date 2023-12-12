@@ -21,38 +21,34 @@ const Content = () => (
         clean and reduce clutter. Accordions can be used to display only one or
         multiple panels at a time, depending on the use case.
       </p>
-
-      <img className="mt-2 placeholder_img" src={Anatomy} />
-      <div className="row mt-3">
-        <div className="col-md-12">
+      <div className="row">
+      <div className="col-md-6">
+        <img className="mt-2 placeholder_img" src={Anatomy} />
+        </div>
+        <div className="col-md-6">
           <ol className="ps-4">
             <li>Page title and link</li>
-            <li>Chevron separator</li>
+            <li>Hover state</li>
+            <li>Separator</li>
           </ol>
         </div>
       </div>
     </section>
 
     <section id="states" className="mb-5">
-      <h2>States</h2>
-      <p className="mt-2">
-        Breadcrumb has seven states available for breadcrumb items — enabled,
-        hover, active, focus, visited, disabled and read-only.
-      </p>
-      <img className="mt-2 placeholder_img" src={State} />
-      <p>
+      <h2>Interaction</h2>
+      <ol className="ps-3">
+        <li>
+        Breadcrumb has five states available for breadcrumb items — enabled,
+        hover, active, focus, and read-only.
+        </li>
+        <li className="inter mt-2">
         If a breadcrumb bar will exceed the content width one option is to wrap
         the full breadcrumb trail to allow overflow to the next line.
-      </p>
+        </li>
+       </ol>
     </section>
 
-    <section id="size" className="mb-5">
-      <h2>Size</h2>
-      <p className="mt-3">
-        Rich text editor size varies based on the tab where it is used. The size
-        can relatively vary depending on the context.
-      </p>
-    </section>
 
     <section id="guidelines" className="mb-5">
       <h2>Guidelines</h2>
@@ -84,20 +80,7 @@ const Content = () => (
         </ul>
       </div>
 
-      <div className="row">
-        <div className="col-md-6">
-          <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
-
-          <p>
-            Button styles should reflect the priority of actions required in the
-            interface.
-          </p>
-        </div>
-        <div className="col-md-6">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
-          <p>Same view must not have more than one primary button.</p>
-        </div>
-      </div>
+      
     </section>
   </div>
 )

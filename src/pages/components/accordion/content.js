@@ -4,6 +4,8 @@ import Button from "react-bootstrap/Button"
 import Image from "react-bootstrap/Image"
 import Anatomy from "./assets/anatomy.svg"
 import State from "./assets/state.svg"
+import Interaction from "./assets/interaction.svg"
+import Interaction2 from "./assets/interaction2.svg"
 import Spacing from "./assets/spacing.svg"
 import Dont_1 from "./assets/don't_1.svg"
 import Do_1 from "./assets/do_1.svg"
@@ -56,21 +58,11 @@ const Content = () => (
         </div>
       </div>
     </section>
-    <section id="appearance" className="mb-5">
-      <h2>Appearance</h2>
-      <p className="mt-3">
-        Accordion has two core style types available — product and marketing.
-        Product style is bolder and uses tighter spacing and marketing style is
-        lighter and more spacious.
-      </p>
-    </section>
-    <section id="states" className="mb-5">
-      <h2>States</h2>
-      <p className="mt-2">
-        Accordions have four styled states available — enabled, hover, focus and
-        disabled.
-      </p>
-      <img className="mt-2 placeholder_img" src={State} />
+    
+    <section id="interaction" className="mb-5">
+      <h2>Interaction</h2>
+      
+      <img className="mt-2 placeholder_img" src={Interaction} />
       <div className="mt-3">
         <ul className="ps-3">
           <li>
@@ -78,10 +70,9 @@ const Content = () => (
             additional content. The panel is expanded and collapsed with a slide
             animation.
           </li>
-          <li>
-            A leading icon can be added before the title in an accordion item.
-          </li>
+        
         </ul>
+        <img className="mt-2 placeholder_img" src={Interaction2} />
       </div>
     </section>
 
@@ -101,21 +92,6 @@ const Content = () => (
             once.
           </li>
         </ul>
-      </div>
-
-      <div className="row">
-        <div className="col-md-6">
-          <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
-
-          <p>
-            Button styles should reflect the priority of actions required in the
-            interface.
-          </p>
-        </div>
-        <div className="col-md-6">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
-          <p>Same view must not have more than one primary button.</p>
-        </div>
       </div>
     </section>
   </div>

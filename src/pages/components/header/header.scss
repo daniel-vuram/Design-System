@@ -1,0 +1,51 @@
+.navbar {
+  background-color: #fff !important;
+  --bs-navbar-padding-y: 0px;
+  border-bottom: 1px solid #dadfe7;
+  .btn {
+    --bs-btn-padding-x: 3px;
+    margin-left: 8px;
+    --bs-btn-padding-y: 4px;
+    height: 32px;
+  }
+  .container {
+    padding: 0 24px;
+    display: block;
+  }
+  .top-header {
+    display: flex;
+    margin: 12px 0;
+  }
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0;
+    line-height: normal;
+  }
+  .avatar {
+    width: 30px;
+    height: 30px;
+  }
+  .breadcrumb {
+    margin: 4px 0;
+  }
+}
+
+.live-demo {
+  .navbar {
+    .nav-tabs {
+      margin: 0 !important;
+      margin-top: 12px !important;
+      border: none;
+      .nav-item {
+        .nav-link {
+          padding: 0;
+          padding-bottom: 8px;
+          &:hover {
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}

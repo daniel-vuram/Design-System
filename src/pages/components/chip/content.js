@@ -1,8 +1,13 @@
 import * as React from "react"
 import Anatomy from "./assets/anatomy.svg"
+import variation from "./assets/variation.svg"
+import layout from "./assets/layout.svg"
+import size from "./assets/size.svg"
 import State from "./assets/state.svg"
 import Dont_1 from "./assets/don't_1.svg"
 import Do_1 from "./assets/do_1.svg"
+import Dont_2 from "./assets/don't_2.svg"
+import Do_2 from "./assets/do_2.svg"
 import Demo from "./demo"
 
 const Content = () => (
@@ -25,17 +30,17 @@ const Content = () => (
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
-            <li>Accordion Item</li>
+            <li>Badge base</li>
+            <li>Avatar</li>
             <li>Label</li>
-            <li>Chevron</li>
-            <li>Accordion Panel</li>
+            <li>Close</li>
           </ol>
         </div>
       </div>
     </section>
     <section id="layout_spacing" className="mb-5">
       <h2>Layout & Spacing</h2>
-      <p className="mt-3">Coming</p>
+      <img className="mt-2 placeholder_img" src={layout} />
     </section>
     <section id="variations" className="mb-5">
       <h2>Variations</h2>
@@ -45,18 +50,8 @@ const Content = () => (
         with avatar,with icon only, with only base label, with avatar and
         tailing icon.
       </p>
-      <img className="mt-2 placeholder_img" src={State} />
+      <img className="mt-2 placeholder_img" src={variation} />
       <div className="mt-3">
-        <ul className="ps-3">
-          <li>
-            Expanded- An expanded accordion item reveals an accordion panel with
-            additional content. The panel is expanded and collapsed with a slide
-            animation.
-          </li>
-          <li>
-            A leading icon can be added before the title in an accordion item.
-          </li>
-        </ul>
       </div>
     </section>
 
@@ -67,7 +62,7 @@ const Content = () => (
         used inside the table, small size is used and in the rest of the cases
         the default size used is medium.
       </p>
-      <img className="mt-2 placeholder_img" src={State} />
+      <img className="mt-2 placeholder_img" src={size} />
     </section>
 
     <section id="guidelines" className="mb-5">
@@ -85,13 +80,23 @@ const Content = () => (
           <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
 
           <p>
-            Button styles should reflect the priority of actions required in the
-            interface.
+          Use buttons for actions.
           </p>
         </div>
         <div className="col-md-6">
           <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
-          <p>Same view must not have more than one primary button.</p>
+          <p>Chips are not alternative for buttons.</p>
+        </div>
+        <div className="col-md-6">
+          <img src={Do_2} className="mt-2 mb-2 placeholder_img" />
+
+          <p>
+          Chips should be used in a group.
+          </p>
+        </div>
+        <div className="col-md-6">
+          <img src={Dont_2} className="mt-2 mb-2 placeholder_img" />
+          <p>Avoid using stand alone chip.</p>
         </div>
       </div>
     </section>

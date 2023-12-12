@@ -7,6 +7,9 @@ import State from "./assets/state.svg"
 import Spacing from "./assets/spacing.svg"
 import Dont_1 from "./assets/don't_1.svg"
 import Do_1 from "./assets/do_1.svg"
+import Variation from "./assets/variation.svg"
+import Variation2 from "./assets/variation2.svg"
+import Variation3 from "./assets/variation3.svg"
 import Dont_2 from "./assets/don't_2.svg"
 import Do_2 from "./assets/do_2.svg"
 import Size from "./assets/size.svg"
@@ -31,71 +34,63 @@ const Content = () => (
             <li>Input field</li>
             <li>Instant Search menu</li>
             <li>Clear field button</li>
+            <li>Filter tabs</li>
+            <li>Recently viewed</li>
           </ol>
+          <p>The global search must be placed next to the notification icon in the header on all screens and is collapsible.It also contains filter options within the search for better search results
+</p>
         </div>
       </div>
     </section>
 
     <section id="variations" className="mb-5">
-      <h2>Variations</h2>
-      <p className="mt-2">
-        There are two key variations of search — header search and independent
-        search. Neither variation can be collapsed, it’ll open by default.
-      </p>
-      <img className="mt-2 placeholder_img" src={State} />
+      <h2>Interaction</h2>
+      <ul className="interaction_ol p-3">
+        <li>
+        The search bar should expand to the left and occupy the top right corner of the screen.
+        </li>
+        <img className="mt-1 mb-4 placeholder_img" src={Variation} />
+        <li>
+        Once the search value is entered, the recent search results disappear and relevant search results based on the value entered will be displayed there.
+        </li>
+        <img className="mt-1 mb-4 placeholder_img" src={Variation2} />
+        <li>
+        The user can select single or multiple filters to narrow down their search results.
+        </li>
+        <img className="mt-1 mb-4 placeholder_img" src={Variation3} />
+        <li>
+        The clear field button will clear all search values that were entered and the results that were shown along with it. Clicking anywhere outside the search bar will collapse the search bar.
+        </li>
+      </ul>
     </section>
 
     <section id="states" className="mb-5">
       <h2>States</h2>
       <p className="mt-3">
-        Search inputs come in different states depending on how the user is
-        interacting with it — enabled, hover, focus, active, and filled.
+      Search inputs come in different states depending on how the user is interacting with it — Default, expanded and applied filter.
       </p>
-      <img className="mt-2 mb-4 placeholder_img" src={State} />
+      
     </section>
 
-    <section id="size" className="mb-5">
-      <h2>Size</h2>
-      <p className="mt-2">
-        Search is available in two sizes based on the variation.
-      </p>
-      <img className="mt-2 placeholder_img" src={State} />
-    </section>
+    
     <section id="guidelines" className="mb-5">
       <h2>Guidelines</h2>
       <div className="mt-3">
         <ul className="ps-3">
           <li>
-            Use descriptive placeholder text within the search input field to
-            guide users on what to search for
+          Use descriptive placeholder text within the search input field to guide users on what to search for
+
           </li>
           <li>
-            Ensure the search feature is responsive and functional across
-            various devices and screen sizes.
+          Ensure the search feature is responsive and functional across various devices and screen sizes
           </li>
           <li>
-            Organize search results in a clear and scannable format, showing
-            relevant information and options.
+          Organize search results in a clear and scannable format, showing relevant information and options.
           </li>
           <li>
-            Include loading indicators or progress bars to inform users that the
-            search is in progress.
+          Include loading indicators or progress bars to inform users that the search is in progress.
           </li>
         </ul>
-      </div>
-
-      <div className="row">
-        <div className="col-md-6">
-          <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
-          <p>
-            Button styles should reflect the priority of actions required in the
-            interface.
-          </p>
-        </div>
-        <div className="col-md-6">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
-          <p>Same view must not have more than one primary button.</p>
-        </div>
       </div>
     </section>
   </div>

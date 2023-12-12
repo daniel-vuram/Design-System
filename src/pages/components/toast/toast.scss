@@ -1,0 +1,42 @@
+.toast {
+  position: relative;
+  .toast-header {
+    padding: 12px 16px;
+    padding-bottom: 4px;
+    border: none;
+    strong {
+      margin-left: 12px;
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
+  .toast-body {
+    padding: 16px;
+    padding-top: 0;
+    padding-left: 44px;
+    font-size: 13px;
+    color: #707070;
+  }
+  .btn-close {
+    position: absolute;
+    right: 8px;
+    top: 0px;
+    background: transparent var(--bs-btn-close-bg) center/10px auto no-repeat;
+  }
+  &.success {
+    background-color: #e6f5ee;
+    border: 1px #039855 solid;
+    .toast-header {
+      background-color: #e6f5ee;
+      color: #039855;
+    }
+  }
+  &.danger {
+    background-color: #fbeae9;
+    border: 1px #d92d20 solid;
+    .toast-header {
+      background-color: #fbeae9;
+      color: #d92d20;
+    }
+  }
+}

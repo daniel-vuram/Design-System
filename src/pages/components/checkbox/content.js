@@ -2,7 +2,14 @@ import * as React from "react"
 import Anatomy from "./assets/anatomy.svg"
 import State from "./assets/state.svg"
 import Dont_1 from "./assets/don't_1.svg"
+import Dont_2 from "./assets/don't_2.svg"
+import Dont_3 from "./assets/don't_3.svg"
 import Do_1 from "./assets/do_1.svg"
+import Do_2 from "./assets/do_2.svg"
+import Do_3 from "./assets/do_3.svg"
+import Layout from "./assets/layout.svg"
+import Size from "./assets/size.svg"
+import Variation from "./assets/variation.svg"
 import Demo from "./demo"
 
 const Content = () => (
@@ -14,68 +21,76 @@ const Content = () => (
       </div>
     </section>
 
-    <section id="when_to_use" className="mb-5">
-      <h2>When to use</h2>
-      <ul className="ps-4">
-        <li>To organize related information.</li>
-        <li>
-          Shorten pages and reduce scrolling when content is not crucial to read
-          in full
-        </li>
-        <li>
-          When space is at a premium and long content cannot be displayed all at
-          once, like on a mobile interface or in a side panel
-        </li>
-      </ul>
-    </section>
-
     <section id="anatomy" className="mb-5">
       <h2>Anatomy</h2>
-      <p>
-        Accordions can be used to group and hide content to keep an interface
-        clean and reduce clutter. Accordions can be used to display only one or
-        multiple panels at a time, depending on the use case.
-      </p>
+      
       <img className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
-            <li>Accordion Item</li>
+            <li>Checkbox</li>
             <li>Label</li>
-            <li>Chevron</li>
-            <li>Accordion Panel</li>
+            <li>Check box Group</li>
+            
           </ol>
         </div>
       </div>
+      <p>
+      Checkboxes can stand alone, be grouped, or nested.
+      </p>
     </section>
+
     <section id="appearance" className="mb-5">
-      <h2>Appearance</h2>
+      <h2>Layout and spacing</h2>
       <p className="mt-3">
-        Accordion has two core style types available — product and marketing.
-        Product style is bolder and uses tighter spacing and marketing style is
-        lighter and more spacious.
+      The checkbox component layout and spacing ensure consistent and balanced arrangement within the design system.
       </p>
-    </section>
-    <section id="states" className="mb-5">
-      <h2>States</h2>
+      <div className="row">
+        <div className="col-md-6">
+        <img className="mt-2 placeholder_img" src={Layout} />
+        </div>
+        <div className="col-md-6">
+        <ul>
+          <li>
+          checkbox and label : 12px
+          </li>
+        </ul>
+        </div>
+      </div>
+      <section id="size" className="mb-5">
+      <h2>Sizes</h2>
       <p className="mt-2">
-        Accordions have four styled states available — enabled, hover, focus and
-        disabled.
+      The checkbox can be integrated in two sizes, small and medium.
+
       </p>
-      <img className="mt-2 placeholder_img" src={State} />
+      <img className="mt-2 placeholder_img" src={Size} />
+      
+    </section>
+    
+    </section>
+    <section id="variation" className="mb-5">
+      <h2>Variations</h2>
+      
+      
       <div className="mt-3">
         <ul className="ps-3">
           <li>
-            Expanded- An expanded accordion item reveals an accordion panel with
-            additional content. The panel is expanded and collapsed with a slide
-            animation.
+          Checkbox components exhibit several interaction states: enabled, hovered, and disabled
           </li>
           <li>
-            A leading icon can be added before the title in an accordion item.
+          The feature selection states: checked, unchecked, and indeterminate.
           </li>
+          <li>
+          Default configurations determine how checkboxes appear: checked, unchecked, or disabled. Notably, checkboxes must enable actions that users can undo by simply unchecking the box, ensuring reversible choices. For instance, checkboxes are suitable for filters but unsuitable for deletions. To incorporate actions, consider utilizing Button Status.
+          </li>
+        
         </ul>
+        <img className="mt-2 placeholder_img" src={Variation} />
       </div>
     </section>
+
+
+    
 
     <section id="guidelines" className="mb-5">
       <h2>Guidelines</h2>
@@ -83,30 +98,62 @@ const Content = () => (
       <div className="mt-3">
         <ul className="ps-3">
           <li>
-            Make the entire title label area clickable to trigger expansion.
+          Ensure a label is consistently provided.
           </li>
           <li>
-            Ideal for use when you have no more than 10 modules of content.
+          Employ sentence case for label text.
           </li>
           <li>
-            Do not use if it is a priority to have your users see all content at
-            once.
+          Refrain from using punctuation in labels or after checkbox entries.
+          </li>
+          <li>
+          Opt for concise labels to facilitate swift and confident checking.
+          </li>
+          <li>
+          Frame labels as affirmations in the checked state and negations in the unchecked state.
+          </li>
+          <li>
+          Title a checkbox collection when its content isn't instantly clear.
+          </li>
+          <li>
+          Enable both checkbox and label for selection.
           </li>
         </ul>
       </div>
 
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-12">
           <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
 
           <p>
-            Button styles should reflect the priority of actions required in the
-            interface.
+          Label and checkbox should be top aligned
+          </p>
+        </div>
+        <div className="col-md-12">
+          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
+          <p>Do not center align or bottom align label and checkbox</p>
+        </div>
+        <div className="col-md-6">
+          <img src={Do_2} className="mt-2 mb-2 placeholder_img" />
+
+          <p>
+          Checkboxes should phrased in a clearer, positive way
           </p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
-          <p>Same view must not have more than one primary button.</p>
+          <img src={Dont_2} className="mt-2 mb-2 placeholder_img" />
+          <p>Using negative phrasing in checkboxes can be confusing; in the example, the ambiguous phrasing doesn’t indicate whether the action performed by the user is positive or not.</p>
+        </div>
+        <div className="col-md-6">
+          <img src={Do_3} className="mt-2 mb-2 placeholder_img" />
+
+          <p>
+          Labels should be brief
+          </p>
+        </div>
+        <div className="col-md-6">
+          <img src={Dont_3} className="mt-2 mb-2 placeholder_img" />
+          <p>Do not use lengthy labels.</p>
         </div>
       </div>
     </section>

@@ -23,7 +23,6 @@ const Page = () => (
               "anatomy",
               "variations",
               "states",
-              "size",
               "guidelines",
             ]}
             currentClassName="is-current"
@@ -38,10 +37,7 @@ const Page = () => (
               <a href="#variations">Variations</a>
             </li>
             <li>
-              <a href="#states">States</a>
-            </li>
-            <li>
-              <a href="#size">Size</a>
+              <a href="#states">Layout</a>
             </li>
             <li>
               <a href="#guidelines">Guidelines</a>

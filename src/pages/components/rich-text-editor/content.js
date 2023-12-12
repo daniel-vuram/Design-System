@@ -27,12 +27,9 @@ const Content = () => (
     <section id="size" className="mb-5">
       <h2>Size</h2>
       <p className="mt-2">
-      Rich text editor has different states depending on where it is used. The
+      Rich text editor size varies based on the tab where it is used. The
         functionalities included in the rich text editor in different areas will
         have different functionalities based on the requirements.
-
-        Rich text editor size varies based on the tab where it is used. The size
-        can relatively vary depending on the context.
       </p>
       <img className="mt-2 placeholder_img" src={State} />
     </section>

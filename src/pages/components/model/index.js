@@ -22,8 +22,6 @@ const Page = () => (
               "live_demo",
               "anatomy",
               "variation",
-              "allignment",
-              "states",
               "size",
               "guidelines",
             ]}
@@ -38,17 +36,9 @@ const Page = () => (
             <li>
               <a href="#variation">Variation</a>
             </li>
-
-            <li>
-              <a href="#allignment">Allignment</a>
-            </li>
-            <li>
-              <a href="#states">States</a>
-            </li>
             <li>
               <a href="#size">Size</a>
             </li>
-
             <li>
               <a href="#guidelines">Guidelines</a>
             </li>

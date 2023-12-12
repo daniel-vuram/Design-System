@@ -21,9 +21,8 @@ const Page = () => (
             items={[
               "live_demo",
               "anatomy",
-              "appearance",
+              "variation",
               "states",
-              "size",
               "guidelines",
             ]}
             currentClassName="is-current"
@@ -35,16 +34,11 @@ const Page = () => (
               <a href="#anatomy">Anatomy</a>
             </li>
             <li>
-              <a href="#appearance">Appearance</a>
-            </li>
-
-            <li>
-              <a href="#states">States</a>
+              <a href="#variation">Variation</a>
             </li>
             <li>
-              <a href="#size">Size</a>
+              <a href="#states">states</a>
             </li>
-
             <li>
               <a href="#guidelines">Guidelines</a>
             </li>

@@ -42,8 +42,8 @@ const Content = () => (
     <section id="variations" className="mb-5">
       <h2>Variations</h2>
       <p className="mt-2">
-        Slider can be either a single point slider for setting a single value or
-        a dual range slider for setting a minimum and maximum value.
+      The value of the sliders can be shown in percentage in the bottom, bottom floating and top floating states, with a setting of minimum and maximum value. Sliders can also be used without any value labels in false state
+
       </p>
       <img className="mt-2 placeholder_img" src={Variation} />
     </section>
