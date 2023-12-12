@@ -1,24 +1,19 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import Button from "react-bootstrap/Button"
-import Image from "react-bootstrap/Image"
 import Anatomy from "./assets/anatomy.svg"
-import State from "./assets/state.svg"
-import Spacing from "./assets/spacing.svg"
-import Dont_1 from "./assets/don't_1.svg"
-import Do_1 from "./assets/do_1.svg"
-import Dont_2 from "./assets/don't_2.svg"
-import Do_2 from "./assets/do_2.svg"
-import Size from "./assets/size.svg"
+import State from "./assets/status.svg"
+import State1 from "./assets/State1.svg"
+import State2 from "./assets/State2.svg"
+import State3 from "./assets/State3.svg"
+import State4 from "./assets/state4.svg"
+import Demo from "./demo"
+import "./file.scss"
 
 const Content = () => (
   <div>
     <section id="live_demo" className="mb-5">
       <h2>Live Demo</h2>
       <div className="live-demo">
-        <div>
-          <p>coming soon</p>
-        </div>
+        <Demo />
       </div>
     </section>
 
@@ -35,21 +30,7 @@ const Content = () => (
         </div>
       </div>
     </section>
-    <section id="variations" className="mb-5">
-      <h2>Variations</h2>
-      <p className="mt-3">
-        There is only one standard variation for file uploader across the
-        platform.
-      </p>
-    </section>
-    <section id="drag-drop" className="mb-5">
-      <h2>Drag and drop</h2>
-      <p className="mt-3">
-        A drag and drop area is same as the form field itself. Files can be
-        clicked and uploaded or they can be dragged and dropped into the form
-        field area.
-      </p>
-    </section>
+
     <section id="status" className="mb-5">
       <h2>Status</h2>
       <p className="mt-2">
@@ -60,12 +41,25 @@ const Content = () => (
       <p>Clearable: File Upload can be set to be clearable</p>
     </section>
 
+    <section id="drag-drop" className="mb-5">
+      <h2>Drag and drop</h2>
+      <p className="mt-3">
+        A drag and drop area is same as the form field itself. Files can be
+        clicked and uploaded or they can be dragged and dropped into the form
+        field area.
+      </p>
+      <h3>Status</h3>
+      <img className="mt-2 placeholder_img" src={State1} />
+      <img className="mt-2 placeholder_img" src={State2} />
+      <img className="mt-2 placeholder_img" src={State3} />
+      <img className="mt-2 placeholder_img" src={State4} />
+    </section>
+
     <section id="size" className="mb-5">
       <h2>Size</h2>
       <p className="mt-2">
         File Upload can be displayed in large, medium and small sizes.
       </p>
-      <img className="mt-2 placeholder_img" src={State} />
     </section>
 
     <section id="guidelines" className="mb-5">
@@ -82,20 +76,6 @@ const Content = () => (
             Do not use upload in a modal when multiple files are uploaded.
           </li>
         </ul>
-      </div>
-
-      <div className="row">
-        <div className="col-md-6">
-          <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
-          <p>
-            Button styles should reflect the priority of actions required in the
-            interface.
-          </p>
-        </div>
-        <div className="col-md-6">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
-          <p>Same view must not have more than one primary button.</p>
-        </div>
       </div>
     </section>
   </div>

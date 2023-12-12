@@ -1,24 +1,16 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import Button from "react-bootstrap/Button"
-import Image from "react-bootstrap/Image"
 import Anatomy from "./assets/anatomy.svg"
-import State from "./assets/state.svg"
-import Spacing from "./assets/spacing.svg"
-import Dont_1 from "./assets/don't_1.svg"
-import Do_1 from "./assets/do_1.svg"
-import Dont_2 from "./assets/don't_2.svg"
-import Do_2 from "./assets/do_2.svg"
-import Size from "./assets/size.svg"
+import variation from "./assets/variation.svg"
+import variation1 from "./assets/variation1.svg"
+import Demo from "./demo"
+import "./table.scss"
 
 const Content = () => (
   <div>
     <section id="live_demo" className="mb-5">
       <h2>Live Demo</h2>
       <div className="live-demo">
-        <div>
-          <p>coming soon</p>
-        </div>
+        <Demo />
       </div>
     </section>
 
@@ -37,15 +29,17 @@ const Content = () => (
       </div>
     </section>
 
-    <section id="appearance" className="mb-5">
-      <h2>Appearance</h2>
+    <section id="variation" className="mb-5">
+      <h2>Variation</h2>
       <p className="mt-3">
-        Borders can be used between rows, between columns or on all sides of a
-        cell. Borders can be used to distinguish groupings. To create more
-        distinction, use borders in conjunction with striping.
+        Borders can be used between rows. Borders can be used to distinguish
+        groupings. To create more distinction, use borders in conjunction with
+        striping.
       </p>
       <p>The heading rows can have either a subtle or bold emphasis.</p>
-      <img className="mt-2 mb-4 placeholder_img" src={State} />
+
+      <img className="mt-2 mb-4 placeholder_img" src={variation} />
+      <img className="mt-2 mb-4 placeholder_img" src={variation1} />
     </section>
 
     <section id="states" className="mb-5">
@@ -56,16 +50,6 @@ const Content = () => (
         selected to apply overall changes to them. At the end of each row
         there's option to delete and edit each row.
       </p>
-      <img className="mt-2 mb-4 placeholder_img" src={State} />
-    </section>
-
-    <section id="size" className="mb-5">
-      <h2>Size</h2>
-      <p className="mt-2">
-        Tables are of only one size throughout and the width and height of the
-        tables can be variable when used in widgets.
-      </p>
-      <img className="mt-2 placeholder_img" src={State} />
     </section>
     <section id="guidelines" className="mb-5">
       <h2>Guidelines</h2>
@@ -89,20 +73,6 @@ const Content = () => (
             from data cells and provide context for the columns.
           </li>
         </ul>
-      </div>
-
-      <div className="row">
-        <div className="col-md-6">
-          <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
-          <p>
-            Button styles should reflect the priority of actions required in the
-            interface.
-          </p>
-        </div>
-        <div className="col-md-6">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
-          <p>Same view must not have more than one primary button.</p>
-        </div>
       </div>
     </section>
   </div>

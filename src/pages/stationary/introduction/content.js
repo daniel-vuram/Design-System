@@ -1,5 +1,5 @@
 import * as React from "react"
-import Introduction from "./assets/introduction.png"
+import Introduction from "./assets/introduction.svg"
 import Print from "./assets/print.svg"
 
 const Content = () => (

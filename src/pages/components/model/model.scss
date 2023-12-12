@@ -1,0 +1,41 @@
+.modal {
+  .modal-dialog {
+    .modal-content {
+      border-radius: 8px;
+      background: var(--neutral-n-0, #fff);
+      box-shadow: 0px 4px 8px 0px rgba(16, 24, 64, 0.08);
+      border: none;
+      .modal-header {
+        padding: 32px;
+        padding-bottom: 0;
+        position: relative;
+        border: none;
+        .modal-title {
+          &.h4 {
+            font-size: 20px;
+            font-weight: 500;
+          }
+        }
+        .btn-close {
+          position: absolute;
+          right: 16px;
+          top: 16px;
+          --bs-btn-close-bg: url(
+            data:image/svg + xml,
+            %3csvgxmlns="http://www.w3.org/2000/svg"viewBox="0 0 16 16"fill="%23000"%3e%3cpathd="M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z"/%3e%3c/svg%3e
+          );
+          background: transparent var(--bs-btn-close-bg) center/12px auto
+            no-repeat;
+        }
+      }
+      .modal-body {
+        padding: 32px;
+      }
+      .modal-footer {
+        border: none;
+        padding: 32px;
+        padding-top: 0;
+      }
+    }
+  }
+}

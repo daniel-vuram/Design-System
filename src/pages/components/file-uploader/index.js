@@ -21,9 +21,8 @@ const Page = () => (
             items={[
               "live_demo",
               "anatomy",
-              "variations",
-              "drag-drop",
               "status",
+              "drag-drop",
               "size",
               "guidelines",
             ]}
@@ -36,13 +35,10 @@ const Page = () => (
               <a href="#anatomy">Anatomy</a>
             </li>
             <li>
-              <a href="#variations">Variations</a>
+              <a href="#status">Status</a>
             </li>
             <li>
               <a href="#drag-drop">Drag and drop</a>
-            </li>
-            <li>
-              <a href="#status">Status</a>
             </li>
             <li>
               <a href="#size">Size</a>

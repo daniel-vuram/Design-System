@@ -71,7 +71,8 @@ const Page = () => (
             items={[
               "live_demo",
               "anatomy",
-              "layout_spacing",
+              "appearance",
+              "variation",
               "size",
               "guidelines",
             ]}
@@ -84,13 +85,13 @@ const Page = () => (
               <a href="#anatomy">Anatomy</a>
             </li>
             <li>
-              <a href="#layout_spacing">Layout and spacing</a>
+              <a href="#appearance">Layout and spacing</a>
             </li>
             <li>
-              <a href="#variations">Variations</a>
+              <a href="#variation">Variations</a>
             </li>
             <li>
-              <a href="#size">Size</a>
+              <a href="#size">Sizes</a>
             </li>
             <li>
               <a href="#guidelines">Guidelines</a>

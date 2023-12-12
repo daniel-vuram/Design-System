@@ -1,26 +1,21 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import Button from "react-bootstrap/Button"
-import Image from "react-bootstrap/Image"
 import Anatomy from "./assets/anatomy.svg"
 import State from "./assets/state.svg"
 import Variation from "./assets/variation.svg"
 import Layout from "./assets/layout.svg"
-import Spacing from "./assets/spacing.svg"
 import Dont_1 from "./assets/don't_1.svg"
 import Do_1 from "./assets/do_1.svg"
 import Dont_2 from "./assets/don't_2.svg"
 import Do_2 from "./assets/do_2.svg"
-import Size from "./assets/size.svg"
+import Demo from "./demo"
+import "./switch.scss"
 
 const Content = () => (
   <div>
     <section id="live_demo" className="mb-5">
       <h2>Live Demo</h2>
       <div className="live-demo">
-        <div>
-          <p>coming soon</p>
-        </div>
+        <Demo />
       </div>
     </section>
 
@@ -47,18 +42,12 @@ const Content = () => (
       <h2>Layout</h2>
       <img className="mt-2 mb-4 placeholder_img" src={Layout} />
       <div className="col-md-6">
-          <ul className="ps-3">
-
-            <li>Inbetween Padding: 12px</li>
-            <li>Content Padding bottom: 2px</li>
-            
-          </ul>
-        </div>
-        <div className="col-md-6">
-     
-      
+        <ul className="ps-3">
+          <li>Inbetween Padding: 12px</li>
+          <li>Content Padding bottom: 2px</li>
+        </ul>
       </div>
-      
+      <div className="col-md-6"></div>
     </section>
 
     <section id="variants" className="mb-5">
@@ -78,9 +67,7 @@ const Content = () => (
 
     <section id="states" className="mb-5">
       <h2>States</h2>
-      <p className="mt-3">
-      The possible states of switches
-      </p>
+      <p className="mt-3">The possible states of switches</p>
       <img className="mt-2 mb-4 placeholder_img" src={State} />
     </section>
 
@@ -112,9 +99,7 @@ const Content = () => (
       <div className="row">
         <div className="col-md-6">
           <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
-          <p>
-          Label and toggle should be top aligned.
-          </p>
+          <p>Label and toggle should be top aligned.</p>
         </div>
         <div className="col-md-6">
           <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
@@ -122,13 +107,15 @@ const Content = () => (
         </div>
         <div className="col-md-6">
           <img src={Do_2} className="mt-2 mb-2 placeholder_img" />
-          <p>
-            Toggle should be used on their own to define their value.
-          </p>
+          <p>Toggle should be used on their own to define their value.</p>
         </div>
         <div className="col-md-6">
           <img src={Dont_2} className="mt-2 mb-2 placeholder_img" />
-          <p>Using negative phrasing in checkboxes can be confusing; in the example, the ambiguous phrasing doesn’t indicate whether the action performed by the user is positive or not.</p>
+          <p>
+            Using negative phrasing in checkboxes can be confusing; in the
+            example, the ambiguous phrasing doesn’t indicate whether the action
+            performed by the user is positive or not.
+          </p>
         </div>
       </div>
     </section>

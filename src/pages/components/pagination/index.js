@@ -41,9 +41,8 @@ const Page = () => (
               <a href="#states">States</a>
             </li>
             <li>
-              <a href="#size">Size</a>
+              <a href="#size">Variations</a>
             </li>
-
             <li>
               <a href="#guidelines">Guidelines</a>
             </li>

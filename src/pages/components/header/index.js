@@ -23,7 +23,7 @@ const Page = () => (
               "anatomy",
               "placements",
               "states",
-              "usage",
+              
               "guidelines",
             ]}
             currentClassName="is-current"
@@ -35,14 +35,10 @@ const Page = () => (
               <a href="#anatomy">Anatomy</a>
             </li>
             <li>
-              <a href="#placements">Placements</a>
-            </li>
-
-            <li>
-              <a href="#states">States</a>
+              <a href="#placements">Interaction</a>
             </li>
             <li>
-              <a href="#usage">Usage</a>
+              <a href="#states">Usage</a>
             </li>
             <li>
               <a href="#guidelines">Guidelines</a>
