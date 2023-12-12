@@ -2,34 +2,34 @@ import * as React from "react"
 import General from "./assets/General.svg"
 import Arrows from "./assets/Arrows.svg"
 import Charts from "./assets/Charts.svg"
-import Layout from "./assets/Layout.svg"
+import Layout from "./assets/layout.svg"
 import Users from "./assets/Users.svg"
-import Primary from "./assets/primary.svg"
-import Wlogo from "./assets/w_logo.svg"
-import Slight from "./assets/secondary_light.svg"
-import Sdark from "./assets/secondary_dark.svg"
-import Sblack from "./assets/secondary_black.svg"
-import Launcher from "./assets/launcher.svg"
 
 const Content = () => (
   <div>
     <section id="Iconography" className="mb-5">
-      <h2>Iconography
-</h2>
+      <h2>Iconography</h2>
       <p>
-      Iconography in Workhall simplifies user interactions by providing intuitive visual cues and representations for various functions and features within the application.{" "}
+        Iconography in Workhall simplifies user interactions by providing
+        intuitive visual cues and representations for various functions and
+        features within the application.{" "}
       </p>
       <p>
-      Icons are graphical representations of actions, entities or concepts. These symbols are designed to be easily recognizable and convey meaning quickly, often without the need for text or detailed explanations.
-{" "}
+        Icons are graphical representations of actions, entities or concepts.
+        These symbols are designed to be easily recognizable and convey meaning
+        quickly, often without the need for text or detailed explanations.{" "}
       </p>
-      
     </section>
 
     <section id="types" className="mb-5">
       <h2>Types</h2>
       <p>
-      At workhall, the icons are categorized under categories like Arrows, Charts, communication, users, security, alerts and feedback, layout, media and devices etc. These grouping of icons makes it easier to access them under different required categories and also provide uniformity and accessibility throught the platform enhancing the visual communication facilitating navigation and communication
+        At workhall, the icons are categorized under categories like Arrows,
+        Charts, communication, users, security, alerts and feedback, layout,
+        media and devices etc. These grouping of icons makes it easier to access
+        them under different required categories and also provide uniformity and
+        accessibility throught the platform enhancing the visual communication
+        facilitating navigation and communication
       </p>
       <h3>General</h3>
       <img className="mt-2 placeholder_img" src={General} />
@@ -42,8 +42,6 @@ const Content = () => (
       <h3 className="mt-3">Users</h3>
       <img className="mt-2 placeholder_img" src={Users} />
     </section>
-
-    
   </div>
 )
 
