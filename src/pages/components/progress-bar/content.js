@@ -1,27 +1,17 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import Button from "react-bootstrap/Button"
-import Image from "react-bootstrap/Image"
 import Anatomy from "./assets/anatomy.svg"
-import State from "./assets/state.svg"
 import Layout from "./assets/layout.svg"
 import Variation1 from "./assets/variation1.svg"
 import Variation2 from "./assets/variation2.svg"
-import Spacing from "./assets/spacing.svg"
-import Dont_1 from "./assets/don't_1.svg"
-import Do_1 from "./assets/do_1.svg"
-import Dont_2 from "./assets/don't_2.svg"
-import Do_2 from "./assets/do_2.svg"
-import Size from "./assets/size.svg"
+import Demo from "./demo"
+import "./progress.scss"
 
 const Content = () => (
   <div>
     <section id="live_demo" className="mb-5">
       <h2>Live Demo</h2>
       <div className="live-demo">
-        <div>
-          <p>coming soon</p>
-        </div>
+        <Demo />
       </div>
     </section>
 
@@ -43,20 +33,19 @@ const Content = () => (
       </div>
     </section>
     <section id="layout" className="mb-5">
-
       <h2>Layout and spacing</h2>
       <div className="row">
         <div className="col-md-6">
-        <ul>
-        <li> Height : 8ps</li>
-        <li> Border radius : 8 </li>
-        </ul>
+          <ul>
+            <li> Height : 8ps</li>
+            <li> Border radius : 8 </li>
+          </ul>
         </div>
-        <div className="col-md-6"> <img className="mt-2 mb-4 placeholder_img" src={Layout} />
+        <div className="col-md-6">
+          {" "}
+          <img className="mt-2 mb-4 placeholder_img" src={Layout} />
         </div>
-        </div>
-   
-     
+      </div>
     </section>
 
     <section id="variations" className="mb-5">
@@ -68,7 +57,6 @@ const Content = () => (
       <img className="mt-2 placeholder_img" src={Variation1} />
       <img className="mt-2 placeholder_img" src={Variation2} />
     </section>
-
 
     <section id="guidelines" className="mb-5">
       <h2>Guidelines</h2>
@@ -97,8 +85,6 @@ const Content = () => (
           </li>
         </ul>
       </div>
-
-    
     </section>
   </div>
 )

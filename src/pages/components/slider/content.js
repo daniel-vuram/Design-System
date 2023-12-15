@@ -1,25 +1,16 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import Button from "react-bootstrap/Button"
-import Image from "react-bootstrap/Image"
 import Anatomy from "./assets/anatomy.svg"
 import State from "./assets/state.svg"
 import Variation from "./assets/variation.svg"
-import Spacing from "./assets/spacing.svg"
-import Dont_1 from "./assets/don't_1.svg"
-import Do_1 from "./assets/do_1.svg"
-import Dont_2 from "./assets/don't_2.svg"
-import Do_2 from "./assets/do_2.svg"
-import Size from "./assets/size.svg"
+import Demo from "./demo"
+import "./slider.scss"
 
 const Content = () => (
   <div>
     <section id="live_demo" className="mb-5">
       <h2>Live Demo</h2>
       <div className="live-demo">
-        <div>
-          <p>coming soon</p>
-        </div>
+        <Demo />
       </div>
     </section>
 
@@ -42,8 +33,10 @@ const Content = () => (
     <section id="variations" className="mb-5">
       <h2>Variations</h2>
       <p className="mt-2">
-      The value of the sliders can be shown in percentage in the bottom, bottom floating and top floating states, with a setting of minimum and maximum value. Sliders can also be used without any value labels in false state
-
+        The value of the sliders can be shown in percentage in the bottom,
+        bottom floating and top floating states, with a setting of minimum and
+        maximum value. Sliders can also be used without any value labels in
+        false state
       </p>
       <img className="mt-2 placeholder_img" src={Variation} />
     </section>
@@ -57,7 +50,6 @@ const Content = () => (
       <img className="mt-2 mb-4 placeholder_img" src={State} />
     </section>
 
-    
     <section id="guidelines" className="mb-5">
       <h2>Guidelines</h2>
       <div className="mt-3">

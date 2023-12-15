@@ -1,0 +1,53 @@
+.live-demo {
+  .user-picker {
+    display: flex;
+    align-items: center;
+    .use-tag {
+      display: flex;
+      align-items: center;
+      border-radius: 24px;
+      background: #f2f4f7;
+      padding: 6px;
+      margin-right: 8px;
+      .avatar-md {
+        width: 16px;
+        height: 16px;
+        display: flex;
+      }
+      span {
+        margin-right: 8px;
+        color: #1a1a1a;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 14px;
+      }
+      svg {
+        margin-right: 4px;
+        cursor: pointer;
+      }
+    }
+
+    .count {
+      .avatar-md {
+        width: 28px;
+        height: 28px;
+        display: flex;
+        border: 1px solid #fff;
+      }
+    }
+    .add-btn {
+      display: flex;
+      width: 32px;
+      height: 32px;
+      padding: 4px;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+      border-radius: 16px;
+      border: 1px solid #d8dee9;
+      border-style: dashed;
+      cursor: pointer;
+    }
+  }
+}
