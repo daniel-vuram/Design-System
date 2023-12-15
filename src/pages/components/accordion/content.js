@@ -1,26 +1,16 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import Button from "react-bootstrap/Button"
-import Image from "react-bootstrap/Image"
 import Anatomy from "./assets/anatomy.svg"
-import State from "./assets/state.svg"
 import Interaction from "./assets/interaction.svg"
 import Interaction2 from "./assets/interaction2.svg"
-import Spacing from "./assets/spacing.svg"
-import Dont_1 from "./assets/don't_1.svg"
-import Do_1 from "./assets/do_1.svg"
-import Dont_2 from "./assets/don't_2.svg"
-import Do_2 from "./assets/do_2.svg"
-import Size from "./assets/size.svg"
+import Demo from "./demo"
+import "./accordion.scss"
 
 const Content = () => (
   <div>
     <section id="live_demo" className="mb-5">
       <h2>Live Demo</h2>
-      <div className="live-demo">
-        <div>
-          <p>coming soon</p>
-        </div>
+      <div className="live-demo d-block bg-light">
+        <Demo />
       </div>
     </section>
 
@@ -58,10 +48,10 @@ const Content = () => (
         </div>
       </div>
     </section>
-    
+
     <section id="interaction" className="mb-5">
       <h2>Interaction</h2>
-      
+
       <img className="mt-2 placeholder_img" src={Interaction} />
       <div className="mt-3">
         <ul className="ps-3">
@@ -70,7 +60,6 @@ const Content = () => (
             additional content. The panel is expanded and collapsed with a slide
             animation.
           </li>
-        
         </ul>
         <img className="mt-2 placeholder_img" src={Interaction2} />
       </div>

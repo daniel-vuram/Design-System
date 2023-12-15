@@ -4,8 +4,8 @@ import { Seo } from "../../../components/seo"
 const Page = () => (
   <section className="page_header">
     <div className="title">
-      <h1>Tooltip</h1>
-      <div className="btn-sec">
+      <h1>User Picker</h1>
+      <div className="btn-sec d-none">
         <a
           href="google.com"
           variant="link"
@@ -49,7 +49,8 @@ const Page = () => (
       </div>
     </div>
     <p>
-      User picker component allows users to select one or more other users from a list
+      User picker component allows users to select one or more other users from
+      a list
     </p>
   </section>
 )

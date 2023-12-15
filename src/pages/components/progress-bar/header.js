@@ -5,7 +5,7 @@ const Page = () => (
   <section className="page_header">
     <div className="title">
       <h1>Progress bar / indicator</h1>
-      <div className="btn-sec">
+      <div className="btn-sec d-none">
         <a
           href="google.com"
           variant="link"
