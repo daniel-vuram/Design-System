@@ -6,6 +6,7 @@ import Merchandise2 from "./assets/merchandise_2.svg"
 const Content = () => (
   <div>
     <section id="introduction" className="mb-5">
+      <img className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction to Branded merchandise</h2>
       <p>
         Branded merchandise within a corporate company embodies more than just
@@ -14,7 +15,6 @@ const Content = () => (
         tangible ambassadors of the brand, enhancing Workhall’s presence in the
         corporate world.{" "}
       </p>
-      <img className="mt-2 placeholder_img" src={Introduction} />
     </section>
 
     <section id="important" className="mb-5">

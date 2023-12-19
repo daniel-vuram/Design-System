@@ -70,19 +70,18 @@ const Page = () => (
 
           <Scrollspy
             className="scrollspy"
-            items={["introduction", "brand_style_guide", "print"]}
+            items={["introduction", "style_guide", "print"]}
             currentClassName="is-current"
           >
             <li>
               <a href="#introduction">Introduction</a>
             </li>
             <li>
-              <a href="#brand_style_guide">
+              <a href="#style_guide">
                 The Significance of Expanding the Brand Style Guide to
                 Stationery
               </a>
             </li>
-
             <li>
               <a href="#print">Color palette for print</a>
             </li>
