@@ -5,15 +5,15 @@ import Print from "./assets/print.svg"
 const Content = () => (
   <div>
     <section id="introduction" className="mb-5">
+      <img className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction</h2>
       <p>
         A checkbox is an input control that allows a user to select one or more
         options from a number of choices.
       </p>
-      <img className="mt-2 placeholder_img" src={Introduction} />
     </section>
 
-    <section id="brand_style_guide" className="mb-5">
+    <section id="style_guide" className="mb-5">
       <h2>The Significance of Expanding the Brand Style Guide to Stationery</h2>
       <p>
         As our digital presence upholds a consistent design language,

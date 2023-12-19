@@ -6,6 +6,7 @@ import Design from "./assets/design.svg"
 const Content = () => (
   <div>
     <section id="introduction" className="mb-5">
+      <img className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction to ID card</h2>
       <p>
         An employee ID card is a company-issued credential containing the
@@ -14,7 +15,6 @@ const Content = () => (
         enhancing security, and verifying an employee's identity and affiliation
         with the organization.
       </p>
-      <img className="mt-2 placeholder_img" src={Introduction} />
     </section>
 
     <section id="style_guide" className="mb-5">

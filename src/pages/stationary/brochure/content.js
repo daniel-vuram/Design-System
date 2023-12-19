@@ -5,7 +5,7 @@ import Significance from "./assets/significance.svg"
 const Content = () => (
   <div>
     <section id="introduction" className="mb-5">
-      <img className="mb-2 placeholder_img" src={Introduction} />
+      <img className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction to brochures</h2>
       <p>
         They are typically folded into two or three panels and contain

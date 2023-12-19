@@ -5,6 +5,7 @@ import BusinesscardDesign from "./assets/businesscard-design.svg"
 const Content = () => (
   <div>
     <section id="introduction" className="mb-5">
+      <img className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction to Business card</h2>
       <p>
         A business card plays an important role in a corporate company for a
@@ -37,7 +38,6 @@ const Content = () => (
         clients after a meeting. Or, a recruiter may use business cards to
         collect contact information from job candidates at a career fair.
       </p>
-      <img className="mb-2 mt-2 placeholder_img" src={Introduction} />
     </section>
 
     <section id="business-card" className="mb-5">

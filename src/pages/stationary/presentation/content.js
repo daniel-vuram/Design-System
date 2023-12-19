@@ -8,7 +8,7 @@ import Layout4 from "./assets/layout_4.svg"
 const Content = () => (
   <div>
     <section id="introduction" className="mb-5">
-      <img className="mb-2 placeholder_img" src={Introduction} />
+      <img className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction</h2>
       <p>
         Design templates for workhall presentation encompass 75 fundamental

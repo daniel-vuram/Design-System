@@ -5,6 +5,7 @@ import Professionalism from "./assets/professionalism.svg"
 const Content = () => (
   <div>
     <section id="introduction" className="mb-5">
+      <img className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction to Letterhead</h2>
       <p>
         Letterheads are not just a piece of stationery; they are a vital aspect
@@ -12,7 +13,6 @@ const Content = () => (
         They play a crucial role in shaping the way the company is perceived and
         in establishing trust with various stakeholders
       </p>
-      <img className="mb-2 mt-2 placeholder_img" src={Introduction} />
 
       <p>
         The significance of a letterhead in a corporate business is
