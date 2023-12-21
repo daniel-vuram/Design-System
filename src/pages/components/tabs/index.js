@@ -10,15 +10,22 @@ const Page = () => (
     <Header />
     <div className="content">
       <div className="row">
-        <div className="col-xxl-8">
+        <div className="col-xl-8">
           <Content />
         </div>
-        <div className="col-xxl-4">
+        <div className="col-xl-4">
           <h5 className="scrollspy_title">CONTENTS</h5>
 
           <Scrollspy
             className="scrollspy"
-            items={["live_demo", "anatomy","layout" ,"states", "types", "guidelines"]}
+            items={[
+              "live_demo",
+              "anatomy",
+              "layout",
+              "states",
+              "types",
+              "guidelines",
+            ]}
             currentClassName="is-current"
           >
             <li>
