@@ -7,7 +7,7 @@ import "./date.scss"
 
 const Content = () => (
   <div>
-    <section id="live_demo" className="mb-5 d-none">
+    <section id="live_demo" className="mb-5">
       <h2>Live Demo</h2>
       <div className="live-demo">
         <Demo />
