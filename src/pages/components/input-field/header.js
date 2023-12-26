@@ -9,7 +9,7 @@ const Page = () => (
         <a
           href="google.com"
           variant="link"
-          className="d-flex align-items-center"
+          className="d-flex align-items-center d-none"
         >
           Source code
           <svg
@@ -28,7 +28,12 @@ const Page = () => (
             />
           </svg>
         </a>
-        <a variant="link" className="d-flex align-items-center">
+        <a
+          variant="link"
+          href="https://www.figma.com/file/5NZLmSS9mbrMSi7MpX2fuH/App-UI-Components?type=design&node-id=25%3A5176&mode=dev"
+          target="_blank"
+          className="d-flex align-items-center"
+        >
           Figma file
           <svg
             className="ms-1"
