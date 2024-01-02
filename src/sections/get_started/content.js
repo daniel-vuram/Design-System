@@ -1,21 +1,24 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import Introduction from "./images/introduction.svg"
 
 const Content = () => (
   <div>
     <section id="section-1" className="mb-5">
+      <img className="mb-4 placeholder_img" src={Introduction} />
+
       <h2>Design system at workhall</h2>
       <p>
         At workhall, we have created this design system to ensure that the
         company's branding, visual elements, and user interface components
         remain consistent across all products, platforms, and interactions.
       </p>
-      <StaticImage
+      {/* <StaticImage
         src="../images/get_started/img_1.png"
         quality={100}
         formats={["AUTO", "WEBP"]}
         alt="sidebar"
-      />
+      /> */}
     </section>
     <section id="section-2" className="mb-5">
       <h2>Why do we need a design system?</h2>

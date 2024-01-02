@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
   return (
     <div className="container-fluid p-0">
       <Sidebar />
-      <div className="wrapper">
+      <div id="wrapper" className="wrapper">
         <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
         <main>{children}</main>
         <footer>Copyright© Workhall 2023. All Rights Reserved.</footer>

@@ -57,6 +57,37 @@ p {
     }
     background-color: $dark_primary !important;
     align-items: center;
+    .navbar-text {
+      display: none;
+    }
+  }
+  .navbar-toggler {
+    padding: 0px;
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: transparent;
+    background-color: transparent;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: 4px;
+    transition: var(--bs-navbar-toggler-transition);
+    border: none;
+    .navbar-toggler-icon {
+      display: inline-block;
+      width: 2.3em;
+      height: 1.5em;
+      vertical-align: middle;
+      background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.66675 5.00001C1.66675 4.53977 2.03984 4.16667 2.50008 4.16667H17.5001C17.9603 4.16667 18.3334 4.53977 18.3334 5.00001C18.3334 5.46024 17.9603 5.83334 17.5001 5.83334H2.50008C2.03984 5.83334 1.66675 5.46024 1.66675 5.00001ZM1.66675 10C1.66675 9.53977 2.03984 9.16667 2.50008 9.16667H17.5001C17.9603 9.16667 18.3334 9.53977 18.3334 10C18.3334 10.4602 17.9603 10.8333 17.5001 10.8333H2.50008C2.03984 10.8333 1.66675 10.4602 1.66675 10ZM1.66675 15C1.66675 14.5398 2.03984 14.1667 2.50008 14.1667H17.5001C17.9603 14.1667 18.3334 14.5398 18.3334 15C18.3334 15.4602 17.9603 15.8333 17.5001 15.8333H2.50008C2.03984 15.8333 1.66675 15.4602 1.66675 15Z' fill='white' fill-opacity='0.8'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+    }
+  }
+
+  .navbar-toggler {
+    display: none;
+    @media only screen and (min-width: 0px) and (max-width: 766px) {
+      display: block;
+    }
   }
 }
 
@@ -90,7 +121,7 @@ p {
       display: flex !important;
       flex-basis: auto;
       flex-wrap: wrap;
-      padding: 0px 0px 0px 24px;
+      padding: 0px 16px 0px 24px;
       margin-top: 32px;
       overflow: scroll;
       overflow-x: hidden;
@@ -107,7 +138,7 @@ p {
       .nav-link {
         padding: 12px;
         font-size: 14px;
-        border-radius: 3px 0px 0px 3px;
+        border-radius: 3px;
         color: $text_white;
         font-weight: 400;
         &.active {
@@ -139,7 +170,7 @@ p {
           background: white;
           color: #1a1a1a;
           font-weight: 500;
-          border-radius: 3px 0px 0px 3px;
+          border-radius: 3px;
         }
       }
     }
@@ -219,6 +250,10 @@ p {
       display: none !important;
     }
   }
+}
+
+.sidebar-mob {
+  display: block;
 }
 
 // footer
@@ -425,7 +460,7 @@ ul {
 /* Firefox */
 * {
   scrollbar-width: auto;
-  scrollbar-color: #666 #ffffff00;
+  scrollbar-color: #00000036 #ffffff00;
 }
 
 /* Chrome, Edge, and Safari */
@@ -438,7 +473,7 @@ ul {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #666;
+  background-color: #00000036;
   border-radius: 10px;
   border: 3px solid #ffffff00;
 }

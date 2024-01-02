@@ -30,7 +30,7 @@ const Sidebar = ({ siteTitle }) => {
   else if (currentAccordion.includes(ACCORDION_ROUTE.STATIONARY))
     defaultAccordionKey = "3"
   return (
-    <div className="sidebar">
+    <div id="sidebar" className="sidebar mob-sidebar">
       <nav className="navbar navbar-expand-md navbar-dark bg-primary">
         <Link to="/" className="navbar-brand" href="#">
           <svg width="140" height="24" viewBox="0 0 140 24" fill="none">
@@ -468,7 +468,7 @@ const Sidebar = ({ siteTitle }) => {
              </Accordion.Item>
            </Accordion> */}
 
-            <li className="nav-item">
+            <li className="nav-item d-none">
               <ExactNavLink to="/social_media">Social media</ExactNavLink>
             </li>
           </ul>

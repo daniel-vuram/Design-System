@@ -9,7 +9,7 @@ const Content = () => (
   <div>
     <section id="live_demo" className="mb-5">
       <h2>Live Demo</h2>
-      <div className="live-demo">
+      <div className="live-demo align-items-start">
         <Demo />
       </div>
     </section>

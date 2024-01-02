@@ -10,21 +10,36 @@ const isActive = ({ isCurrent }) => {
 
 const ExactNavLink = props => <Link getProps={isActive} {...props} />
 
+const onClickNavbar = () => {
+  var element = document.getElementById("sidebar")
+  element.classList.add("sidebar-mob")
+}
+
+const onClickClose = () => {
+  var element = document.getElementById("sidebar")
+  element.classList.remove("sidebar-mob")
+}
+
 const Navbar = ({ siteTitle }) => {
   return (
     <nav className="cus_top_nav navbar navbar-expand-lg sticky-top">
       <div className="container-fluid">
         <button
+          onClick={onClickNavbar}
           className="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          // data-bs-toggle="collapse"
+          // data-bs-target="#navbarSupportedContent"
+          // aria-controls="navbarSupportedContent"
+          // aria-expanded="false"
+          // aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
+        {/* <button onClick={onClickClose} className="navbar-toggler">
+          close
+        </button> */}
 
         <h4>Workhall Design system V1.0</h4>
         <Link to="/" className="top-navbar-brand" href="#">
