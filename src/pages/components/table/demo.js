@@ -7,7 +7,7 @@ import Avatar3 from "./assets/3.png"
 const Content = () => (
   <div className="w-100">
     <h5>Basic Table</h5>
-    <Table hover>
+    <Table hover bordered>
       <thead>
         <tr>
           <th>#</th>

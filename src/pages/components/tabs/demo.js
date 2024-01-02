@@ -16,10 +16,10 @@ function ControlledTabsExample() {
         <p>Tab content for Home</p>
       </Tab>
       <Tab eventKey="profile" title="Profile">
-        Tab content for Profile
+        <p>Tab content for Profile</p>
       </Tab>
       <Tab eventKey="contact" title="Contact" disabled>
-        Tab content for Contact
+        <p>Tab content for Contact</p>
       </Tab>
     </Tabs>
   )
