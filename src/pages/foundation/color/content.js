@@ -1,5 +1,5 @@
 import * as React from "react"
-import Atomic from "./assets/atomic.svg"
+import Colors from "./assets/colors.png"
 import Main from "./assets/main.svg"
 import IndicatorR from "./assets/indicator_red.svg"
 import IndicatorG from "./assets/indicator_green.svg"
@@ -9,12 +9,12 @@ import Gray from "./assets/gray.svg"
 const Content = () => (
   <div>
     <section id="palette" className="mb-5">
+      <img className="mb-5 placeholder_img" src={Colors} />
       <h2>UI palette</h2>
       <p>
         Our color palette is a selection of colors that work together to create
         consistency in products.
       </p>
-      <img className="mt-2 placeholder_img" src={Atomic} />
 
       <p>
         The UI color palette for the Workhall Design System is defined by four
@@ -55,7 +55,7 @@ const Content = () => (
     </section>
 
     <section id="main" className="mb-5">
-      <h2>Main UI colors</h2>
+      <h2>Primary colors</h2>
       <img className="mt-2 mb-4 placeholder_img" src={Main} />
       <p>
         <strong>Action Blue / Primary Blue -</strong> In the Workhall
@@ -140,7 +140,7 @@ const Content = () => (
     </section>
 
     <section id="indicator" className="mb-5">
-      <h2>Indicator colors</h2>
+      <h2>Semantic colors</h2>
       <p>
         Use them to convey status, progress, validation, and interactive
         elements. For example, red for errors, green for success, and yellow for
@@ -149,14 +149,6 @@ const Content = () => (
       <img className=" placeholder_img" src={IndicatorR} />
       <img className="mt-5 placeholder_img" src={IndicatorG} />
       <img className="mt-5 placeholder_img" src={IndicatorO} />
-    </section>
-
-    <section id="supporting" className="mb-5">
-      <h2>Supporting colors</h2>
-      <p>
-        Apply them to secondary actions, data visualization, and additional
-        information to create visual hierarchy.
-      </p>
     </section>
 
     <section id="grayscale" className="mb-5">

@@ -2,6 +2,7 @@ import * as React from "react"
 import Anatomy from "./assets/anatomy.svg"
 import Variation2 from "./assets/variation2.svg"
 import Variation1 from "./assets/variation1.svg"
+import Variation3 from "./assets/variation3.svg"
 import Demo from "./demo"
 import "./date.scss"
 
@@ -34,8 +35,13 @@ const Content = () => (
       <p className="mt-3">
         Single, date range, month, quick select, date and time ,and time
       </p>
+
+      <h4 className="mt-4">Default Date Picker</h4>
       <img className="mt-2 placeholder_img" src={Variation1} />
+      <h4 className="mt-4">Multi Date Picker</h4>
       <img className="mt-2 placeholder_img" src={Variation2} />
+      <h4 className="mt-4">Date and Time Picker</h4>
+      <img className="mt-2 placeholder_img" src={Variation3} />
     </section>
 
     <section id="guidelines" className="mb-5">

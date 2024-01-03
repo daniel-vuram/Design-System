@@ -56,6 +56,10 @@
           svg {
             margin-right: 6px;
           }
+          &:hover {
+            border: 1px solid #217cf5;
+            color: #217cf5;
+          }
         }
       }
       .history-list {

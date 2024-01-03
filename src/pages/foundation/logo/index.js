@@ -75,7 +75,7 @@ const Page = () => (
             currentClassName="is-current"
           >
             <li>
-              <a href="#accessible">What is a Logo</a>
+              <a href="#logo">What is a Logo</a>
             </li>
             <li>
               <a href="#about">About Workhall logo</a>

@@ -4,10 +4,13 @@ import Arrows from "./assets/Arrows.svg"
 import Charts from "./assets/Charts.svg"
 import Layout from "./assets/layout.svg"
 import Users from "./assets/Users.svg"
+import Icon from "./assets/icon.png"
 
 const Content = () => (
   <div>
     <section id="Iconography" className="mb-5">
+      <img className="mb-5 placeholder_img" src={Icon} />
+
       <h2>Iconography</h2>
       <p>
         Iconography in Workhall simplifies user interactions by providing
@@ -33,13 +36,13 @@ const Content = () => (
       </p>
       <h3>General</h3>
       <img className="mt-2 placeholder_img" src={General} />
-      <h3 className="mt-3">Arrows</h3>
+      <h3 className="mt-5">Arrows</h3>
       <img className="mt-2 placeholder_img" src={Arrows} />
-      <h3 className="mt-3">Charts</h3>
+      <h3 className="mt-5">Charts</h3>
       <img className="mt-2 placeholder_img" src={Charts} />
-      <h3 className="mt-3">Layout</h3>
+      <h3 className="mt-5">Layout</h3>
       <img className="mt-2 placeholder_img" src={Layout} />
-      <h3 className="mt-3">Users</h3>
+      <h3 className="mt-5">Users</h3>
       <img className="mt-2 placeholder_img" src={Users} />
     </section>
   </div>
