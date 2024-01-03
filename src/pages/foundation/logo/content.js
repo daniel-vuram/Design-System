@@ -10,23 +10,19 @@ import Launcher from "./assets/launcher.svg"
 const Content = () => (
   <div>
     <section id="logo" className="mb-5">
-      <h2>About Workhall logo</h2>
+      <img className="mb-4 placeholder_img" src={Wlogo} />
+
+      <h2>What is a Logo?</h2>
       <p>
-        The goal of Workhall logo is to represent the vision, mission, its
-        people and our services to the world.{" "}
+        A logo is a unique and distinctive graphical mark or symbol that
+        represents a brand, company, product, or organization. It serves as a
+        visual identifier and is a critical component of the brand's visual
+        identity system. Logos are designed to be instantly recognizable and
+        should evoke specific emotions, associations, and perceptions related to
+        the brand they represent. Only the variations displayed below are
+        permissible representations for our brand. Any alternative variations
+        are considered invalid.
       </p>
-      <p>
-        Workhall’s logo is a wordmark, also known as a Logotype, is a type of
-        logo that primarily consists of the brand's name or a specific word,
-        presented in a custom-designed and visually distinctive manner. In a
-        Wordmark, the text itself becomes the logo, and it does not incorporate
-        any additional symbols, icons, or graphic elements. As one can see, the
-        the word W in workhall has its second half in different color than the
-        rest of the font in logo, it provides a distiction within the logo and
-        represents a tick mark to give the perspective of the completion, growth
-        and task to the audience.{" "}
-      </p>
-      <img className="placeholder_img" src={Wlogo} />
     </section>
 
     <section id="about" className="mb-5">

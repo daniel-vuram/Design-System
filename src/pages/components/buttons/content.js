@@ -20,8 +20,11 @@ const Content = () => (
           <Button variant="primary" className="ms-3">
             Primary
           </Button>{" "}
-          <Button variant="secondary" className="ms-3">
+          <Button variant="outline-primary" className="ms-3">
             Secondary
+          </Button>{" "}
+          <Button variant="secondary" className="ms-3">
+            Tertiary
           </Button>{" "}
           <Button variant="danger" className="ms-3">
             Danger

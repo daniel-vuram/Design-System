@@ -8,13 +8,13 @@ import Atomic from "./assets/atomic.svg"
 const Content = () => (
   <div>
     <section id="accessible" className="mb-5">
+      <img className="mb-2 placeholder_img" src={Atomic} />
       <h2>What is accessible design?</h2>
       <p>
         An accessible design prioritizes usability and inclusivity for
         individuals with disabilities. It ensures that all users, regardless of
         their abilities, can interact with digital products effectively.{" "}
       </p>
-      <img className="mt-2 placeholder_img" src={Atomic} />
     </section>
 
     <section id="organisation" className="mb-5">

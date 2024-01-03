@@ -68,7 +68,7 @@ const Page = () => (
 
           <Scrollspy
             className="scrollspy"
-            items={["palette", "main", "indicator", "supporting", "grayscale"]}
+            items={["palette", "main", "indicator", "grayscale"]}
             currentClassName="is-current"
           >
             <li>
@@ -81,9 +81,7 @@ const Page = () => (
             <li>
               <a href="#indicator">Indicator colors</a>
             </li>
-            <li>
-              <a href="#supporting">Supporting colors</a>
-            </li>
+
             <li>
               <a href="#grayscale">Grayscale colors</a>
             </li>

@@ -9,6 +9,11 @@ a {
   font-weight: 500;
   color: $primary;
 }
+h2,
+.h2 {
+  font-size: 24px;
+  font-weight: 400 !important;
+}
 p {
   font-size: 13px;
 }
@@ -43,7 +48,7 @@ p {
   }
   @media only screen and (min-width: 0px) and (max-width: 766px) {
     .container-fluid {
-      padding: inherit 24px;
+      padding: 0px 32px;
     }
     .top-navbar-brand {
       display: block;
@@ -121,7 +126,7 @@ p {
       display: flex !important;
       flex-basis: auto;
       flex-wrap: wrap;
-      padding: 0px 16px 0px 24px;
+      padding: 0px 12px 0px 24px;
       margin-top: 32px;
       overflow: scroll;
       overflow-x: hidden;
@@ -209,6 +214,7 @@ p {
   .accordion-button {
     border: none;
     padding: 12px;
+    padding-right: 0px;
     font-size: 14px;
     border-radius: 3px 0px 0px 3px;
     color: white;

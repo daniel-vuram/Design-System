@@ -112,29 +112,27 @@ const Navbar = ({ siteTitle }) => {
           </svg>
         </Link>
         <div>
-          <span className="navbar-text">
-            Powered by:{" "}
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M0.306547 0H0V24H24V0H0.306547Z"
-                fill="#FF194B"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M21 8.06268C21 10.8586 18.7336 13.125 15.9373 13.125C13.1414 13.125 10.875 10.8586 10.875 8.06268C10.875 5.26643 13.1414 3 15.9373 3C18.7336 3 21 5.26643 21 8.06268"
-                fill="white"
-              />
-            </svg>
-          </span>
+          <span className="navbar-text me-2">Powered by:</span>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0.306547 0H0V24H24V0H0.306547Z"
+              fill="#FF194B"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M21 8.06268C21 10.8586 18.7336 13.125 15.9373 13.125C13.1414 13.125 10.875 10.8586 10.875 8.06268C10.875 5.26643 13.1414 3 15.9373 3C18.7336 3 21 5.26643 21 8.06268"
+              fill="white"
+            />
+          </svg>
         </div>
       </div>
     </nav>

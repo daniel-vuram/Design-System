@@ -9,14 +9,14 @@ const Page = () => (
   <Layout>
     <section className="page_header">
       <div className="title">
-        <h1>Presentaion</h1>
-        <div className="btn-sec d-none">
+        <h1>Presentation</h1>
+        <div className="btn-sec ">
           <a
             href="google.com"
             variant="link"
             className="d-flex align-items-center"
           >
-            Source code
+            Source File
             <svg
               className="ms-1"
               width="16"
@@ -33,7 +33,7 @@ const Page = () => (
               />
             </svg>
           </a>
-          <a variant="link" className="d-flex align-items-center">
+          <a variant="link" className="d-flex align-items-center d-none">
             Figma file
             <svg
               className="ms-1"
@@ -54,7 +54,7 @@ const Page = () => (
         </div>
       </div>
       <p>
-        Presentations serve as a vital communication tool, facilitating
+        Presentation serve as a vital communication tool, facilitating
         information sharing, decision-making, and in the promotion of products
         and services to various stakeholders, while maintaining a professional
         and consistent brand image
