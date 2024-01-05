@@ -8,8 +8,10 @@ const Content = () => (
       <img className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction</h2>
       <p>
-        A checkbox is an input control that allows a user to select one or more
-        options from a number of choices.
+        Workhall’s stationery guidelines in a design system are a set of rules
+        for applying a brand's visual identity consistently in printed and
+        digital materials. They create a harmonious and professional image,
+        ensuring recognition, trust, and efficiency in communication.
       </p>
     </section>
 
