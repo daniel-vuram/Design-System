@@ -59,8 +59,8 @@ const Page = () => (
         </div>
       </div>
       <p>
-        A button is used for user interaction and action initiation across the
-        interface. In simple terms buttons allow a user to take an action
+        A button triggers an event or action. They let users know what will
+        happen next.
       </p>
     </section>
     <div className="content">

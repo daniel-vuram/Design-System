@@ -5,7 +5,7 @@ const Page = () => (
   <section className="page_header">
     <div className="title">
       <h1>Header</h1>
-      <div className="btn-sec d-none">
+      <div className="btn-sec">
         <a
           href="google.com"
           variant="link"
@@ -30,7 +30,7 @@ const Page = () => (
         </a>
         <a
           variant="link"
-          href="https://www.figma.com/file/5NZLmSS9mbrMSi7MpX2fuH/App-UI-Components?type=design&node-id=1905%3A169&mode=dev"
+          href="https://www.figma.com/file/5NZLmSS9mbrMSi7MpX2fuH/App-UI-Components?type=design&node-id=1913%3A1937&mode=dev"
           target="_blank"
           className="d-flex align-items-center"
         >
@@ -54,7 +54,7 @@ const Page = () => (
       </div>
     </div>
     <p>
-      The header is the foundation for navigating and orienting your user to the
+      The header is the foundation for navigating and orienting the user to the
       UI. The header can be used by itself or combined with the left and right
       panels for more complex UI navigation.
     </p>

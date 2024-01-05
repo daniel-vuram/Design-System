@@ -1,5 +1,5 @@
 import * as React from "react"
-import Introduction from "./assets/introduction.svg"
+import Introduction from "./assets/introduction.png"
 import BusinesscardDesign from "./assets/businesscard-design.svg"
 
 const Content = () => (

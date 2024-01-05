@@ -10,11 +10,11 @@ const Page = () => (
     <section className="page_header">
       <div className="title">
         <h1>Iconography</h1>
-        <div className="btn-sec d-none">
+        <div className="btn-sec">
           <a
             href="google.com"
             variant="link"
-            className="d-flex align-items-center"
+            className="d-flex align-items-center d-none"
           >
             Source code
             <svg
@@ -33,7 +33,12 @@ const Page = () => (
               />
             </svg>
           </a>
-          <a variant="link" className="d-flex align-items-center">
+          <a
+            variant="link"
+            target="_blank"
+            href="https://www.figma.com/file/5NZLmSS9mbrMSi7MpX2fuH/App-UI-Components?type=design&node-id=815%3A355&mode=design&t=jOlTx2qVFfThWzyb-1"
+            className="d-flex align-items-center"
+          >
             Figma file
             <svg
               className="ms-1"
@@ -53,7 +58,10 @@ const Page = () => (
           </a>
         </div>
       </div>
-      <p></p>
+      <p>
+        Icons are visual representations of commands, devices, directories, or
+        common actions.
+      </p>
     </section>
     <div className="content">
       <div className="row">

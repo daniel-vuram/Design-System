@@ -59,8 +59,8 @@ const Page = () => (
         </div>
       </div>
       <p>
-        Breadcrumbs show users their location during navigation and allow them
-        to easily move up a level or levels in a hierarchy of pages.
+        Breadcrumbs are a navigation system used to show a user's location in a
+        site or app.
       </p>
     </section>
     <div className="content">

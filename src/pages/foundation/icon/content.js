@@ -34,7 +34,7 @@ const Content = () => (
         accessibility throught the platform enhancing the visual communication
         facilitating navigation and communication
       </p>
-      <h3>General</h3>
+      <h3 className="mt-5">General</h3>
       <img className="mt-2 placeholder_img" src={General} />
       <h3 className="mt-5">Arrows</h3>
       <img className="mt-2 placeholder_img" src={Arrows} />

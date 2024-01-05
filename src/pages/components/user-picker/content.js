@@ -73,7 +73,7 @@ const Content = () => (
           <img className="mt-2 mb-4 placeholder_img" src={Layout} />
         </div>
       </div>
-      <h3>State</h3>
+      <h3 className="mt-5">State</h3>
       <p>
         User picker can have default, active, filled, and destructive states
       </p>

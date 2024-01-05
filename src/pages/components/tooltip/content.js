@@ -28,14 +28,14 @@ const Content = () => (
       </p>
       <div className="row align-items-center">
         <div className="col-md-6">
+          <img className="mt-2 placeholder_img" src={Anatomy} />
+        </div>
+        <div className="col-md-6">
           <ol className="ps-4">
             <li>Label</li>
             <li>Container</li>
             <li>Tip</li>
           </ol>
-        </div>
-        <div className="col-md-6">
-          <img className="mt-2 placeholder_img" src={Anatomy} />
         </div>
       </div>
     </section>
@@ -44,15 +44,15 @@ const Content = () => (
       <h2>Layout</h2>
       <div className="row align-items-center">
         <div className="col-md-6">
+          <img className="mt-2 mb-4 placeholder_img" src={Layout} />
+        </div>
+        <div className="col-md-6">
           <ul className="ps-3">
             <li>Padding top: 8</li>
             <li>Padding bottom: 8</li>
             <li>Padding left: 12</li>
             <li>Padding right: 12</li>
           </ul>
-        </div>
-        <div className="col-md-6">
-          <img className="mt-2 mb-4 placeholder_img" src={Layout} />
         </div>
       </div>
     </section>

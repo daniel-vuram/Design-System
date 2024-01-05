@@ -53,7 +53,10 @@ const Page = () => (
           </a>
         </div>
       </div>
-      <p></p>
+      <p>
+        Our brand and product logos are clear, impactful, and recognizable. All
+        use our blue and white color palette with a few variations.
+      </p>
     </section>
     <div className="content">
       <div className="row">

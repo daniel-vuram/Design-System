@@ -59,7 +59,7 @@
   --bs-btn-bg: #fff0;
   --bs-btn-border-color: #d8dee9;
   --bs-btn-hover-color: #344054;
-  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-bg: #f9fafb;
   --bs-btn-hover-border-color: #d8dee9;
   --bs-btn-focus-shadow-rgb: none;
   --bs-btn-active-color: #344054;
@@ -138,4 +138,14 @@
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #217cf5;
   --bs-gradient: none;
+}
+
+.layout-spacing {
+  ul {
+    margin-bottom: 0px;
+  }
+  ul li {
+    color: #1a1a1a;
+    margin-bottom: 4px;
+  }
 }

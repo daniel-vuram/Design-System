@@ -12,7 +12,8 @@ const Page = () => (
         <h1>Presentation</h1>
         <div className="btn-sec ">
           <a
-            href="google.com"
+            href="https://docs.google.com/presentation/d/1wNk1uYjQ_JtssnBoIcUw3DmPn6NNkXfxmcZDemrhAbw/edit?usp=sharing"
+            target="_blank"
             variant="link"
             className="d-flex align-items-center"
           >
@@ -56,8 +57,7 @@ const Page = () => (
       <p>
         Presentation serve as a vital communication tool, facilitating
         information sharing, decision-making, and in the promotion of products
-        and services to various stakeholders, while maintaining a professional
-        and consistent brand image
+        and services to various stakeholders.
       </p>
     </section>
     <div className="content">
@@ -84,9 +84,7 @@ const Page = () => (
               <a href="#introduction">Introduction</a>
             </li>
             <li>
-              <a href="#layouts_specialised">
-                Layouts and Specialised Slides for Engaging Content Delivery
-              </a>
+              <a href="#layouts_specialised">Layouts and Specialised Slides</a>
             </li>
             <li>
               <a href="#timeline_1">Timeline slides</a>
@@ -98,9 +96,7 @@ const Page = () => (
               <a href="#timeline_3">Timeline slides</a>
             </li>
             <li>
-              <a href="#guidelines">
-                Guidelines for while editing presentation templates
-              </a>
+              <a href="#guidelines">Guidelines</a>
             </li>
           </Scrollspy>
         </div>

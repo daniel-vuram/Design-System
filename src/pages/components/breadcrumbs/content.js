@@ -21,9 +21,9 @@ const Content = () => (
         clean and reduce clutter. Accordions can be used to display only one or
         multiple panels at a time, depending on the use case.
       </p>
-      <div className="row">
-      <div className="col-md-6">
-        <img className="mt-2 placeholder_img" src={Anatomy} />
+      <div className="row align-items-center">
+        <div className="col-md-6">
+          <img className="mt-2 placeholder_img" src={Anatomy} />
         </div>
         <div className="col-md-6">
           <ol className="ps-4">
@@ -39,16 +39,15 @@ const Content = () => (
       <h2>Interaction</h2>
       <ol className="ps-3">
         <li>
-        Breadcrumb has five states available for breadcrumb items — enabled,
-        hover, active, focus, and read-only.
+          Breadcrumb has five states available for breadcrumb items — enabled,
+          hover, active, focus, and read-only.
         </li>
         <li className="inter mt-2">
-        If a breadcrumb bar will exceed the content width one option is to wrap
-        the full breadcrumb trail to allow overflow to the next line.
+          If a breadcrumb bar will exceed the content width one option is to
+          wrap the full breadcrumb trail to allow overflow to the next line.
         </li>
-       </ol>
+      </ol>
     </section>
-
 
     <section id="guidelines" className="mb-5">
       <h2>Guidelines</h2>
@@ -79,8 +78,6 @@ const Content = () => (
           </li>
         </ul>
       </div>
-
-      
     </section>
   </div>
 )

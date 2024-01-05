@@ -34,16 +34,15 @@ const Content = () => (
     </section>
     <section id="layout" className="mb-5">
       <h2>Layout and spacing</h2>
-      <div className="row">
+      <div className="row align-items-center">
         <div className="col-md-6">
-          <ul>
-            <li> Height : 8ps</li>
-            <li> Border radius : 8 </li>
-          </ul>
+          <img className="mt-2 mb-4 placeholder_img" src={Layout} />
         </div>
         <div className="col-md-6">
-          {" "}
-          <img className="mt-2 mb-4 placeholder_img" src={Layout} />
+          <ul>
+            <li> Height : 8px</li>
+            <li> Border radius : 8px </li>
+          </ul>
         </div>
       </div>
     </section>

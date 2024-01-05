@@ -5,7 +5,7 @@ const Page = () => (
   <section className="page_header">
     <div className="title">
       <h1>Switch</h1>
-      <div className="btn-sec d-none">
+      <div className="btn-sec">
         <a
           href="google.com"
           variant="link"
@@ -55,9 +55,7 @@ const Page = () => (
     </div>
     <p>
       Toggle is a control that is used to quickly switch between two possible
-      states. Toggles are only used for these binary actions that occur
-      immediately after the user “flips the switch”. They are commonly used for
-      “on/off” switches.
+      states.
     </p>
   </section>
 )

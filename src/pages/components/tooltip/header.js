@@ -54,8 +54,8 @@ const Page = () => (
       </div>
     </div>
     <p>
-      Tooltips present informative text that is helpful but not crucial when
-      hovering, tapping, clicking, or focusing on an element.
+      A tooltip is a floating, non-actionable label used to explain a user
+      interface element or feature.
     </p>
   </section>
 )

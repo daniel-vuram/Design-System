@@ -4,8 +4,8 @@ import { Seo } from "../../../components/seo"
 const Page = () => (
   <section className="page_header">
     <div className="title">
-      <h1>Progress bar / indicator</h1>
-      <div className="btn-sec d-none">
+      <h1>Progress bar</h1>
+      <div className="btn-sec">
         <a
           href="google.com"
           variant="link"
@@ -53,10 +53,7 @@ const Page = () => (
         </a>
       </div>
     </div>
-    <p>
-      Progress indicators provide feedback to the user regarding the percentage
-      of completion of a task, workflow or system.
-    </p>
+    <p>A progress bar communicates the status of a system process.</p>
   </section>
 )
 

@@ -56,8 +56,6 @@ const Page = () => (
     <p>
       File uploaders allow users to upload content of their own. A file uploader
       is commonly found in forms, but can also live as a standalone element.
-      There are two variants of file uploaders—our default file uploader and a
-      drag and drop file uploader.
     </p>
   </section>
 )

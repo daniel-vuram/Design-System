@@ -54,11 +54,7 @@ const Page = () => (
       </div>
     </div>
     <p>
-      Date pickers allow users to select past, present, or future dates. The
-      kind of date you are requesting from the user will determine which date
-      picker (simple or calendar) is best to use. A time picker helps users
-      select a specific time. You can customize the time picker’s format
-      depending on location or need.
+      A date time picker allows the user to select an associated date and time.
     </p>
   </section>
 )

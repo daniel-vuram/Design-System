@@ -50,23 +50,23 @@ const Content = () => (
         contact number, currency, external links, card details, scanner and
         datalist.
       </p>
-      <h3>Label</h3>
+      <h3 className="mt-5">Label</h3>
       <img className="mt-2 mb-4 placeholder_img" src={label} />
-      <h3>Phone</h3>
+      <h3 className="mt-5">Phone</h3>
       <img className="mt-2 mb-4 placeholder_img" src={phone} />
-      <h3>Sale</h3>
+      <h3 className="mt-5">Sale</h3>
       <img className="mt-2 mb-4 placeholder_img" src={Sale} />
-      <h3>Website</h3>
+      <h3 className="mt-5">Website</h3>
       <img className="mt-2 mb-4 placeholder_img" src={Website} />
-      <h3>Card</h3>
+      <h3 className="mt-5">Card</h3>
       <img className="mt-2 mb-4 placeholder_img" src={Card} />
-      <h3>Date</h3>
+      <h3 className="mt-5">Date</h3>
       <img className="mt-2 mb-4 placeholder_img" src={Date} />
-      <h3>Scan</h3>
+      <h3 className="mt-5">Scan</h3>
       <img className="mt-2 mb-4 placeholder_img" src={Scan} />
-      <h3>Datalist</h3>
+      <h3 className="mt-5">Datalist</h3>
       <img className="mt-2 mb-4 placeholder_img" src={Datalist} />
-      <h3>Description</h3>
+      <h3 className="mt-5">Description</h3>
       <img className="mt-2 mb-4 placeholder_img" src={Description} />
     </section>
 
