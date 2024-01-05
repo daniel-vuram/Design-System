@@ -130,7 +130,8 @@ p {
       flex-wrap: wrap;
       padding: 0px 12px 0px 24px;
       margin-top: 32px;
-      overflow: scroll;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
       overflow-x: hidden;
       max-height: 86vh;
       min-height: fit-content;
@@ -253,6 +254,8 @@ p {
     position: fixed;
     z-index: 10000;
     display: none;
+    overflow: scroll;
+    overflow-x: hidden;
     top: 64px;
     .navbar-brand {
       display: none !important;
@@ -361,6 +364,9 @@ ul {
       }
     }
   }
+  @media only screen and (min-width: 0px) and (max-width: 1199px) {
+    display: none;
+  }
 }
 .scrollspy_title {
   position: sticky;
@@ -372,6 +378,9 @@ ul {
   padding: 0;
   margin-bottom: 16px;
   margin-left: 2rem;
+  @media only screen and (min-width: 0px) and (max-width: 1199px) {
+    display: none;
+  }
 }
 
 // live-demo
