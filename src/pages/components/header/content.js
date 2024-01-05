@@ -76,7 +76,6 @@ const Content = () => (
       <h4 className="mt-3">Secondary header</h4>
       <img className="mt-2 placeholder_img" src={Secondary_header} />
     </section>
-
     <section id="states" className="mb-5">
       <h2>Usage</h2>
       <p className="mt-2">
@@ -85,7 +84,6 @@ const Content = () => (
         viewing the page.
       </p>
     </section>
-
     <section id="guidelines" className="mb-5">
       <h2>Guidelines</h2>
 

@@ -55,10 +55,7 @@ const Page = () => (
       </div>
       <p>
         An employee ID card is a company-issued credential containing the
-        employee's identifying information. It serves various purposes,
-        including providing access to the workplace, tracking attendance,
-        enhancing security, and verifying an employee's identity and affiliation
-        with the organization.
+        employee's identifying information.
       </p>
     </section>
     <div className="content">

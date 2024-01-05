@@ -68,14 +68,7 @@ const Page = () => (
 
           <Scrollspy
             className="scrollspy"
-            items={[
-              "accessible",
-              "organisation",
-              "achieve",
-              "atomic",
-              "utilizing",
-              "advantages",
-            ]}
+            items={["accessible", "organisation"]}
             currentClassName="is-current"
           >
             <li>
@@ -83,19 +76,6 @@ const Page = () => (
             </li>
             <li>
               <a href="#organisation">How it helps the organisation</a>
-            </li>
-
-            <li>
-              <a href="#achieve">What we thrive to achieve</a>
-            </li>
-            <li>
-              <a href="#atomic">What is an atomic design system?</a>
-            </li>
-            <li>
-              <a href="#utilizing">Utilizing an atomic design system</a>
-            </li>
-            <li>
-              <a href="#advantages">Advantages for Designers and Developers:</a>
             </li>
           </Scrollspy>
         </div>

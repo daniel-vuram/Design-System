@@ -58,10 +58,7 @@ const Page = () => (
           </a>
         </div>
       </div>
-      <p>
-        Avatars use images, icons or text to visually represent people or
-        companies
-      </p>
+      <p>An avatar is a visual representation of a user or entity.</p>
     </section>
     <div className="content">
       <div className="row">

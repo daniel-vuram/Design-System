@@ -44,18 +44,18 @@ const Content = () => (
           corner of the screen.
         </li>
         <img className="mt-1 mb-4 placeholder_img" src={Variation} />
-        <li>
+        <li className="mt-5">
           Once the search value is entered, the recent search results disappear
           and relevant search results based on the value entered will be
           displayed there.
         </li>
         <img className="mt-1 mb-4 placeholder_img" src={Variation2} />
-        <li>
+        <li className="mt-5">
           The user can select single or multiple filters to narrow down their
           search results.
         </li>
         <img className="mt-1 mb-4 placeholder_img" src={Variation3} />
-        <li>
+        <li className="">
           The clear field button will clear all search values that were entered
           and the results that were shown along with it. Clicking anywhere
           outside the search bar will collapse the search bar.

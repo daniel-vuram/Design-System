@@ -32,7 +32,7 @@ const Page = () => (
           variant="link"
           target="_blank"
           href="https://www.figma.com/file/5NZLmSS9mbrMSi7MpX2fuH/App-UI-Components?type=design&node-id=22%3A5772&mode=dev"
-          className="d-flex align-items-center d-none"
+          className="d-flex align-items-center"
         >
           Figma file
           <svg

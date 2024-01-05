@@ -53,10 +53,7 @@ const Page = () => (
         </a>
       </div>
     </div>
-    <p>
-      select allows a user to select options from a menu that is displayed after
-      clicking or tapping into an input
-    </p>
+    <p>A dropdown menu displays a list of actions or options to a user.</p>
   </section>
 )
 

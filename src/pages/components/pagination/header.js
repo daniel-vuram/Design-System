@@ -54,8 +54,8 @@ const Page = () => (
       </div>
     </div>
     <p>
-      Pagination helps users navigate between large groups of content separated
-      by pages.
+      Pagination allows you to divide large amounts of content into smaller
+      chunks across multiple pages.
     </p>
   </section>
 )

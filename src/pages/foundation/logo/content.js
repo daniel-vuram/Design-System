@@ -222,6 +222,8 @@ const Content = () => (
         written consent from Workhall may potentially constitute trademark
         infringement, copyright infringement, and unfair competition, which
         would be in violation of federal and state laws and may be prohibited.
+      </p>
+      <p>
         Modifying the logos or imagery in any way is strictly prohibited. Unless
         explicitly stated on this website or in a separate written agreement
         between you and Workhall, nothing found on this website should be

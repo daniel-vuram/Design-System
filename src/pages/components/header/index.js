@@ -23,7 +23,6 @@ const Page = () => (
               "anatomy",
               "placements",
               "states",
-
               "guidelines",
             ]}
             currentClassName="is-current"

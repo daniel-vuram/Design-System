@@ -56,8 +56,7 @@ const Page = () => (
       <p>
         brochures are informative, printed documents that are used to convey
         essential information about the company, its products or services, and
-        its offerings to a target audience. Brochures are typically folded into
-        a compact format and are a versatile marketing tool.
+        its offerings to a target audience.
       </p>
     </section>
     <div className="content">

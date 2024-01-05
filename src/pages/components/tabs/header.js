@@ -54,8 +54,8 @@ const Page = () => (
       </div>
     </div>
     <p>
-      Tabs organize related content and allow navigation between the groups of
-      content within a container on the same page.
+      Tabs are used to organize content by grouping similar information on the
+      same page.
     </p>
   </section>
 )

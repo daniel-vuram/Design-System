@@ -54,8 +54,8 @@ const Page = () => (
         </div>
       </div>
       <p>
-        Accessible digital design ensures that users of all different abilities
-        can use and navigate an interface.{" "}
+        Color distinguishes our brand and reinforces consistent experiences
+        across products.
       </p>
     </section>
     <div className="content">
@@ -79,7 +79,7 @@ const Page = () => (
             </li>
 
             <li>
-              <a href="#indicator">Indicator colors</a>
+              <a href="#indicator">Semantic colors</a>
             </li>
 
             <li>

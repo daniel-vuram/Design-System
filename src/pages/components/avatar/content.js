@@ -25,7 +25,7 @@ const Content = () => (
         displayed within lists or cards.
       </p>
 
-      <div className="row">
+      <div className="row align-items-center">
         <div className="col-md-6">
           <img className="mt-2 placeholder_img" src={Anatomy} />
         </div>

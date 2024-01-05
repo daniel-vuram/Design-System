@@ -36,12 +36,12 @@ const Content = () => (
         Single, date range, month, quick select, date and time ,and time
       </p>
 
-      <h4 className="mt-4">Default Date Picker</h4>
+      <h3 className="mt-5">Default Date Picker</h3>
       <img className="mt-2 placeholder_img" src={Variation1} />
-      <h4 className="mt-4">Multi Date Picker</h4>
+      <h3 className="mt-5">Multi Date Picker</h3>
       <img className="mt-2 placeholder_img" src={Variation2} />
-      <h4 className="mt-4">Date and Time Picker</h4>
-      <img className="mt-2 placeholder_img" src={Variation3} />
+      <h3 className="mt-5">Date and Time Picker</h3>
+      <img className="mb-5 placeholder_img" src={Variation3} />
     </section>
 
     <section id="guidelines" className="mb-5">

@@ -79,9 +79,12 @@ const Content = () => (
         </div>
       </div>
     </section>
-    <section id="layout&spacing" className="mb-5">
+    <section id="layout&spacing" className="layout-spacing mb-5">
       <h2>Layout and spacing</h2>
       <div className="row align-items-center">
+        <div className="col-md-6">
+          <img className="mt-2 placeholder_img" src={Spacing} />
+        </div>
         <div className="col-md-6">
           <ul className="ps-3">
             <li>Item spacing: 8</li>
@@ -90,9 +93,6 @@ const Content = () => (
             <li>Padding left: 16</li>
             <li>Padding right: 16</li>
           </ul>
-        </div>
-        <div className="col-md-6">
-          <img className="mt-2 placeholder_img" src={Spacing} />
         </div>
       </div>
     </section>

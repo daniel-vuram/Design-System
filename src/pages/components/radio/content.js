@@ -39,14 +39,14 @@ const Content = () => (
         The radio component layout and spacing ensure consistent and balanced
         arrangement within the design system.
       </p>
-      <div className="row">
+      <div className="row align-items-center">
+        <div className="col-md-6">
+          <img className="mt-2 mb-4 placeholder_img" src={Layout} />
+        </div>
         <div className="col-md-6">
           <ul>
             <li>Padding : 12px</li>
           </ul>
-        </div>
-        <div className="col-md-6">
-          <img className="mt-2 mb-4 placeholder_img" src={Layout} />
         </div>
       </div>
     </section>

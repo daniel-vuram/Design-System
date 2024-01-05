@@ -56,8 +56,6 @@ const Page = () => (
       <p>
         stationery guidelines in a design system are a set of rules for applying
         a brand's visual identity consistently in printed and digital materials.
-        They create a harmonious and professional image, ensuring recognition,
-        trust, and efficiency in communication
       </p>
     </section>
     <div className="content">
@@ -77,10 +75,7 @@ const Page = () => (
               <a href="#introduction">Introduction</a>
             </li>
             <li>
-              <a href="#style_guide">
-                The Significance of Expanding the Brand Style Guide to
-                Stationery
-              </a>
+              <a href="#style_guide">The Significance</a>
             </li>
             <li>
               <a href="#print">Color palette for print</a>
