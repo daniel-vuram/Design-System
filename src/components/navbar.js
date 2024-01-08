@@ -121,7 +121,7 @@ const Navbar = ({ siteTitle }) => {
             placement="bottom"
             overlay={
               <Tooltip className="tooltip" id="1">
-                HEART (House of Experience & ART)
+                <nobr>HEART (House of Experience & ART)</nobr>
               </Tooltip>
             }
           >
