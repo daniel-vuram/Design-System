@@ -1,4 +1,3 @@
-@import "react-tooltip/dist/react-tooltip.css";
 @import "./layout.scss";
 
 body {
@@ -493,4 +492,16 @@ ul {
   background-color: #00000036;
   border-radius: 10px;
   border: 3px solid #ffffff00;
+}
+
+.tooltip {
+  min-width: fit-content !important;
+  word-break: keep-all !important;
+}
+
+.tooltip-inner {
+  max-width: fit-content !important;
+  height: auto;
+  min-width: fit-content !important;
+  word-break: keep-all !important;
 }
