@@ -505,3 +505,13 @@ ul {
   min-width: fit-content !important;
   word-break: keep-all !important;
 }
+
+.page-404 {
+  min-height: 76vh;
+
+  button {
+    a {
+      color: #fff;
+    }
+  }
+}
