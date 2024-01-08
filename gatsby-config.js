@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Workhall Design system V1.0`,
-    description: `A simple bootstrap 5 and Sass starter for Gatsby. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@r-ichard`,
+    description: `Start designing and developing beautiful product experiences with Workhall Design System UI foundations, components, and standards.`,
+    author: `karthi madesh`,
   },
   plugins: [
     `gatsby-plugin-image`,
