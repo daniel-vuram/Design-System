@@ -6,11 +6,18 @@ import Slight from "./assets/secondary_light.svg"
 import Sdark from "./assets/secondary_dark.svg"
 import Sblack from "./assets/secondary_black.svg"
 import Launcher from "./assets/launcher.svg"
+import Banner from "./assets/banner.png"
+import WH_Logo_PNG from "./assets/download/WH_Logo_PNG.png"
+import WH_Logo_SVG from "./assets/download/WH_Logo_SVG.svg"
+import WH_Logo_Primary from "./assets/download/WH_Logo_Primary.svg"
+import WH_Logo_Primary1 from "./assets/download/WH_Logo_Primary.png"
+// import App_launcher_png from "./assets/download/app_launcher_png.zip"
+// import App_launcher_svg1 from "./assets/download/app_launcher_svg.zip"
 
 const Content = () => (
   <div>
     <section id="logo" className="mb-5">
-      <img className="mb-4 placeholder_img" src={Wlogo} />
+      <img className="mb-4 placeholder_img" src={Banner} />
 
       <h2>What is a Logo?</h2>
       <p>
@@ -54,14 +61,18 @@ const Content = () => (
         <img className="placeholder_img" src={Primary} />
         <div className="download-options">
           <a
-            href="./assets/download/WH_Logo.png"
+            style={{ color: "#fff" }}
+            href={WH_Logo_Primary1}
+            download="WH_Logo_Primary_PNG"
             className="d-flex align-items-center"
           >
             Download PNG
           </a>
           &nbsp; |&nbsp;&nbsp;
           <a
-            href="./assets/download/WH_Logo.svg"
+            style={{ color: "#fff" }}
+            href={WH_Logo_Primary}
+            download="WH_Logo_Primary_SVG"
             className="d-flex align-items-center"
           >
             Download SVG
@@ -82,7 +93,8 @@ const Content = () => (
         <div className="download-options">
           <a
             style={{ color: "#fff" }}
-            href="./assets/download/WH_Logo.png"
+            href={WH_Logo_PNG}
+            download="WH_Logo_PNG"
             className="d-flex align-items-center"
           >
             Download PNG
@@ -90,7 +102,8 @@ const Content = () => (
           &nbsp; |&nbsp;&nbsp;
           <a
             style={{ color: "#fff" }}
-            href="./assets/download/WH_Logo.svg"
+            download="WH_Logo_SVG"
+            href={WH_Logo_SVG}
             className="d-flex align-items-center"
           >
             Download SVG
@@ -103,7 +116,8 @@ const Content = () => (
         <div className="download-options">
           <a
             style={{ color: "#fff" }}
-            href="./assets/download/WH_Logo.png"
+            href={WH_Logo_PNG}
+            download="WH_Logo_PNG"
             className="d-flex align-items-center"
           >
             Download PNG
@@ -111,7 +125,8 @@ const Content = () => (
           &nbsp; |&nbsp;&nbsp;
           <a
             style={{ color: "#fff" }}
-            href="./assets/download/WH_Logo.svg"
+            download="WH_Logo_SVG"
+            href={WH_Logo_SVG}
             className="d-flex align-items-center"
           >
             Download SVG
@@ -123,7 +138,8 @@ const Content = () => (
         <div className="download-options">
           <a
             style={{ color: "#fff" }}
-            href="./assets/download/WH_Logo.png"
+            href={WH_Logo_PNG}
+            download="WH_Logo_PNG"
             className="d-flex align-items-center"
           >
             Download PNG
@@ -131,7 +147,8 @@ const Content = () => (
           &nbsp; |&nbsp;&nbsp;
           <a
             style={{ color: "#fff" }}
-            href="./assets/download/WH_Logo.svg"
+            download="WH_Logo_SVG"
+            href={WH_Logo_SVG}
             className="d-flex align-items-center"
           >
             Download SVG
