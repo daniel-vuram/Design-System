@@ -1,5 +1,4 @@
 import * as React from "react"
-import Layout from "../../../components/layout"
 import { Seo } from "../../../components/seo"
 const Page = () => (
   <section className="page_header">
@@ -32,6 +31,7 @@ const Page = () => (
           variant="link"
           href="https://www.figma.com/file/5NZLmSS9mbrMSi7MpX2fuH/App-UI-Components?type=design&node-id=151%3A23925&mode=design&t=yecHAyK8UC0dwyBe-1"
           target="_blank"
+          rel="noreferrer"
           className="d-flex align-items-center"
         >
           Figma file

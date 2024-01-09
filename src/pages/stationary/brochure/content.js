@@ -5,7 +5,7 @@ import Significance from "./assets/significance.svg"
 const Content = () => (
   <div>
     <section id="introduction" className="mb-5">
-      <img className="mb-4 placeholder_img" src={Introduction} />
+      <img alt="Img" className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction to brochures</h2>
       <p>
         They are typically folded into two or three panels and contain
@@ -79,7 +79,7 @@ const Content = () => (
         </li>
       </ol>
 
-      <img className="mt-2 placeholder_img" src={Significance} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Significance} />
     </section>
 
     <section id="guidelines" className="mb-5">

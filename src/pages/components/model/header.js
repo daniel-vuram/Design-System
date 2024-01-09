@@ -1,5 +1,4 @@
 import * as React from "react"
-import Layout from "../../../components/layout"
 import { Seo } from "../../../components/seo"
 const Page = () => (
   <section className="page_header">
@@ -33,6 +32,7 @@ const Page = () => (
           href="https://www.figma.com/file/5NZLmSS9mbrMSi7MpX2fuH/App-UI-Components?type=design&node-id=173%3A56178&mode=dev"
           target="_blank"
           className="d-flex align-items-center"
+          rel="noreferrer"
         >
           Figma file
           <svg

@@ -21,7 +21,7 @@ const Content = () => (
 
     <section id="anatomy" className="mb-5">
       <h2>Anatomy</h2>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
@@ -36,7 +36,7 @@ const Content = () => (
 
     <section id="layout" className="mb-5">
       <h2>Layout</h2>
-      <img className="mt-2 mb-4 placeholder_img" src={Layout} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Layout} />
       <ul className="ps-3">
         <li>Padding top: 4</li>
         <li>Padding bottom: 4</li>
@@ -51,7 +51,7 @@ const Content = () => (
         disabled. When a tab item is active the container displays the content
         for that tab. Only one tab item within a tab group can be active.
       </p>
-      <img className="mt-2 mb-4 placeholder_img" src={State} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={State} />
       <ol className="ps-4">
         <li>Active Tab Item</li>
         <li>Hover</li>
@@ -63,7 +63,7 @@ const Content = () => (
     <section id="types" className="mb-5">
       <h2>Type</h2>
       <p className="mt-2">Tabs can be displayed in four variations.</p>
-      <img className="mt-2 placeholder_img" src={Type} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Type} />
 
       <ol className="ps-4 mt-4">
         <li>Active</li>
@@ -91,22 +91,22 @@ const Content = () => (
 
       <div className="row">
         <div className="col-md-6">
-          <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_1} className="mt-2 mb-2 placeholder_img" />
           <p>Tabs make the most sense when there are at least two sections.</p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_1} className="mt-2 mb-2 placeholder_img" />
           <p>
             Do not use only tabs for only one section. Use Navigation bars with
             Large or Small Title variants.
           </p>
         </div>
         <div className="col-md-6">
-          <img src={Do_2} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_2} className="mt-2 mb-2 placeholder_img" />
           <p>Only one section of the tab can be active at a time.</p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_2} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_2} className="mt-2 mb-2 placeholder_img" />
           <p>Two sections can not be active at once.</p>
         </div>
       </div>

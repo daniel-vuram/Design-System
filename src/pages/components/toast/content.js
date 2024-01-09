@@ -16,7 +16,7 @@ const Content = () => (
 
     <section id="anatomy" className="mb-5">
       <h2>Anatomy</h2>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
@@ -33,7 +33,7 @@ const Content = () => (
         Toasts offer the following messaging states — information, success,
         warning, or Danger
       </p>
-      <img className="mt-2  placeholder_img" src={Type} />
+      <img alt="Img" className="mt-2  placeholder_img" src={Type} />
     </section>
 
     <section id="variation" className="mb-5">
@@ -42,7 +42,7 @@ const Content = () => (
         Toast width and height are varied based on the data that has to be
         displayed
       </p>
-      <img className="mt-2 placeholder_img" src={State} />
+      <img alt="Img" className="mt-2 placeholder_img" src={State} />
     </section>
 
     <section id="guidelines" className="mb-5">

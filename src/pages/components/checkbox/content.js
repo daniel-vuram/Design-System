@@ -1,6 +1,5 @@
 import * as React from "react"
 import Anatomy from "./assets/anatomy.svg"
-import State from "./assets/state.svg"
 import Dont_1 from "./assets/don't_1.svg"
 import Dont_2 from "./assets/don't_2.svg"
 import Dont_3 from "./assets/don't_3.svg"
@@ -24,7 +23,7 @@ const Content = () => (
     <section id="anatomy" className="mb-5">
       <h2>Anatomy</h2>
 
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
@@ -45,7 +44,7 @@ const Content = () => (
       </p>
       <div className="row align-items-center">
         <div className="col-md-6">
-          <img className="mt-2 placeholder_img" src={Layout} />
+          <img alt="Img" className="mt-2 placeholder_img" src={Layout} />
         </div>
         <div className="col-md-6">
           <ul>
@@ -58,7 +57,7 @@ const Content = () => (
         <p className="mt-2">
           The checkbox can be integrated in two sizes, small and medium.
         </p>
-        <img className="mt-2 placeholder_img" src={Size} />
+        <img alt="Img" className="mt-2 placeholder_img" src={Size} />
       </section>
     </section>
     <section id="variation" className="mb-5">
@@ -82,7 +81,7 @@ const Content = () => (
             Button Status.
           </li>
         </ul>
-        <img className="mt-2 placeholder_img" src={Variation} />
+        <img alt="Img" className="mt-2 placeholder_img" src={Variation} />
       </div>
     </section>
 
@@ -112,21 +111,21 @@ const Content = () => (
 
       <div className="row">
         <div className="col-md-12">
-          <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_1} className="mt-2 mb-2 placeholder_img" />
 
           <p>Label and checkbox should be top aligned</p>
         </div>
         <div className="col-md-12">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_1} className="mt-2 mb-2 placeholder_img" />
           <p>Do not center align or bottom align label and checkbox</p>
         </div>
         <div className="col-md-6">
-          <img src={Do_2} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_2} className="mt-2 mb-2 placeholder_img" />
 
           <p>Checkboxes should phrased in a clearer, positive way</p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_2} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_2} className="mt-2 mb-2 placeholder_img" />
           <p>
             Using negative phrasing in checkboxes can be confusing; in the
             example, the ambiguous phrasing doesn’t indicate whether the action
@@ -134,12 +133,12 @@ const Content = () => (
           </p>
         </div>
         <div className="col-md-6">
-          <img src={Do_3} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_3} className="mt-2 mb-2 placeholder_img" />
 
           <p>Labels should be brief</p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_3} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_3} className="mt-2 mb-2 placeholder_img" />
           <p>Do not use lengthy labels.</p>
         </div>
       </div>

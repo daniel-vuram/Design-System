@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import Avatar1 from "./assets/1.png"
 import Dropdown from "react-bootstrap/Dropdown"
 import Userlist from "./assets/user_list.svg"
@@ -85,7 +85,7 @@ function BasicExample() {
 
           <Dropdown.Menu>
             <Dropdown.Item href="#/action-1">
-              <img src={Userlist} />
+              <img alt="Img" src={Userlist} />
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>

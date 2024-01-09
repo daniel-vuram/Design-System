@@ -3,7 +3,6 @@ import Layout from "../../../components/layout"
 import { Seo } from "../../../components/seo"
 import Scrollspy from "react-scrollspy"
 import Content from "./content"
-import Button from "react-bootstrap/Button"
 
 const Page = () => (
   <Layout>

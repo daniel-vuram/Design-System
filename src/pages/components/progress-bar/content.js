@@ -21,7 +21,7 @@ const Content = () => (
         Pagination gives users the ability to move forward or backward, or go
         directly to a specific page.
       </p>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
@@ -36,7 +36,7 @@ const Content = () => (
       <h2>Layout and spacing</h2>
       <div className="row align-items-center">
         <div className="col-md-6">
-          <img className="mt-2 mb-4 placeholder_img" src={Layout} />
+          <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Layout} />
         </div>
         <div className="col-md-6">
           <ul>
@@ -53,8 +53,8 @@ const Content = () => (
         Progress has two available shapes — bar or a circle, with bar being the
         default shape.
       </p>
-      <img className="mt-2 placeholder_img" src={Variation1} />
-      <img className="mt-2 placeholder_img" src={Variation2} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Variation1} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Variation2} />
     </section>
 
     <section id="guidelines" className="mb-5">

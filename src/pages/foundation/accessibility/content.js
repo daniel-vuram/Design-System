@@ -1,14 +1,11 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import Button from "react-bootstrap/Button"
-import Image from "react-bootstrap/Image"
 
 import Atomic from "./assets/atomic.svg"
 
 const Content = () => (
   <div>
     <section id="accessible" className="mb-5">
-      <img className="mb-2 placeholder_img" src={Atomic} />
+      <img alt="Img" className="mb-2 placeholder_img" src={Atomic} />
       <h2>What is accessible design?</h2>
       <p>
         An accessible design prioritizes usability and inclusivity for

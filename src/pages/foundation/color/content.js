@@ -9,7 +9,7 @@ import Gray from "./assets/gray.svg"
 const Content = () => (
   <div>
     <section id="palette" className="mb-5">
-      <img className="mb-5 placeholder_img" src={Colors} />
+      <img alt="Img" className="mb-5 placeholder_img" src={Colors} />
       <h2>UI palette</h2>
       <p>
         Our color palette is a selection of colors that work together to create
@@ -56,7 +56,7 @@ const Content = () => (
 
     <section id="main" className="mb-5">
       <h2>Primary colors</h2>
-      <img className="mt-2 mb-4 placeholder_img" src={Main} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Main} />
       <p>
         <strong>Action Blue / Primary Blue -</strong> In the Workhall
         application, the use of Primary Blue or Action Blue should be
@@ -146,9 +146,9 @@ const Content = () => (
         elements. For example, red for errors, green for success, and yellow for
         warnings.
       </p>
-      <img className=" placeholder_img" src={IndicatorR} />
-      <img className="mt-5 placeholder_img" src={IndicatorG} />
-      <img className="mt-5 placeholder_img" src={IndicatorO} />
+      <img alt="Img" className=" placeholder_img" src={IndicatorR} />
+      <img alt="Img" className="mt-5 placeholder_img" src={IndicatorG} />
+      <img alt="Img" className="mt-5 placeholder_img" src={IndicatorO} />
     </section>
 
     <section id="grayscale" className="mb-5">
@@ -157,7 +157,7 @@ const Content = () => (
         Use grayscale tones for background, text, and non-essential elements to
         maintain readability and a clean interface
       </p>
-      <img className="mt-2 placeholder_img" src={Gray} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Gray} />
     </section>
   </div>
 )

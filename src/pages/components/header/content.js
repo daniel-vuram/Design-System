@@ -32,7 +32,7 @@ const Content = () => (
         Elements in the middle of the header should represent system-level
         controls
       </p>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-6">
           <h3>Admin mode</h3>
@@ -71,10 +71,10 @@ const Content = () => (
         displayed with the tabs below.
       </p>
       <h4 className="mt-3">Primary header</h4>
-      <img className="mt-2 placeholder_img" src={Primary_header} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Primary_header} />
 
       <h4 className="mt-3">Secondary header</h4>
-      <img className="mt-2 placeholder_img" src={Secondary_header} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Secondary_header} />
     </section>
     <section id="states" className="mb-5">
       <h2>Usage</h2>

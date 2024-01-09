@@ -1,5 +1,4 @@
 import * as React from "react"
-import Layout from "../../../components/layout"
 import { Seo } from "../../../components/seo"
 const Page = () => (
   <section className="page_header">
@@ -30,6 +29,7 @@ const Page = () => (
         </a>
         <a
           target="_blank"
+          rel="noreferrer"
           variant="link"
           href="https://www.figma.com/file/5NZLmSS9mbrMSi7MpX2fuH/App-UI-Components?type=design&node-id=19%3A14783&mode=dev"
           className="d-flex align-items-center"

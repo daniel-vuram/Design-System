@@ -6,7 +6,7 @@ import Design from "./assets/design.svg"
 const Content = () => (
   <div>
     <section id="introduction" className="mb-5">
-      <img className="mb-4 placeholder_img" src={Introduction} />
+      <img alt="Img" className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction to ID card</h2>
       <p>
         An employee ID card is a company-issued credential containing the
@@ -31,7 +31,7 @@ const Content = () => (
         their ID cards and the blue tint helps us to convey a sense of formality
         and simplicity alligning with workhall’s brand colors.
       </p>
-      <img className="mt-2 placeholder_img" src={StyleGuide} />
+      <img alt="Img" className="mt-2 placeholder_img" src={StyleGuide} />
     </section>
 
     <section id="step_by_step" className="mb-5">
@@ -55,7 +55,7 @@ const Content = () => (
         Source file link :<a href="">samplefile.ai</a>
       </p>
 
-      <img className="mt-2 placeholder_img" src={Design} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Design} />
     </section>
 
     <section id="guidelines" className="mb-5">

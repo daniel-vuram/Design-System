@@ -37,7 +37,7 @@ const Content = () => (
     <section id="layout" className="mb-5">
       <h2>Layout</h2>
 
-      <img className="mt-2 mb-4 placeholder_img" src={State} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={State} />
     </section>
 
     <section id="states" className="mb-5">
@@ -54,7 +54,7 @@ const Content = () => (
         There are two variations in pagination which are, With label and without
         label
       </p>
-      <img className="mt-2 placeholder_img" src={Variations1} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Variations1} />
     </section>
     <section id="guidelines" className="mb-5">
       <h2>Guidelines</h2>

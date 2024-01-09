@@ -5,7 +5,7 @@ import BusinesscardDesign from "./assets/businesscard-design.svg"
 const Content = () => (
   <div>
     <section id="introduction" className="mb-5">
-      <img className="mb-4 placeholder_img" src={Introduction} />
+      <img alt="Img" className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction to Business card</h2>
       <p>
         A business card plays an important role in a corporate company for a
@@ -48,7 +48,11 @@ const Content = () => (
         cards are intended for distribution to our valued customers, clients,
         and internal communication partners
       </p>
-      <img className="mt-2 mb-2 placeholder_img" src={BusinesscardDesign} />
+      <img
+        alt="Img"
+        className="mt-2 mb-2 placeholder_img"
+        src={BusinesscardDesign}
+      />
       <p>
         We have selected these specific CMYK colors for printing because they
         closely align with Workhall's primary and supplementary colors. These

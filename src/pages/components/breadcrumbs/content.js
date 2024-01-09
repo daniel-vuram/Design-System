@@ -1,8 +1,5 @@
 import * as React from "react"
 import Anatomy from "./assets/anatomy.svg"
-import State from "./assets/state.svg"
-import Dont_1 from "./assets/don't_1.svg"
-import Do_1 from "./assets/do_1.svg"
 import Demo from "./demo"
 
 const Content = () => (
@@ -23,7 +20,7 @@ const Content = () => (
       </p>
       <div className="row align-items-center">
         <div className="col-md-6">
-          <img className="mt-2 placeholder_img" src={Anatomy} />
+          <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
         </div>
         <div className="col-md-6">
           <ol className="ps-4">

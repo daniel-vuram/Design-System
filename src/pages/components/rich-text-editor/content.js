@@ -19,7 +19,7 @@ const Content = () => (
         functionalities included in the rich text editor in different areas will
         have different functionalities based on the requirements.
       </p>
-      <img className="mt-2 placeholder_img" src={State} />
+      <img alt="Img" className="mt-2 placeholder_img" src={State} />
     </section>
   </div>
 )

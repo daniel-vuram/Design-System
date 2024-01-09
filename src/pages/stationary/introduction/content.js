@@ -5,7 +5,7 @@ import Print from "./assets/print.svg"
 const Content = () => (
   <div>
     <section id="introduction" className="mb-5">
-      <img className="mb-4 placeholder_img" src={Introduction} />
+      <img alt="Img" className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction</h2>
       <p>
         Workhall’s stationery guidelines in a design system are a set of rules
@@ -46,7 +46,7 @@ const Content = () => (
         convert these hex colors into the nearest CMYK color codes to achieve
         the desired and accurate color output.
       </p>
-      <img className="mt-2 placeholder_img" src={Print} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Print} />
     </section>
   </div>
 )

@@ -19,7 +19,7 @@ const Content = () => (
 
       <div className="row align-items-center">
         <div className="col-md-12">
-          <img className="mt-2 mb-2 placeholder_img" src={Anatomy} />
+          <img alt="Img" className="mt-2 mb-2 placeholder_img" src={Anatomy} />
         </div>
         <div className="col-md-6">
           <ol className="ps-4">
@@ -70,14 +70,14 @@ const Content = () => (
           </ul>
         </div>
         <div className="col-md-12">
-          <img className="mt-2 mb-4 placeholder_img" src={Layout} />
+          <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Layout} />
         </div>
       </div>
       <h3 className="mt-5">State</h3>
       <p>
         User picker can have default, active, filled, and destructive states
       </p>
-      <img className="mt-2 mb-4 placeholder_img" src={Variation} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Variation} />
     </section>
   </div>
 )

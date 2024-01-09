@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import OverlayTrigger from "react-bootstrap/OverlayTrigger"
 import Tooltip from "react-bootstrap/Tooltip"
-import Button from "react-bootstrap/Button"
 
 const isActive = ({ isCurrent }) => {
   return isCurrent
@@ -11,17 +10,17 @@ const isActive = ({ isCurrent }) => {
     : { className: "nav-link" }
 }
 
-const ExactNavLink = props => <Link getProps={isActive} {...props} />
+// const ExactNavLink = props => <Link getProps={isActive} {...props} />
 
 const onClickNavbar = () => {
   var element = document.getElementById("sidebar")
   element.classList.add("sidebar-mob")
 }
 
-const onClickClose = () => {
-  var element = document.getElementById("sidebar")
-  element.classList.remove("sidebar-mob")
-}
+// const onClickClose = () => {
+//   var element = document.getElementById("sidebar")
+//   element.classList.remove("sidebar-mob")
+// }
 
 const Navbar = ({ siteTitle }) => {
   return (

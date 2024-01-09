@@ -10,12 +10,17 @@ const Content = () => (
         value=""
         id="defaultRadio1"
       />
-      <label class="form-check-label" for="defaultRadio1">
+      <label
+        htmlFor="defaultRadio1"
+        class="form-check-label"
+        for="defaultRadio1"
+      >
         Unchecked
       </label>
     </div>
     <div class="form-check mb-3">
       <input
+        htmlFor="defaultRadio2"
         name="default-radio-1"
         class="form-check-input"
         type="radio"
@@ -29,6 +34,7 @@ const Content = () => (
     </div>
     <div class="form-check mb-3">
       <input
+        htmlFor="disabledRadio1"
         class="form-check-input"
         type="radio"
         value=""
@@ -45,6 +51,7 @@ const Content = () => (
         type="radio"
         value=""
         id="disabledRadio2"
+        htmlFor="disabledRadio2"
         disabled
         checked
       />
