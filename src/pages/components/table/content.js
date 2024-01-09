@@ -16,7 +16,7 @@ const Content = () => (
 
     <section id="anatomy" className="mb-5">
       <h2>Anatomy</h2>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
@@ -38,8 +38,8 @@ const Content = () => (
       </p>
       <p>The heading rows can have either a subtle or bold emphasis.</p>
 
-      <img className="mt-2 mb-4 placeholder_img" src={variation} />
-      <img className="mt-2 mb-4 placeholder_img" src={variation1} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={variation} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={variation1} />
     </section>
 
     <section id="states" className="mb-5">

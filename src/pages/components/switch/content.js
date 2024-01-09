@@ -26,7 +26,7 @@ const Content = () => (
         Switches can perform an action immediately and without confirmation.
         Switches may be grouped for multiple
       </p>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
@@ -40,7 +40,7 @@ const Content = () => (
 
     <section id="layout" className="mb-5">
       <h2>Layout</h2>
-      <img className="mt-2 mb-4 placeholder_img" src={Layout} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Layout} />
       <div className="col-md-6">
         <ul className="ps-3">
           <li>Inbetween Padding: 12px</li>
@@ -62,13 +62,13 @@ const Content = () => (
         label or action text. Small toggles are more compact in size and are
         used inline with other components
       </p>
-      <img className="mt-2 mb-4 placeholder_img" src={Variation} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Variation} />
     </section>
 
     <section id="states" className="mb-5">
       <h2>States</h2>
       <p className="mt-3">The possible states of switches</p>
-      <img className="mt-2 mb-4 placeholder_img" src={State} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={State} />
     </section>
 
     <section id="guidelines" className="mb-5">
@@ -98,19 +98,19 @@ const Content = () => (
 
       <div className="row">
         <div className="col-md-6">
-          <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_1} className="mt-2 mb-2 placeholder_img" />
           <p>Label and toggle should be top aligned.</p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_1} className="mt-2 mb-2 placeholder_img" />
           <p>Do not center align or bottom align label and toggle..</p>
         </div>
         <div className="col-md-6">
-          <img src={Do_2} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_2} className="mt-2 mb-2 placeholder_img" />
           <p>Toggle should be used on their own to define their value.</p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_2} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_2} className="mt-2 mb-2 placeholder_img" />
           <p>
             Using negative phrasing in checkboxes can be confusing; in the
             example, the ambiguous phrasing doesn’t indicate whether the action

@@ -1,7 +1,5 @@
 import * as React from "react"
-
 import Primary from "./assets/primary.svg"
-import Wlogo from "./assets/w_logo.svg"
 import Slight from "./assets/secondary_light.svg"
 import Sdark from "./assets/secondary_dark.svg"
 import Sblack from "./assets/secondary_black.svg"
@@ -17,7 +15,7 @@ import WH_Logo_Primary1 from "./assets/download/WH_Logo_Primary.png"
 const Content = () => (
   <div>
     <section id="logo" className="mb-5">
-      <img className="mb-4 placeholder_img" src={Banner} />
+      <img alt="Img" className="mb-4 placeholder_img" src={Banner} />
 
       <h2>What is a Logo?</h2>
       <p>
@@ -58,7 +56,7 @@ const Content = () => (
         logo. This is primarily used in digital medium with ideal light theme.
       </p>
       <div className="assets-download">
-        <img className="placeholder_img" src={Primary} />
+        <img alt="Img" className="placeholder_img" src={Primary} />
         <div className="download-options">
           <a
             style={{ color: "#fff" }}
@@ -89,7 +87,7 @@ const Content = () => (
         print and other versions.
       </p>
       <div style={{ color: "#fff" }} className="assets-download mt-3">
-        <img className="placeholder_img" src={Slight} />
+        <img alt="Img" className="placeholder_img" src={Slight} />
         <div className="download-options">
           <a
             style={{ color: "#fff" }}
@@ -112,7 +110,7 @@ const Content = () => (
       </div>
 
       <div style={{ color: "#fff" }} className="assets-download mt-3">
-        <img className="placeholder_img" src={Sdark} />
+        <img alt="Img" className="placeholder_img" src={Sdark} />
         <div className="download-options">
           <a
             style={{ color: "#fff" }}
@@ -134,7 +132,7 @@ const Content = () => (
         </div>
       </div>
       <div style={{ color: "#fff" }} className="assets-download mt-3">
-        <img className="placeholder_img" src={Sblack} />
+        <img alt="Img" className="placeholder_img" src={Sblack} />
         <div className="download-options">
           <a
             style={{ color: "#fff" }}
@@ -209,7 +207,7 @@ const Content = () => (
         have multiple apps installed.
       </p>
       <div className="assets-download mt-3">
-        <img className="placeholder_img" src={Launcher} />
+        <img alt="Img" className="placeholder_img" src={Launcher} />
         <div className="download-options">
           <a
             href="./assets/download/WH_Logo.png"

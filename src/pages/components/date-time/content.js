@@ -17,7 +17,7 @@ const Content = () => (
 
     <section id="anatomy" className="mb-5">
       <h2>Anatomy</h2>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
@@ -37,11 +37,11 @@ const Content = () => (
       </p>
 
       <h3 className="mt-5">Default Date Picker</h3>
-      <img className="mt-2 placeholder_img" src={Variation1} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Variation1} />
       <h3 className="mt-5">Multi Date Picker</h3>
-      <img className="mt-2 placeholder_img" src={Variation2} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Variation2} />
       <h3 className="mt-5">Date and Time Picker</h3>
-      <img className="mb-5 placeholder_img" src={Variation3} />
+      <img alt="Img" className="mb-5 placeholder_img" src={Variation3} />
     </section>
 
     <section id="guidelines" className="mb-5">

@@ -29,7 +29,7 @@ function ButtonDarkExample() {
 
         <Dropdown.Menu>
           <Dropdown.Item href="#/action-1">
-            <img src={Datepicker} />
+            <img alt="Img" src={Datepicker} />
           </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>

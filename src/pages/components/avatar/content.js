@@ -1,7 +1,4 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import Button from "react-bootstrap/Button"
-import Image from "react-bootstrap/Image"
 import Anatomy from "./assets/anatomy.svg"
 import Examples from "./assets/examples.svg"
 import Variations from "./assets/variations.svg"
@@ -27,7 +24,7 @@ const Content = () => (
 
       <div className="row align-items-center">
         <div className="col-md-6">
-          <img className="mt-2 placeholder_img" src={Anatomy} />
+          <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
         </div>
         <div className="col-md-6">
           <p>Container with the following optional variations:</p>
@@ -41,7 +38,7 @@ const Content = () => (
     </section>
     <section id="layout_spacing" className="mb-5">
       <h2>Layout and spacing</h2>
-      <img className="mt-2 placeholder_img" src={Spacing} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Spacing} />
     </section>
     <section id="variations" className="mb-5">
       <h2>Variations</h2>
@@ -51,7 +48,7 @@ const Content = () => (
         advised. In cases where images are absent, icons from the icon library
         can serve as alternatives. The default avatar employs the person icon.
       </p>
-      <img className="mt-2 placeholder_img" src={Variations} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Variations} />
 
       <ol className="mt-3">
         <li>Individual Avatar</li>
@@ -64,11 +61,11 @@ const Content = () => (
         Avatars can be displayed in x-large, large, medium, small and x-small
         sizes.
       </p>
-      <img className="mt-2 placeholder_img" src={Size} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Size} />
     </section>
     <section id="examples" className="mb-5">
       <h2>Examples</h2>
-      <img className="mt-2 placeholder_img" src={Examples} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Examples} />
     </section>
 
     <section id="guidelines" className="mb-5">

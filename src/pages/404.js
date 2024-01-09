@@ -16,7 +16,7 @@ const NotFoundPage = () => (
                 <img
                   className="img-fluid mb-5 w-75 w-lg-75 d-dark-none"
                   src={FournotFour}
-                  alt=""
+                  alt="Img"
                 />
                 <h2 className="text-body-secondary fw-bolder mb-3">
                   Page Missing!
@@ -32,7 +32,7 @@ const NotFoundPage = () => (
                 </button>
               </div>
               <div className="col-lg-6">
-                <img className="img-fluid" src={Illustration} alt="" />
+                <img alt="Img" className="img-fluid" src={Illustration} />
               </div>
             </div>
           </div>

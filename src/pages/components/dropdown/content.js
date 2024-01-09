@@ -21,7 +21,7 @@ const Content = () => (
         After clicking into the input to open the menu, the user can filter the
         available options by directly typing in the input.
       </p>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
@@ -42,11 +42,11 @@ const Content = () => (
         checkboxes. Once selected, the items are shown as dismissible tags in
         the input field above
       </p>
-      <img className="mt-2 placeholder_img" src={Variations} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Variations} />
     </section>
     <section id="states" className="mb-5">
       <h2>Layout</h2>
-      <img className="mt-2 placeholder_img" src={Layout} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Layout} />
     </section>
 
     <section id="guidelines" className="mb-5">

@@ -3,7 +3,6 @@ import Anatomy from "./assets/anatomy.svg"
 import variation from "./assets/variation.svg"
 import layout from "./assets/layout.svg"
 import size from "./assets/size.svg"
-import State from "./assets/state.svg"
 import Dont_1 from "./assets/don't_1.svg"
 import Do_1 from "./assets/do_1.svg"
 import Dont_2 from "./assets/don't_2.svg"
@@ -26,7 +25,7 @@ const Content = () => (
         indicate status. These badges are included for indication and for user,
         with a leading icon, tailing icon, avatar and a base badge
       </p>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
@@ -40,7 +39,7 @@ const Content = () => (
     </section>
     <section id="layout_spacing" className="mb-5">
       <h2>Layout & Spacing</h2>
-      <img className="mt-2 placeholder_img" src={layout} />
+      <img alt="Img" className="mt-2 placeholder_img" src={layout} />
     </section>
     <section id="variations" className="mb-5">
       <h2>Variations</h2>
@@ -50,9 +49,8 @@ const Content = () => (
         with avatar,with icon only, with only base label, with avatar and
         tailing icon.
       </p>
-      <img className="mt-2 placeholder_img" src={variation} />
-      <div className="mt-3">
-      </div>
+      <img alt="Img" className="mt-2 placeholder_img" src={variation} />
+      <div className="mt-3"></div>
     </section>
 
     <section id="size" className="mb-5">
@@ -62,7 +60,7 @@ const Content = () => (
         used inside the table, small size is used and in the rest of the cases
         the default size used is medium.
       </p>
-      <img className="mt-2 placeholder_img" src={size} />
+      <img alt="Img" className="mt-2 placeholder_img" src={size} />
     </section>
 
     <section id="guidelines" className="mb-5">
@@ -77,25 +75,21 @@ const Content = () => (
 
       <div className="row">
         <div className="col-md-6">
-          <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_1} className="mt-2 mb-2 placeholder_img" />
 
-          <p>
-          Use buttons for actions.
-          </p>
+          <p>Use buttons for actions.</p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_1} className="mt-2 mb-2 placeholder_img" />
           <p>Chips are not alternative for buttons.</p>
         </div>
         <div className="col-md-6">
-          <img src={Do_2} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_2} className="mt-2 mb-2 placeholder_img" />
 
-          <p>
-          Chips should be used in a group.
-          </p>
+          <p>Chips should be used in a group.</p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_2} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_2} className="mt-2 mb-2 placeholder_img" />
           <p>Avoid using stand alone chip.</p>
         </div>
       </div>

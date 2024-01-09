@@ -29,7 +29,7 @@ const Content = () => (
 
     <section id="anatomy" className="mb-5">
       <h2>Anatomy</h2>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
@@ -51,23 +51,23 @@ const Content = () => (
         datalist.
       </p>
       <h3 className="mt-5">Label</h3>
-      <img className="mt-2 mb-4 placeholder_img" src={label} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={label} />
       <h3 className="mt-5">Phone</h3>
-      <img className="mt-2 mb-4 placeholder_img" src={phone} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={phone} />
       <h3 className="mt-5">Sale</h3>
-      <img className="mt-2 mb-4 placeholder_img" src={Sale} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Sale} />
       <h3 className="mt-5">Website</h3>
-      <img className="mt-2 mb-4 placeholder_img" src={Website} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Website} />
       <h3 className="mt-5">Card</h3>
-      <img className="mt-2 mb-4 placeholder_img" src={Card} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Card} />
       <h3 className="mt-5">Date</h3>
-      <img className="mt-2 mb-4 placeholder_img" src={Date} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Date} />
       <h3 className="mt-5">Scan</h3>
-      <img className="mt-2 mb-4 placeholder_img" src={Scan} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Scan} />
       <h3 className="mt-5">Datalist</h3>
-      <img className="mt-2 mb-4 placeholder_img" src={Datalist} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Datalist} />
       <h3 className="mt-5">Description</h3>
-      <img className="mt-2 mb-4 placeholder_img" src={Description} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Description} />
     </section>
 
     <section id="states" className="mb-5">
@@ -76,7 +76,7 @@ const Content = () => (
         Input Icon inherits the status properties of Input — Default, Hover,
         Active, Disabled, Error.
       </p>
-      <img className="mt-2 placeholder_img" src={state} />
+      <img alt="Img" className="mt-2 placeholder_img" src={state} />
     </section>
 
     <section id="size" className="mb-5">
@@ -84,20 +84,20 @@ const Content = () => (
       <p className="mt-2">
         Inputs can be displayed in large, medium and small sizes.
       </p>
-      <img className="mt-2 placeholder_img" src={size} />
+      <img alt="Img" className="mt-2 placeholder_img" src={size} />
       <p className="mt-2">
         They can also be displayed in squared, curved or rounded edges.
       </p>
 
-      <img className="mt-2 placeholder_img" src={shape} />
+      <img alt="Img" className="mt-2 placeholder_img" src={shape} />
     </section>
 
     <section id="layout" className="mb-5">
       <h2>layout</h2>
-      <img className="mt-2 placeholder_img" src={layout1} />
-      <img className="mt-2 placeholder_img" src={layout2} />
-      <img className="mt-2 placeholder_img" src={layout3} />
-      <img className="mt-2 placeholder_img" src={layout4} />
+      <img alt="Img" className="mt-2 placeholder_img" src={layout1} />
+      <img alt="Img" className="mt-2 placeholder_img" src={layout2} />
+      <img alt="Img" className="mt-2 placeholder_img" src={layout3} />
+      <img alt="Img" className="mt-2 placeholder_img" src={layout4} />
     </section>
 
     <section id="guidelines" className="mb-5">

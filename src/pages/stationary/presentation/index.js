@@ -3,7 +3,6 @@ import Layout from "../../../components/layout"
 import { Seo } from "../../../components/seo"
 import Scrollspy from "react-scrollspy"
 import Content from "./content"
-import Button from "react-bootstrap/Button"
 
 const Page = () => (
   <Layout>
@@ -14,6 +13,7 @@ const Page = () => (
           <a
             href="https://docs.google.com/presentation/d/1wNk1uYjQ_JtssnBoIcUw3DmPn6NNkXfxmcZDemrhAbw/edit?usp=sharing"
             target="_blank"
+            rel="noreferrer"
             variant="link"
             className="d-flex align-items-center"
           >

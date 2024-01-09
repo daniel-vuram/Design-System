@@ -28,7 +28,7 @@ const Content = () => (
       </p>
       <div className="row align-items-center">
         <div className="col-md-6">
-          <img className="mt-2 placeholder_img" src={Anatomy} />
+          <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
         </div>
         <div className="col-md-6">
           <ol className="ps-4">
@@ -44,7 +44,7 @@ const Content = () => (
       <h2>Layout</h2>
       <div className="row align-items-center">
         <div className="col-md-6">
-          <img className="mt-2 mb-4 placeholder_img" src={Layout} />
+          <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Layout} />
         </div>
         <div className="col-md-6">
           <ul className="ps-3">
@@ -67,8 +67,8 @@ const Content = () => (
         bottom, end, end top, end bottom. The default placement value is at the
         top.
       </p>
-      <img className="mt-2 placeholder_img" src={State} />
-      <img className="mt-2 placeholder_img" src={State2} />
+      <img alt="Img" className="mt-2 placeholder_img" src={State} />
+      <img alt="Img" className="mt-2 placeholder_img" src={State2} />
       <p className="mt-4">
         Moreover, automatic adjustment of placement can be configured to prevent
         tooltips from being obscured by container boundaries or the browser
@@ -86,7 +86,7 @@ const Content = () => (
           the icons.
         </p>
         <div className="col-md-6">
-          <img className="mt-2 placeholder_img" src={Icon} />
+          <img alt="Img" className="mt-2 placeholder_img" src={Icon} />
         </div>
       </div>
     </section>
@@ -108,21 +108,21 @@ const Content = () => (
 
       <div className="row">
         <div className="col-md-6">
-          <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_1} className="mt-2 mb-2 placeholder_img" />
           <p>Text inside tooltips has to be concise.</p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_1} className="mt-2 mb-2 placeholder_img" />
           <p>Avoid long text in tooltips.</p>
         </div>
       </div>
       <div className="row">
         <div className="col-md-6">
-          <img src={Do_2} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_2} className="mt-2 mb-2 placeholder_img" />
           <p>Tooltips should be used for assistive information.</p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_2} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_2} className="mt-2 mb-2 placeholder_img" />
           <p>Avoid tooltips for showing errors.</p>
         </div>
       </div>

@@ -1,7 +1,5 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 import Button from "react-bootstrap/Button"
-import Image from "react-bootstrap/Image"
 import Anatomy from "./assets/anatomy.svg"
 import State from "./assets/state.svg"
 import Spacing from "./assets/spacing.svg"
@@ -83,7 +81,7 @@ const Content = () => (
       <h2>Layout and spacing</h2>
       <div className="row align-items-center">
         <div className="col-md-6">
-          <img className="mt-2 placeholder_img" src={Spacing} />
+          <img alt="Img" className="mt-2 placeholder_img" src={Spacing} />
         </div>
         <div className="col-md-6">
           <ul className="ps-3">
@@ -98,7 +96,7 @@ const Content = () => (
     </section>
     <section id="states" className="mb-5">
       <h2>States</h2>
-      <img className="mt-2 placeholder_img" src={State} />
+      <img alt="Img" className="mt-2 placeholder_img" src={State} />
       <div className="mt-3">
         <ol className="ps-3">
           <li>Default</li>
@@ -111,7 +109,7 @@ const Content = () => (
 
     <section id="size&shape" className="mb-5">
       <h2>Size and Shape</h2>
-      <img className="mt-2 placeholder_img" src={Size} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Size} />
       <ul className="ps-3 mt-4">
         <li>Buttons can be displayed in Small,Medium and Large sizes..</li>
         <li>
@@ -133,7 +131,7 @@ const Content = () => (
       <h2>Guidelines</h2>
       <div className="row">
         <div className="col-md-6">
-          <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_1} className="mt-2 mb-2 placeholder_img" />
 
           <p>
             Button styles should reflect the priority of actions required in the
@@ -141,21 +139,21 @@ const Content = () => (
           </p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_1} className="mt-2 mb-2 placeholder_img" />
           <p>Same view must not have more than one primary button.</p>
         </div>
       </div>
 
       <div className="row mt-4">
         <div className="col-md-6">
-          <img src={Do_2} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_2} className="mt-2 mb-2 placeholder_img" />
           <p>
             Button styles should reflect the priority of actions required in the
             interface.
           </p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_2} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_2} className="mt-2 mb-2 placeholder_img" />
           <p>Same view must not have more than one primary button.</p>
         </div>
       </div>

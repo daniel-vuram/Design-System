@@ -19,7 +19,7 @@ const Content = () => (
 
     <section id="anatomy" className="mb-5">
       <h2>Anatomy</h2>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
@@ -37,7 +37,7 @@ const Content = () => (
         File Upload inherits the status properties of Input — none, success,
         warning, error, loading.
       </p>
-      <img className="mt-2 placeholder_img" src={State} />
+      <img alt="Img" className="mt-2 placeholder_img" src={State} />
       <p>Clearable: File Upload can be set to be clearable</p>
     </section>
 
@@ -49,10 +49,10 @@ const Content = () => (
         field area.
       </p>
       <h3>Status</h3>
-      <img className="mt-2 placeholder_img" src={State1} />
-      <img className="mt-2 placeholder_img" src={State2} />
-      <img className="mt-2 placeholder_img" src={State3} />
-      <img className="mt-2 placeholder_img" src={State4} />
+      <img alt="Img" className="mt-2 placeholder_img" src={State1} />
+      <img alt="Img" className="mt-2 placeholder_img" src={State2} />
+      <img alt="Img" className="mt-2 placeholder_img" src={State3} />
+      <img alt="Img" className="mt-2 placeholder_img" src={State4} />
     </section>
 
     <section id="size" className="mb-5">

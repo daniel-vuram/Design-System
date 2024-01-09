@@ -5,7 +5,7 @@ import Professionalism from "./assets/professionalism.svg"
 const Content = () => (
   <div>
     <section id="introduction" className="mb-5">
-      <img className="mb-4 placeholder_img" src={Introduction} />
+      <img alt="Img" className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction to Letterhead</h2>
       <p>
         Letterheads are not just a piece of stationery; they are a vital aspect
@@ -54,7 +54,7 @@ const Content = () => (
         <li>Make sure your letterhead is well-organised and easy to read.</li>
         <li>Proofread your letterhead carefully before using it.</li>
       </ul>
-      <img className="mt-2 placeholder_img" src={Professionalism} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Professionalism} />
     </section>
 
     <section id="examples" className="mb-5">

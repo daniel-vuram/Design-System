@@ -17,7 +17,7 @@ const Content = () => (
 
     <section id="anatomy" className="mb-5">
       <h2>Anatomy</h2>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
@@ -43,18 +43,18 @@ const Content = () => (
           The search bar should expand to the left and occupy the top right
           corner of the screen.
         </li>
-        <img className="mt-1 mb-4 placeholder_img" src={Variation} />
+        <img alt="Img" className="mt-1 mb-4 placeholder_img" src={Variation} />
         <li className="mt-5">
           Once the search value is entered, the recent search results disappear
           and relevant search results based on the value entered will be
           displayed there.
         </li>
-        <img className="mt-1 mb-4 placeholder_img" src={Variation2} />
+        <img alt="Img" className="mt-1 mb-4 placeholder_img" src={Variation2} />
         <li className="mt-5">
           The user can select single or multiple filters to narrow down their
           search results.
         </li>
-        <img className="mt-1 mb-4 placeholder_img" src={Variation3} />
+        <img alt="Img" className="mt-1 mb-4 placeholder_img" src={Variation3} />
         <li className="">
           The clear field button will clear all search values that were entered
           and the results that were shown along with it. Clicking anywhere

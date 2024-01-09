@@ -1,10 +1,6 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import Button from "react-bootstrap/Button"
-import Image from "react-bootstrap/Image"
 import Anatomy from "./assets/anatomy.svg"
 import State from "./assets/state.svg"
-import Spacing from "./assets/spacing.svg"
 import Dont_1 from "./assets/don't_1.svg"
 import Do_1 from "./assets/do_1.svg"
 import Layout from "./assets/layout.svg"
@@ -27,7 +23,7 @@ const Content = () => (
     <section id="anatomy" className="mb-5">
       <h2>Anatomy</h2>
       <p>Radio button can stand alone, be grouped, or nested</p>
-      <img className="mt-2 mb-4 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Anatomy} />
       <ol>
         <li>Checkbox</li>
         <li>Text</li>
@@ -41,7 +37,7 @@ const Content = () => (
       </p>
       <div className="row align-items-center">
         <div className="col-md-6">
-          <img className="mt-2 mb-4 placeholder_img" src={Layout} />
+          <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Layout} />
         </div>
         <div className="col-md-6">
           <ul>
@@ -59,7 +55,7 @@ const Content = () => (
         group. In cases allowing multiple selections, opt for checkboxes or
         multi-select options.
       </p>
-      <img className="mt-2 placeholder_img" src={State} />
+      <img alt="Img" className="mt-2 placeholder_img" src={State} />
     </section>
 
     <section id="size" className="mb-5">
@@ -67,7 +63,7 @@ const Content = () => (
       <p className="mt-2">
         Radio can be integrated in two sizes, small and medium.
       </p>
-      <img className="mt-2 placeholder_img" src={Size} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Size} />
       <ol className="size p-3">
         <li>small size : sm</li>
         <li>Medium size : md</li>
@@ -102,19 +98,19 @@ const Content = () => (
 
       <div className="row">
         <div className="col-md-12">
-          <img src={Do_1} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_1} className="mt-2 mb-2 placeholder_img" />
           <p>Label and checkbox should be top aligned</p>
         </div>
         <div className="col-md-12">
-          <img src={Dont_1} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_1} className="mt-2 mb-2 placeholder_img" />
           <p>Do not center align or bottom align label and checkbox</p>
         </div>
         <div className="col-md-6">
-          <img src={Do_2} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_2} className="mt-2 mb-2 placeholder_img" />
           <p>Checkboxes should phrased in a clearer, positive way</p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_2} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_2} className="mt-2 mb-2 placeholder_img" />
           <p>
             Using negative phrasing in checkboxes can be confusing; in the
             example, the ambiguous phrasing doesn’t indicate whether the action
@@ -122,11 +118,11 @@ const Content = () => (
           </p>
         </div>
         <div className="col-md-6">
-          <img src={Do_3} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Do_3} className="mt-2 mb-2 placeholder_img" />
           <p>Labels should be brief</p>
         </div>
         <div className="col-md-6">
-          <img src={Dont_3} className="mt-2 mb-2 placeholder_img" />
+          <img alt="Img" src={Dont_3} className="mt-2 mb-2 placeholder_img" />
           <p>Do not use lengthy labels</p>
         </div>
       </div>

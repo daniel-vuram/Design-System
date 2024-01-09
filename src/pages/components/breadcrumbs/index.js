@@ -36,6 +36,7 @@ const Page = () => (
           <a
             variant="link"
             target="_blank"
+            rel="noreferrer"
             href="https://www.figma.com/file/5NZLmSS9mbrMSi7MpX2fuH/App-UI-Components?type=design&node-id=2787%3A17282&mode=design&t=yecHAyK8UC0dwyBe-1"
             className="d-flex align-items-center"
           >

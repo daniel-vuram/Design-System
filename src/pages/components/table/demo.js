@@ -1,6 +1,5 @@
 import * as React from "react"
 import Table from "react-bootstrap/Table"
-import Avatar1 from "./assets/1.png"
 import Avatar2 from "./assets/2.png"
 import Avatar3 from "./assets/3.png"
 

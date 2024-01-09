@@ -9,7 +9,7 @@ import Icon from "./assets/icon.png"
 const Content = () => (
   <div>
     <section id="Iconography" className="mb-5">
-      <img className="mb-5 placeholder_img" src={Icon} />
+      <img alt="Img" className="mb-5 placeholder_img" src={Icon} />
 
       <h2>Iconography</h2>
       <p>
@@ -35,15 +35,15 @@ const Content = () => (
         facilitating navigation and communication
       </p>
       <h3 className="mt-5">General</h3>
-      <img className="mt-2 placeholder_img" src={General} />
+      <img alt="Img" className="mt-2 placeholder_img" src={General} />
       <h3 className="mt-5">Arrows</h3>
-      <img className="mt-2 placeholder_img" src={Arrows} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Arrows} />
       <h3 className="mt-5">Charts</h3>
-      <img className="mt-2 placeholder_img" src={Charts} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Charts} />
       <h3 className="mt-5">Layout</h3>
-      <img className="mt-2 placeholder_img" src={Layout} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Layout} />
       <h3 className="mt-5">Users</h3>
-      <img className="mt-2 placeholder_img" src={Users} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Users} />
     </section>
   </div>
 )

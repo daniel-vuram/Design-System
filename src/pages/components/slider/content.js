@@ -16,7 +16,7 @@ const Content = () => (
 
     <section id="anatomy" className="mb-5">
       <h2>Anatomy</h2>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
@@ -38,7 +38,7 @@ const Content = () => (
         maximum value. Sliders can also be used without any value labels in
         false state
       </p>
-      <img className="mt-2 placeholder_img" src={Variation} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Variation} />
     </section>
 
     <section id="states" className="mb-5">
@@ -47,7 +47,7 @@ const Content = () => (
         Slider can have three possible states — default, active (dragging) or
         disabled.
       </p>
-      <img className="mt-2 mb-4 placeholder_img" src={State} />
+      <img alt="Img" className="mt-2 mb-4 placeholder_img" src={State} />
     </section>
 
     <section id="guidelines" className="mb-5">

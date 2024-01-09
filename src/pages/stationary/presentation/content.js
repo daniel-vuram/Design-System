@@ -8,7 +8,7 @@ import Layout4 from "./assets/layout_4.svg"
 const Content = () => (
   <div>
     <section id="introduction" className="mb-5">
-      <img className="mb-4 placeholder_img" src={Introduction} />
+      <img alt="Img" className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction</h2>
       <p>
         Design templates for workhall presentation encompass 75 fundamental
@@ -42,7 +42,7 @@ const Content = () => (
         engagement but also delivers information in a lucid and compelling
         manner.
       </p>
-      <img className="mt-2 placeholder_img" src={Layout1} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Layout1} />
     </section>
 
     <section id="timeline_1" className="mb-5">
@@ -51,7 +51,7 @@ const Content = () => (
         Displays a chronological sequence of events or milestones, often used
         for historical or project-related presentations.
       </p>
-      <img className="mt-2 placeholder_img" src={Layout2} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Layout2} />
     </section>
     <section id="timeline_2" className="mb-5">
       <h2>Timeline slides</h2>
@@ -59,7 +59,7 @@ const Content = () => (
         Displays a chronological sequence of events or milestones, often used
         for historical or project-related presentations.
       </p>
-      <img className="mt-2 placeholder_img" src={Layout3} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Layout3} />
     </section>
 
     <section id="timeline_3" className="mb-5">
@@ -68,7 +68,7 @@ const Content = () => (
         Displays a chronological sequence of events or milestones, often used
         for historical or project-related presentations.
       </p>
-      <img className="mt-2 placeholder_img" src={Layout4} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Layout4} />
     </section>
 
     <section id="guidelines" className="mb-5">

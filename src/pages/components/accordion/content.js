@@ -36,7 +36,7 @@ const Content = () => (
         clean and reduce clutter. Accordions can be used to display only one or
         multiple panels at a time, depending on the use case.
       </p>
-      <img className="mt-2 placeholder_img" src={Anatomy} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
         <div className="col-md-12">
           <ol className="ps-4">
@@ -52,7 +52,7 @@ const Content = () => (
     <section id="interaction" className="mb-5">
       <h2>Interaction</h2>
 
-      <img className="mt-2 placeholder_img" src={Interaction} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Interaction} />
       <div className="mt-3">
         <ul className="ps-3">
           <li>
@@ -61,7 +61,7 @@ const Content = () => (
             animation.
           </li>
         </ul>
-        <img className="mt-2 placeholder_img" src={Interaction2} />
+        <img alt="Img" className="mt-2 placeholder_img" src={Interaction2} />
       </div>
     </section>
 

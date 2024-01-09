@@ -3,7 +3,6 @@ import Layout from "../../../components/layout"
 import { Seo } from "../../../components/seo"
 import Scrollspy from "react-scrollspy"
 import Content from "./content"
-import Button from "react-bootstrap/Button"
 
 const Page = () => (
   <Layout>
@@ -36,6 +35,7 @@ const Page = () => (
           <a
             variant="link"
             target="_blank"
+            rel="noreferrer"
             href="https://www.figma.com/file/5NZLmSS9mbrMSi7MpX2fuH/App-UI-Components?type=design&node-id=815%3A355&mode=design&t=jOlTx2qVFfThWzyb-1"
             className="d-flex align-items-center"
           >

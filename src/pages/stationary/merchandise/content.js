@@ -6,7 +6,7 @@ import Merchandise2 from "./assets/merchandise_2.svg"
 const Content = () => (
   <div>
     <section id="introduction" className="mb-5">
-      <img className="mb-4 placeholder_img" src={Introduction} />
+      <img alt="Img" className="mb-4 placeholder_img" src={Introduction} />
       <h2>Introduction to Branded merchandise</h2>
       <p>
         Branded merchandise within a corporate company embodies more than just
@@ -57,8 +57,8 @@ const Content = () => (
         <li>T shirts</li>
       </ol>
 
-      <img className="mt-2 placeholder_img" src={Merchandise1} />
-      <img className="mt-2 placeholder_img" src={Merchandise2} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Merchandise1} />
+      <img alt="Img" className="mt-2 placeholder_img" src={Merchandise2} />
     </section>
   </div>
 )
