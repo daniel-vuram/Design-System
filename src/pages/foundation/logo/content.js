@@ -64,7 +64,7 @@ const Content = () => (
             style={{ color: "#fff" }}
             href={WH_Logo_Primary1}
             download="WH_Logo_Primary_PNG"
-            className="d-flex align-items-center"
+            className="d-flex align-items-center text-secondary"
           >
             Download PNG
           </a>
@@ -73,7 +73,7 @@ const Content = () => (
             style={{ color: "#fff" }}
             href={WH_Logo_Primary}
             download="WH_Logo_Primary_SVG"
-            className="d-flex align-items-center"
+            className="d-flex align-items-center text-secondary"
           >
             Download SVG
           </a>
