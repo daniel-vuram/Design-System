@@ -191,7 +191,7 @@ const Sidebar = ({ siteTitle }) => {
                       </ExactNavLink>
                     </li>
                     <li className="nav-item">
-                      <ExactNavLink to="/components/model">Model</ExactNavLink>
+                      <ExactNavLink to="/components/modal">Modal</ExactNavLink>
                     </li>
                     <li className="nav-item">
                       <ExactNavLink to="/components/pagination">

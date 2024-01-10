@@ -6,7 +6,7 @@ const Content = () => (
   <div>
     <section id="accessible" className="mb-5">
       <img alt="Img" className="mb-2 placeholder_img" src={Atomic} />
-      <h2>What is accessible design?</h2>
+      <h2 className="mt-4">What is accessible design?</h2>
       <p>
         An accessible design prioritizes usability and inclusivity for
         individuals with disabilities. It ensures that all users, regardless of
@@ -101,10 +101,9 @@ const Content = () => (
         </li>
       </ol>
       <p>
-        By integrating accessible design into our workhall’s design system, we
-        can create a foundation that is not only compliant and user-friendly but
-        also contribute to the overall success and positive impact of our
-        product.
+        By integrating accessible design into Workhall's design system, we
+        create a foundation that is compliant, user-friendly, and contributes to
+        the overall success and positive impact of our product.
       </p>
     </section>
   </div>

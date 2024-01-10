@@ -53,8 +53,8 @@ const Page = () => (
         </div>
       </div>
       <p>
-        Our brand and product logos are clear, impactful, and recognizable. All
-        use our blue and white color palette with a few variations.
+        Our brand and product logos are clear, impactful, and recognizable, all
+        using our blue and white color palette with a few variations.
       </p>
     </section>
     <div className="content">

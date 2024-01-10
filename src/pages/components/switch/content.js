@@ -53,14 +53,14 @@ const Content = () => (
     <section id="variants" className="mb-5">
       <h2>Variants</h2>
       <p className="mt-3">
-        Default toggle switches - Use the default toggle when you need to
-        specify a label text in addition to the toggle action text. Default
-        toggles appear in forms or within full pages of information
+        <b>Default Toggle Switches:</b> Use the default toggle when you need to
+        specify label text in addition to the toggle action text. Default
+        toggles appear in forms or within full pages of information.
       </p>
       <p>
-        Small toggle - Use the small toggle when you do not need to specify
-        label or action text. Small toggles are more compact in size and are
-        used inline with other components
+        <b> Small Toggle:</b> Use the small toggle when you do not need to
+        specify label or action text. Small toggles are more compact in size and
+        are used inline with other components.
       </p>
       <img alt="Img" className="mt-2 mb-4 placeholder_img" src={Variation} />
     </section>

@@ -77,52 +77,53 @@ const Content = () => (
         <h5>Do’s:</h5>
         <ol>
           <li>
-            Maintain Consistency: Ensure that all design elements, fonts,
+            <b>Maintain Consistency:</b> Ensure that all design elements, fonts,
             colors, and branding adhere to workhall’s design standards.
           </li>
           <li>
-            Use Clear Typography: Use only inter font and maintain consistent
-            font styles and sizes, and allow for proper spacing.{" "}
+            <b>Use Clear Typography:</b> Use only inter font and maintain
+            consistent font styles and sizes, and allow for proper spacing.{" "}
           </li>
           <li>
-            Incorporate Branding Elements: Include Workhall’s logos and other
-            branding elements consistently but not intrusively{" "}
+            <b>Incorporate Branding Elements:</b> Include Workhall’s logos and
+            other branding elements consistently but not intrusively{" "}
           </li>
           <li>
-            Follow Colour Palette: Stick to Workhall’s colour palette to
+            <b> Follow Colour Palette:</b> Stick to Workhall’s colour palette to
             maintain a professional and harmonious look
           </li>
           <li>
-            Use High-Quality Images: Select relevant, high-quality images and
-            graphics that enhance the content
+            <b>Use High-Quality Images:</b> Select relevant, high-quality images
+            and graphics that enhance the content
           </li>
           <li>
-            Establish a Content Hierarchy: Utilise headings, subheadings, and
-            bullet points to create a clear content hierarchy
+            <b>Establish a Content Hierarchy:</b> Utilise headings, subheadings,
+            and bullet points to create a clear content hierarchy
           </li>
           <li>
-            Present Data Effectively: Employ clear charts, graphs, and tables
-            with proper labelling and titles for data presentations.
+            <b>Present Data Effectively:</b> Employ clear charts, graphs, and
+            tables with proper labelling and titles for data presentations.
           </li>
           <li>
-            Limit Slide Transitions and Animations: Use slide transitions and
-            animations sparingly to enhance the message without distraction.
+            <b>Limit Slide Transitions and Animations:</b> Use slide transitions
+            and animations sparingly to enhance the message without distraction.
           </li>
           <li>
-            Maintain Readability: Keep text concise, avoid lengthy paragraphs,
-            and use readable fonts.
+            <b>Maintain Readability:</b> Keep text concise, avoid lengthy
+            paragraphs, and use readable fonts.
           </li>
           <li>
-            Use White Space: Allow for adequate white space to reduce clutter
-            and improve visual appeal.
+            <b>Use White Space:</b> Allow for adequate white space to reduce
+            clutter and improve visual appeal.
           </li>
           <li>
-            Gather Feedback: Seek input from stakeholders to ensure the template
-            meets their needs and expectations.
+            <b>Gather Feedback:</b> Seek input from stakeholders to ensure the
+            template meets their needs and expectations.
           </li>
           <li>
-            Provide Training: Offer training and guidelines to ensure consistent
-            and effective use of the templates within the organisation.
+            <b>Provide Training:</b> Offer training and guidelines to ensure
+            consistent and effective use of the templates within the
+            organisation.
           </li>
         </ol>
       </div>
@@ -130,61 +131,61 @@ const Content = () => (
         <h5>Don'ts:</h5>
         <ol>
           <li>
-            Overcomplicate Design: Avoid overly complex or cluttered designs
-            that can distract from the content.
+            <b>Overcomplicate Design:</b> Avoid overly complex or cluttered
+            designs that can distract from the content.
           </li>
           <li>
-            Stray from Brand Guidelines: Do not deviate from workhall’s branding
-            and design standards
+            <b> Stray from Brand Guidelines:</b> Do not deviate from workhall’s
+            branding and design standards
           </li>
           <li>
-            Use Unreadable Fonts:Stay away from fonts that are difficult to
-            read, especially in smaller sizes.
+            <b>Use Unreadable Fonts:</b> Stay away from fonts that are difficult
+            to read, especially in smaller sizes.
           </li>
           <li>
-            Oversaturate with Branding Elements: Do not overload slides with
-            logos, slogans, or branding elements; they should be tastefully
+            <b>Oversaturate with Branding Elements:</b> Do not overload slides
+            with logos, slogans, or branding elements; they should be tastefully
             incorporated.
           </li>
           <li>
-            Misalign Content:Avoid misalignments, overlapping elements, or
-            inconsistent positioning of text and graphics.
+            <b> Misalign Content:</b> Avoid misalignments, overlapping elements,
+            or inconsistent positioning of text and graphics.
           </li>
           <li>
-            Ignore the Colour Palette: Resist the temptation to use colours
-            outside of our approved palette.
+            <b>Ignore the Colour Palette:</b> Resist the temptation to use
+            colours outside of our approved palette.
           </li>
           <li>
-            Include Low-Quality Images: Steer clear of low-resolution or
+            <b>Include Low-Quality Images:</b> Steer clear of low-resolution or
             irrelevant images that do not enhance the content.
           </li>
           <li>
-            Neglect Content Hierarchy: Do not create slides with equal emphasis
-            on all elements; prioritise the main message.
+            <b>Neglect Content Hierarchy:</b> Do not create slides with equal
+            emphasis on all elements; prioritise the main message.
           </li>
           <li>
-            Mislabel or Leave Data Unexplained: Ensure that charts, graphs, and
-            tables are appropriately labeled and contextualised.
+            <b>Mislabel or Leave Data Unexplained:</b> Ensure that charts,
+            graphs, and tables are appropriately labeled and contextualised.
           </li>
           <li>
-            Neglect Slide Master: Refrain from creating slides without a
+            <b> Neglect Slide Master:</b> Refrain from creating slides without a
             consistent master template.
           </li>
           <li>
-            Overuse Transitions and Animations: Avoid excessive slide
+            <b>Overuse Transitions and Animations:</b> Avoid excessive slide
             transitions and animations that can distract or become tiresome.
           </li>
           <li>
-            Present Dense Text: Do not overwhelm slides with lengthy paragraphs
-            of text.
+            <b>Present Dense Text:</b> Do not overwhelm slides with lengthy
+            paragraphs of text.
           </li>
           <li>
-            Overcrowd with Elements:Maintain proper spacing and avoid cramming
-            too many elements onto one slide.
+            <b>Overcrowd with Elements:</b> Maintain proper spacing and avoid
+            cramming too many elements onto one slide.
           </li>
           <li>
-            Don't Oversimplify: While minimalism is good, ensure all crucial
-            information is present.
+            <b> Don't Oversimplify:</b> While minimalism is good, ensure all
+            crucial information is present.
           </li>
         </ol>
       </div>
