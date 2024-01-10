@@ -25,16 +25,16 @@ const Content = () => (
         identity system. Logos are designed to be instantly recognizable and
         should evoke specific emotions, associations, and perceptions related to
         the brand they represent. Only the variations displayed below are
-        permissible representations for our brand. Any alternative variations
-        are considered invalid.
+        permissible representations of our brand. Any alternative variations are
+        considered invalid.
       </p>
     </section>
 
     <section id="about" className="mb-5">
       <h2>About Workhall logo</h2>
       <p>
-        The goal of Workhall logo is to represent the vision, mission, its
-        people and our services to the world.{" "}
+        The goal of Workhall's logo is to represent the vision, mission, its
+        people, and our services to the world.
       </p>
       <p>
         Workhall’s logo is a wordmark, also known as a Logotype, is a type of
@@ -42,10 +42,9 @@ const Content = () => (
         presented in a custom-designed and visually distinctive manner. In a
         Wordmark, the text itself becomes the logo, and it does not incorporate
         any additional symbols, icons, or graphic elements. As one can see, the
-        the word W in workhall has its second half in different color than the
-        rest of the font in logo, it provides a distiction within the logo and
-        represents a tick mark to give the perspective of the completion, growth
-        and task to the audience.{" "}
+        W in Workhall has its second half in a different color than the rest of
+        the font in the logo. It provides a distinction within the logo and
+        represents a tick mark to give the perspective of completion and growth.
       </p>
     </section>
 
@@ -229,24 +228,32 @@ const Content = () => (
     <section id="guidelines">
       <h2>Guidelines</h2>
       <p>
-        Only authorized users are permitted to download and utilize Workhall's
-        logos. Workhall provides a limited license that allows you to download
-        and use the logos and imagery exclusively for editorial purposes. All
-        materials incorporating the Workhall logo must adhere to the brand's
-        guidelines. Any commercial use of the logos or imagery without prior
-        written consent from Workhall may potentially constitute trademark
-        infringement, copyright infringement, and unfair competition, which
-        would be in violation of federal and state laws and may be prohibited.
+        <b> Usage Authorization:</b> Only authorized users may download and use
+        Workhall's logos. A limited license is granted exclusively for editorial
+        purposes.
       </p>
       <p>
-        Modifying the logos or imagery in any way is strictly prohibited. Unless
-        explicitly stated on this website or in a separate written agreement
-        between you and Workhall, nothing found on this website should be
-        interpreted as granting, whether implicitly, through estoppel, or by any
-        other means, a license or right to use any logo featured on the site, or
-        any license or right to use any other logo owned by any third party.
-        Only the variations displayed above are permissible representations for
-        our brand. Any alternative variations are considered invalid.
+        <b>Adherence to Brand Guidelines:</b> All materials using the Workhall
+        logo must strictly adhere to the brand's guidelines to maintain
+        consistency and integrity.
+      </p>
+      <p>
+        <b>Commercial Use Policy:</b> Commercial use of logos or imagery without
+        prior written consent from Workhall may result in legal consequences,
+        including trademark and copyright infringement and state laws.
+      </p>
+      <p>
+        <b>Prohibited Modifications:</b> Modifying the logos or imagery in any
+        way is strictly prohibited and may lead to legal consequences.
+      </p>
+      <p>
+        <b>Authorized Representation:</b> Only the variations displayed above
+        are permissible representations for our brand. Any alternative
+        variations are considered invalid.
+      </p>
+      <p>
+        For detailed usage permissions or specific inquiries, contact Workhall
+        for guidance.
       </p>
     </section>
   </div>

@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-bootstrap-5`,
+        name: `WH-Design System`,
         short_name: `gb5-starter`,
         start_url: `/`,
         background_color: `#663399`,

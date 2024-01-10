@@ -63,10 +63,10 @@ const Content = () => (
         <ul className="ps-3">
           <li>Use a single pagination component per page.</li>
           <li>
-            Position the pagination at the bottom right corner of each page and
+            Position the pagination at the bottom right corner of each page.
           </li>
           <li>Position pagination in the same place on each page.</li>
-          <li>Pagination can appear if the number of rows exceeding ten.</li>
+          <li>Pagination will appear if the number of rows exceeding ten.</li>
         </ul>
       </div>
     </section>

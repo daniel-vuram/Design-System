@@ -64,24 +64,22 @@ const Content = () => (
         <h5>Do’s:</h5>
         <ol>
           <li>
-            Maintain Consistency: Ensure the company's branding, logo, and color
-            scheme are incorporated.
+            <b>Maintain Consistency:</b> Incorporate the company's branding,
+            logo, and color scheme.
           </li>
           <li>
-            Use High-Quality Images: Utilize clear and high-resolution employee
-            photos. Images with white / solid background is preferrable for ID
-            cards and the image must also ensure that all the facial features
-            are clearly visible for identification purposes.
+            <b>Use High-Quality Images:</b> Utilize clear and high-resolution
+            employee photos with a white or solid background.
           </li>
           <li>
-            Include Essential Information: Include the employee's name, photo,
-            unique ID in the front and Info like blood group, emergency contact
-            number and address of workhall.
+            <b>Include Essential Information:</b> Feature the employee's name,
+            photo, unique ID on the front, along with additional info like blood
+            group, emergency contact number, and Workhall address.
           </li>
           <li>
-            Secure Design: Every workhall ID card has been encrypted for entry
-            access and attendance verification. This ID card also serves as a
-            entry ticket to leisure area, pantry and food court.
+            <b>Secure Design:</b> The Workhall ID card is encrypted for entry
+            access and attendance verification, serving as an entry ticket to
+            leisure areas, pantry, and the food court.
           </li>
         </ol>
       </div>
@@ -89,29 +87,29 @@ const Content = () => (
         <h5>Don'ts:</h5>
         <ol>
           <li>
-            Avoid Clutter: Keep the design clean and uncluttered for a
-            professional appearance and follow all the spacing guidelines as
-            shown.
+            <b>Avoid Clutter:</b> Keep the design clean and uncluttered for a
+            professional appearance, adhering to spacing guidelines.
           </li>
           <li>
-            Don't Oversimplify: While minimalism is good, ensure all crucial
-            information is present.
+            <b>Don't Oversimplify:</b> While minimalism is good, ensure all
+            crucial information is present.
           </li>
           <li>
-            Steer Clear of Unapproved Elements: Don't include unauthorized
-            graphics or elements that might fall against workhall’s style guide.
+            <b>Steer Clear of Unapproved Elements:</b> Exclude unauthorized
+            graphics or elements that go against Workhall’s style guide.
           </li>
           <li>
-            Don't Sacrifice Quality: Refrain from using low-resolution images or
-            cheap printing methods.
+            <b>Don't Sacrifice Quality:</b> Refrain from using low-resolution
+            images or inexpensive printing methods.
           </li>
           <li>
-            Avoid unprofessional images: The images used in the ID card must be
-            straight facing, showing all the features of the person clearly.{" "}
+            <b> Avoid unprofessional images:</b> The images used in the ID card
+            must be straight facing, showing all the features of the person
+            clearly.{" "}
           </li>
           <li>
-            Don't Neglect Security: Don't overlook security measures that
-            protect against counterfeiting or forgery.
+            <b> Don't Neglect Security:</b> Don't overlook security measures
+            that protect against counterfeiting or forgery.
           </li>
         </ol>
       </div>

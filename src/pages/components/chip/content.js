@@ -21,9 +21,8 @@ const Content = () => (
     <section id="anatomy" className="mb-5">
       <h2>Anatomy</h2>
       <p>
-        Badges help to categorize information, spotlight a notification, or
-        indicate status. These badges are included for indication and for user,
-        with a leading icon, tailing icon, avatar and a base badge
+        Badges serve to categorize information, highlight notifications, or
+        indicate status. Each badge includes:
       </p>
       <img alt="Img" className="mt-2 placeholder_img" src={Anatomy} />
       <div className="row mt-3">
@@ -39,15 +38,19 @@ const Content = () => (
     </section>
     <section id="layout_spacing" className="mb-5">
       <h2>Layout & Spacing</h2>
+      <p>
+        Ensure proper spacing and layout considerations for badges, including
+        elements such as badge base, avatar, label, and icons.
+      </p>
       <img alt="Img" className="mt-2 placeholder_img" src={layout} />
     </section>
     <section id="variations" className="mb-5">
       <h2>Variations</h2>
       <p className="mt-2">
         The variations of chip include the following categories,with leading
-        icon(image), with tailing icon, with both learning and tailing icon,
-        with avatar,with icon only, with only base label, with avatar and
-        tailing icon.
+        icon(image), with tailing icon, with both leading and tailing icon, with
+        avatar,with icon only, with only base label, with avatar and tailing
+        icon.
       </p>
       <img alt="Img" className="mt-2 placeholder_img" src={variation} />
       <div className="mt-3"></div>
@@ -77,11 +80,11 @@ const Content = () => (
         <div className="col-md-6">
           <img alt="Img" src={Do_1} className="mt-2 mb-2 placeholder_img" />
 
-          <p>Use buttons for actions.</p>
+          <p>Keep label text concise and unambiguous.</p>
         </div>
         <div className="col-md-6">
           <img alt="Img" src={Dont_1} className="mt-2 mb-2 placeholder_img" />
-          <p>Chips are not alternative for buttons.</p>
+          <p>Use buttons for actions (instead of chips).</p>
         </div>
         <div className="col-md-6">
           <img alt="Img" src={Do_2} className="mt-2 mb-2 placeholder_img" />
@@ -90,7 +93,7 @@ const Content = () => (
         </div>
         <div className="col-md-6">
           <img alt="Img" src={Dont_2} className="mt-2 mb-2 placeholder_img" />
-          <p>Avoid using stand alone chip.</p>
+          <p>Avoid using standalone chips.</p>
         </div>
       </div>
     </section>

@@ -8,35 +8,31 @@ const Content = () => (
 
       <h2>Design system at workhall</h2>
       <p>
-        At workhall, we have created this design system to ensure that the
-        company's branding, visual elements, and user interface components
-        remain consistent across all products, platforms, and interactions.
+        Welcome to the Workhall Design System, your go-to resource for crafting
+        cohesive and compelling product experiences. Designed to maintain
+        consistency across platforms, our system offers a unified approach to
+        branding, visual elements, and user interface components.
       </p>
     </section>
     <section id="section-2" className="mb-5">
       <h2>Why do we need a design system?</h2>
       <p>
-        A design system is like a guiding light that ensures everyone is on the
-        same page, speaking the same design language. It's a central hub where
-        all the visual elements, UI patterns, and guidelines reside, ready to be
-        used by every team. This consistency not only creates a harmonious look
-        and feel but also accelerates the design and development process.
+        A design system serves as a guiding light, ensuring everyone speaks the
+        same design language. It acts as a central hub for visual elements, UI
+        patterns, and guidelines. This consistency not only fosters a harmonious
+        look but also accelerates design and development processes.
       </p>
       <p>
-        As our company grows, so does the complexity of our products. Without a
-        design system, it's like navigating through a maze of design choices.
-        But with a design system in place, the path becomes clear. It scales
-        effortlessly, allowing us to introduce new products and features while
-        maintaining that consistent user experience.
+        As our company expands, navigating through the complexities of product
+        design without a design system is akin to a maze. With our design
+        system, the path is clear, scaling effortlessly to introduce new
+        products and features while maintaining a consistent user experience
       </p>
       <p>
-        When we need to make updates or improvements, we don't have to go
-        through the tedious process of changing each product individually. A
-        design system lets us make a single change that ripples across the
-        entire organization, keeping everything up-to-date. And let's not forget
-        about our users. A design system ensures that every interaction is
-        user-friendly and accessible. It's like building a bridge that connects
-        our products to our users in the most intuitive way possible.
+        Updates and improvements become seamless, with a single change rippling
+        across the organization. Users benefit from a system that prioritizes
+        user-friendliness and accessibility, creating an intuitive bridge
+        between our products and users
       </p>
       <p>
         This also helps the team when new team members join, they're not
@@ -48,7 +44,7 @@ const Content = () => (
       </p>
     </section>
     <section id="section-3" className="mb-5">
-      <h2>What we thrive to achieve</h2>
+      <h2>Our Goals</h2>
       <p>1. Flawless customer experience</p>
       <p>2. Simplify complex designs</p>
       <p>3. Futuristic scalability</p>
@@ -162,20 +158,20 @@ const Content = () => (
 
       <ul>
         <li>
-          Maintain Consistency: Establish a unified visual language throughout
-          the design.
+          <strong>Maintain Consistency:</strong> Establish a unified visual
+          language throughout the design.
         </li>
         <li>
-          Increase Efficiency: Quickly create mockups and prototypes using
-          reusable components.
+          <strong>Increase Efficiency:</strong> Quickly create mockups and
+          prototypes using reusable components.
         </li>
         <li>
-          Foster Modularity: Develop and update individual components while
-          preserving overall consistency.
+          <strong>Foster Modularity:</strong> Develop and update individual
+          components while preserving overall consistency.
         </li>
         <li>
-          Ensure Scalability: Easily expand the system as projects evolve and
-          grow.
+          <strong> Ensure Scalability:</strong> Easily expand the system as
+          projects evolve and grow.
         </li>
       </ul>
 

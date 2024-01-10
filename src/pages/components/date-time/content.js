@@ -54,16 +54,16 @@ const Content = () => (
             formatted: DD Mon YYYY.
           </li>
           <li>
-            If using a localization then dates can be formatted to the locally
+            If using localization, then dates can be formatted to the locally
             used conventions.
           </li>
           <li>
-            Do not disable the ability to enter the date via keyboard directly
-            into the input.
+            Do not disable the ability to enter the date via the keyboard
+            directly into the input.
           </li>
           <li>
             If using Quick Selection, provide date presets with common date
-            range selections, such a month, quarter, or today+1.
+            range selections, such as month, quarter, or today+1.
           </li>
         </ul>
       </div>

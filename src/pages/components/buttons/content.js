@@ -133,14 +133,14 @@ const Content = () => (
         <div className="col-md-6">
           <img alt="Img" src={Do_1} className="mt-2 mb-2 placeholder_img" />
 
-          <p>
-            Button styles should reflect the priority of actions required in the
-            interface.
-          </p>
+          <p>Choose a button size that's easily tappable, not too dominant</p>
         </div>
         <div className="col-md-6">
           <img alt="Img" src={Dont_1} className="mt-2 mb-2 placeholder_img" />
-          <p>Same view must not have more than one primary button.</p>
+          <p>
+            Choose clear and action-oriented button labels that directly express
+            the main purpose.
+          </p>
         </div>
       </div>
 
@@ -148,8 +148,8 @@ const Content = () => (
         <div className="col-md-6">
           <img alt="Img" src={Do_2} className="mt-2 mb-2 placeholder_img" />
           <p>
-            Button styles should reflect the priority of actions required in the
-            interface.
+            Establish a clear hierarchy for buttons based on their importance
+            and actions
           </p>
         </div>
         <div className="col-md-6">
