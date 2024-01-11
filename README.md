@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.workhall.com/_next/static/media/logo-white.a2f485d0.svg" width="60" />
+    <img alt="Gatsby" src="https://www.workhall.com/_next/static/media/logo-white.a2f485d0.svg"  />
   </a>
 </p>
 <h1 align="center">
@@ -40,7 +40,7 @@ Start designing and developing beautiful product experiences with Workhall Desig
 
 Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-<%= name %>)
+[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://whdesignsystem.netlify.app/)
 
 ## 🧐 What's inside?
 
