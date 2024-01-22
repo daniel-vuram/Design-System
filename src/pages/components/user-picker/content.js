@@ -1,7 +1,7 @@
 import * as React from "react"
-import Anatomy from "./assets/anatomy.svg"
-import Layout from "./assets/interaction.svg"
-import Variation from "./assets/variation.svg"
+import Anatomy from "./assets/anatomy.png"
+import Layout from "./assets/interaction.png"
+import Variation from "./assets/variation.png"
 import Demo from "./demo"
 import "./user-picker.scss"
 

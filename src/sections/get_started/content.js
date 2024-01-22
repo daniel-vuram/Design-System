@@ -1,5 +1,5 @@
 import * as React from "react"
-import Introduction from "./images/introduction.svg"
+import Introduction from "./images/introduction.png"
 
 const Content = () => (
   <div>

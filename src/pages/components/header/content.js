@@ -1,7 +1,7 @@
 import * as React from "react"
 import Anatomy from "./assets/anatomy.svg"
-import Primary_header from "./assets/Primary_header.svg"
-import Secondary_header from "./assets/Secondary_header.svg"
+import Primary_header from "./assets/Primary_header.png"
+import Secondary_header from "./assets/Secondary_header.png"
 import Demo from "./demo"
 import "./header.scss"
 
