@@ -1,8 +1,8 @@
 import * as React from "react"
 import Anatomy from "./assets/anatomy.svg"
-import Variation from "./assets/variation.svg"
-import Variation2 from "./assets/variation2.svg"
-import Variation3 from "./assets/variation3.svg"
+import Variation from "./assets/variation.png"
+import Variation2 from "./assets/variation2.png"
+import Variation3 from "./assets/variation3.png"
 import Demo from "./demo"
 import "./search.scss"
 

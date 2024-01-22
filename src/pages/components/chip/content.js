@@ -1,6 +1,6 @@
 import * as React from "react"
 import Anatomy from "./assets/anatomy.svg"
-import variation from "./assets/variation.svg"
+import variation from "./assets/variation.png"
 import layout from "./assets/layout.svg"
 import size from "./assets/size.svg"
 import Dont_1 from "./assets/don't_1.svg"

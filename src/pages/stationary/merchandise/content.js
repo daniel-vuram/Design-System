@@ -1,7 +1,7 @@
 import * as React from "react"
-import Introduction from "./assets/introduction.svg"
-import Merchandise1 from "./assets/merchandise_1.svg"
-import Merchandise2 from "./assets/merchandise_2.svg"
+import Introduction from "./assets/introduction.png"
+import Merchandise1 from "./assets/merchandise_1.png"
+import Merchandise2 from "./assets/merchandise_2.png"
 
 const Content = () => (
   <div>

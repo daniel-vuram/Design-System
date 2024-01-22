@@ -1,6 +1,6 @@
 import * as React from "react"
-import Introduction from "./assets/introduction.svg"
-import Professionalism from "./assets/professionalism.svg"
+import Introduction from "./assets/introduction.png"
+import Professionalism from "./assets/professionalism.png"
 
 const Content = () => (
   <div>

@@ -1,9 +1,9 @@
 import * as React from "react"
-import Introduction from "./assets/introduction.svg"
-import Layout1 from "./assets/layout_1.svg"
-import Layout2 from "./assets/layout_2.svg"
-import Layout3 from "./assets/layout_3.svg"
-import Layout4 from "./assets/layout_4.svg"
+import Introduction from "./assets/introduction.png"
+import Layout1 from "./assets/layout_1.png"
+import Layout2 from "./assets/layout_2.png"
+import Layout3 from "./assets/layout_3.png"
+import Layout4 from "./assets/layout_4.png"
 
 const Content = () => (
   <div>

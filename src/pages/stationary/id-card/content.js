@@ -1,7 +1,7 @@
 import * as React from "react"
-import Introduction from "./assets/introduction.svg"
+import Introduction from "./assets/introduction.png"
 import StyleGuide from "./assets/style_guide.svg"
-import Design from "./assets/design.svg"
+import Design from "./assets/design.png"
 
 const Content = () => (
   <div>

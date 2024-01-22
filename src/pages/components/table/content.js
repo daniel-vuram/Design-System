@@ -1,7 +1,7 @@
 import * as React from "react"
-import Anatomy from "./assets/anatomy.svg"
+import Anatomy from "./assets/anatomy.png"
 import variation from "./assets/variation.png"
-import variation1 from "./assets/variation1.svg"
+import variation1 from "./assets/variation1.png"
 import Demo from "./demo"
 import "./table.scss"
 

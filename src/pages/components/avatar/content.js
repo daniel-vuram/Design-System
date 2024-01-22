@@ -1,8 +1,8 @@
 import * as React from "react"
 import Anatomy from "./assets/anatomy.svg"
-import Examples from "./assets/examples.svg"
-import Variations from "./assets/variations.svg"
-import Spacing from "./assets/spacing.svg"
+import Examples from "./assets/examples.png"
+import Variations from "./assets/variations.png"
+import Spacing from "./assets/spacing.png"
 import Size from "./assets/size.svg"
 import Demo from "./demo"
 
